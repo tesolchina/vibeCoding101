@@ -57,6 +57,9 @@ For detailed installation instructions, troubleshooting, and tips, see the [Gett
 - **`README.md`** - This file with overview and instructions
 - **`GETTING_STARTED.md`** - Detailed setup guide for beginners
 - **`sample_data.csv`** - Sample dataset for practicing file operations
+- **`examples/`** - Example Python scripts for reference:
+  - `hello_world.py` - Basic interactive script
+  - `file_processor.py` - CSV data processing example
 - **`LICENSE`** - MIT License for the project
 
 ## 📖 Workshop Structure
