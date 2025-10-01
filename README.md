@@ -24,13 +24,7 @@ This workshop is perfect for:
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- Python 3.8 or higher
-- Jupyter Notebook (or JupyterLab)
-- Optionally: GitHub Copilot for the best experience
-
-### Installation
+### Quick Start
 
 1. **Clone this repository**:
    ```bash
@@ -51,6 +45,19 @@ This workshop is perfect for:
 4. **Open the notebook**:
    - Navigate to `vibeCoding101.ipynb` in your browser
    - Follow along with the exercises!
+
+### Detailed Setup Guide
+
+For detailed installation instructions, troubleshooting, and tips, see the [Getting Started Guide](GETTING_STARTED.md).
+
+## 📂 Repository Contents
+
+- **`vibeCoding101.ipynb`** - Main interactive notebook with lessons and exercises
+- **`requirements.txt`** - Python dependencies needed for the workshop
+- **`README.md`** - This file with overview and instructions
+- **`GETTING_STARTED.md`** - Detailed setup guide for beginners
+- **`sample_data.csv`** - Sample dataset for practicing file operations
+- **`LICENSE`** - MIT License for the project
 
 ## 📖 Workshop Structure
 
