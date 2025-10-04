@@ -1,0 +1,68 @@
+# Paper Metadata and Structure
+
+## Bibliographic Information
+
+**Title:** Natural language processing: state of the art, current trends and challenges
+
+**Authors:** Diksha Khurana, Aditya Koli, Kiran Khatter, Sukhdev Singh
+
+**Journal/Publication:** Multimedia Tools and Applications (2023) 82:3713–3744
+
+**DOI:** 10.1007/s11042-022-13428-4
+
+## Abstract
+
+Natural language processing (NLP) has recently gained much attention for representing and analyzing human language computationally. It has spread its applications in various fields such as machine translation, email spam detection, information extraction, summa- rization, medical, and question answering etc. In this paper, we first distinguish four phases by discussing different levels of NLP and components of Natural Language Generation followed by presenting the history and evolution of NLP. We then discuss in detail the state of the art presenting the various applications of NLP, current trends, and challenges. Finally, we present a discussion on some available datasets, models, and evaluation metrics in NLP.
+
+## Main Headings and Structure
+
+### Natural language processing: state of the art,
+
+### current trends and challenges
+
+### Abstract
+
+### evaluation metrics in NLP.
+
+### 1 Introduction
+
+### 2 Components of NLP
+
+#### 2.1 NLU
+
+#### 2.2 NLG
+
+#### 3.1 A walkthrough of recent developments in NLP
+
+### moving to the broad applications of NLP.
+
+#### 3.2 Applications of NLP
+
+#### 3.3 NLP in talk
+
+### c) Future of BI in Natural Language Processing [ 140]
+
+### 4 Datasets in NLP and state-of-the-art models
+
+#### 4.1 Datasets in NLP
+
+### 5 Evaluation metrics and challenges
+
+### performance and involved challenges.
+
+#### 5.1 Evaluation metrics
+
+#### 5.2 Challenges
+
+### 6 Conclusion
+
+### References
+
+### 68. Liddy ED (2001). Natural language processing
+
+### methods in natural language processing (pp. 1631-1642)
+
+
+---
+
+*Note: This metadata was automatically extracted from the PDF. The content represents the key bibliographic information, abstract, and main structural elements of the research paper.*

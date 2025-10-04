@@ -1,0 +1,16 @@
+{
+  "extraction_date": "2025-10-04T15:15:55.317189",
+  "total_references": 2,
+  "references": [
+    {
+      "number": 1,
+      "text": "Ahonen H, Heinonen O, Klemettinen M, Verkamo AI (1 99 8) Applying data mining techniques for",
+      "type": "standard"
+    },
+    {
+      "number": 998,
+      "text": "ADL 9 8. Proceedings. IEEE international forum on (pp. 2-1 1). IEEE",
+      "type": "spaced"
+    }
+  ]
+}

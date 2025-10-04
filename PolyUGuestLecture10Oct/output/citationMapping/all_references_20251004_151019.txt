@@ -1,0 +1,784 @@
+Complete Reference List - 156 References
+Generated: 2025-10-04 15:10:19
+================================================================================
+
+Reference #1:
+Method: single_format
+Text: Ahonen H, Heinonen O, Klemettinen M, Verkamo AI (1 99 8) Applying data mining techniques for
+--------------------------------------------------------------------------------
+
+Reference #2:
+Method: single_format
+Text: Alshawi H (1 99 2) The core language engine. MIT press
+--------------------------------------------------------------------------------
+
+Reference #3:
+Method: single_format
+Text: Alshemali B, Kalita J (2 02 0) Improving the reliability of deep neural networks in NLP: A review. Knowl-
+--------------------------------------------------------------------------------
+
+Reference #4:
+Method: single_format
+Text: Andreev ND (1 96 7) The intermediary language as the focal point of machine translation. In: Booth AD
+--------------------------------------------------------------------------------
+
+Reference #5:
+Method: single_format
+Text: Androutsopoulos I, Paliouras G, Karkaletsis V, Sakkis G, Spyropoulos CD, Stamatopoulos P (2 00 0)
+--------------------------------------------------------------------------------
+
+Reference #6:
+Method: single_format
+Text: Baclic O, Tunis M, Young K, Doan C, Swerdfeger H, Schonfeld J (2 02 0) Artificial intelligence in public
+--------------------------------------------------------------------------------
+
+Reference #7:
+Method: single_format
+Text: Bahdanau D, Cho K, Bengio Y (2 01 5) Neural machine translation by jointly learning to align and
+--------------------------------------------------------------------------------
+
+Reference #8:
+Method: single_format
+Text: Bangalore S, Rambow O, Whittaker S (2 00 0) Evaluation metrics for generation. In proceedings of the first
+--------------------------------------------------------------------------------
+
+Reference #9:
+Method: single_format
+Text: Baud RH, Rassinoux AM, Scherrer JR (1 99 1) Knowledge representation of discharge summaries. In
+--------------------------------------------------------------------------------
+
+Reference #10:
+Method: spaced_format
+Text: Baud RH, Rassinoux AM, Scherrer JR (1 99 2) Natural language processing and semantical representation
+--------------------------------------------------------------------------------
+
+Reference #11:
+Method: spaced_format
+Text: Baud RH, Alpay L, Lovis C (1 99 4) Let ’ s meet the users with natural language understanding. Knowledge
+--------------------------------------------------------------------------------
+
+Reference #12:
+Method: spaced_format
+Text: Bengio Y, Ducharme R, Vincent P (2 00 1) A neural probabilistic language model. Proceedings of NIPS
+--------------------------------------------------------------------------------
+
+Reference #13:
+Method: spaced_format
+Text: Benson E, Haghighi A, Barzilay R (2 01 1) Event discovery in social media feeds. In proceedings of the
+--------------------------------------------------------------------------------
+
+Reference #14:
+Method: spaced_format
+Text: Berger AL, Della Pietra SA, Della Pietra VJ (1 99 6) A maximum entropy approach to natural language
+--------------------------------------------------------------------------------
+
+Reference #15:
+Method: spaced_format
+Text: Blanzieri E, Bryl A (2 00 8) A survey of learning-based techniques of email spam filtering. Artif Intell Rev
+--------------------------------------------------------------------------------
+
+Reference #16:
+Method: spaced_format
+Text: Bondale N, Maloor P, Vaidyanathan A, Sengupta S, Rao PV (1 99 9) Extraction of information from open-
+--------------------------------------------------------------------------------
+
+Reference #17:
+Method: spaced_format
+Text: Borst F, Sager N, Nhàn NT, Su Y, Lyman M, Tick LJ, ..., Scherrer JR (1 98 9) Analyse automatique de
+--------------------------------------------------------------------------------
+
+Reference #18:
+Method: spaced_format
+Text: Briscoe EJ, Grover C, Boguraev B, Carroll J (1 98 7) A formalism and environment for the development of
+--------------------------------------------------------------------------------
+
+Reference #19:
+Method: spaced_format
+Text: Carreras X, Marquez L (2 00 1) Boosting trees for anti-spam email filtering. ar Xiv preprint cs/0 10 90 15
+--------------------------------------------------------------------------------
+
+Reference #20:
+Method: spaced_format
+Text: Chalkidis I, Fergadiotis M, Malakasiotis P, Aletras N, Androutsopoulos I (2 02 0) LEGAL-BERT: the
+--------------------------------------------------------------------------------
+
+Reference #21:
+Method: spaced_format
+Text: Chi EC, Lyman MS, Sager N, Friedman C, Macleod C (1 98 5) A database of computer-structured
+--------------------------------------------------------------------------------
+
+Reference #22:
+Method: spaced_format
+Text: Cho K, Van Merriënboer B, Bahdanau D, Bengio Y, (2 01 4) On the properties of neural machine
+--------------------------------------------------------------------------------
+
+Reference #23:
+Method: spaced_format
+Text: Chomsky N (1 96 5) Aspects of the theory of syntax. MIT Press, Cambridge, Massachusetts
+--------------------------------------------------------------------------------
+
+Reference #24:
+Method: spaced_format
+Text: Choudhary N (2 02 1) LDC-IL: the Indian repository of resources for language technology. Lang Resources
+--------------------------------------------------------------------------------
+
+Reference #25:
+Method: spaced_format
+Text: Chouikhi H, Chniter H, Jarray F (2 02 1) Arabic sentiment analysis using BERT model. In international
+--------------------------------------------------------------------------------
+
+Reference #26:
+Method: spaced_format
+Text: Chung J, Gulcehre C, Cho K, Bengio Y, (2 01 4) Empirical evaluation of gated recurrent neural networks
+--------------------------------------------------------------------------------
+
+Reference #27:
+Method: spaced_format
+Text: Cohen WW (1 99 6) Learning rules that classify e-mail. In AAAI spring symposium on machine learning in
+--------------------------------------------------------------------------------
+
+Reference #28:
+Method: spaced_format
+Text: Cohen PR, Morgan J, Ramsay AM (2 00 2) Intention in communication, Am J Psychol 1 04(4)
+--------------------------------------------------------------------------------
+
+Reference #29:
+Method: spaced_format
+Text: Collobert R, Weston J (2 00 8) A unified architecture for natural language processing. In proceedings of the
+--------------------------------------------------------------------------------
+
+Reference #30:
+Method: spaced_format
+Text: Dai Z, Yang Z, Yang Y, Carbonell J, Le QV, Salakhutdinov R, (2 01 9) Transformer-xl: attentive language
+--------------------------------------------------------------------------------
+
+Reference #31:
+Method: spaced_format
+Text: Davis E, Marcus G (2 01 5) Commonsense reasoning and commonsense knowledge in artificial intelli-
+--------------------------------------------------------------------------------
+
+Reference #32:
+Method: spaced_format
+Text: Desai NP, Dabhi VK (2 02 2) Resources and components for Gujarati NLP systems: a survey. Artif Intell
+--------------------------------------------------------------------------------
+
+Reference #33:
+Method: spaced_format
+Text: Devlin J, Chang MW, Lee K, Toutanova K, (2 01 8) Bert: pre-training of deep bidirectional transformers for
+--------------------------------------------------------------------------------
+
+Reference #34:
+Method: spaced_format
+Text: Diab M, Hacioglu K, Jurafsky D (2 00 4) Automatic tagging of Arabic text: From raw text to base phrase
+--------------------------------------------------------------------------------
+
+Reference #35:
+Method: spaced_format
+Text: Doddington G (2 00 2) Automatic evaluation of machine translation quality using n-gram co-occurrence
+--------------------------------------------------------------------------------
+
+Reference #36:
+Method: spaced_format
+Text: Drucker H, Wu D, Vapnik VN (1 99 9) Support vector machines for spam categorization. IEEE Trans
+--------------------------------------------------------------------------------
+
+Reference #37:
+Method: spaced_format
+Text: Dunlavy DM, O ’ Leary DP, Conroy JM, Schlesinger JD (2 00 7) QCS: A system for querying, clustering
+--------------------------------------------------------------------------------
+
+Reference #38:
+Method: spaced_format
+Text: Elkan C (2 00 8) Log-Linear Models and Conditional Random Fields. http://cseweb.ucsd.edu/welkan/2 50 B/
+--------------------------------------------------------------------------------
+
+Reference #39:
+Method: spaced_format
+Text: Emele MC, Dorna M (1 99 8) Ambiguity preserving machine translation using packed representations. In
+--------------------------------------------------------------------------------
+
+Reference #40:
+Method: spaced_format
+Text: Europarl: A Parallel Corpus for Statistical Machine Translation (2 00 5) Philipp Koehn , MT Summit 2 00 5
+--------------------------------------------------------------------------------
+
+Reference #41:
+Method: spaced_format
+Text: Fan Y, Tian F, Xia Y, Qin T, Li XY, Liu TY (2 02 0) Searching better architectures for neural machine
+--------------------------------------------------------------------------------
+
+Reference #42:
+Method: spaced_format
+Text: Fang H, Lu W, Wu F, Zhang Y, Shang X, Shao J, Zhuang Y (2 01 5) Topic aspect-oriented summarization
+--------------------------------------------------------------------------------
+
+Reference #43:
+Method: spaced_format
+Text: Fattah MA, Ren F (2 00 9) GA, MR, FFNN, PNN and GMM based models for automatic text summari-
+--------------------------------------------------------------------------------
+
+Reference #44:
+Method: spaced_format
+Text: Feldman S (1 99 9) NLP meets the jabberwocky: natural language processing in information retrieval.
+--------------------------------------------------------------------------------
+
+Reference #45:
+Method: spaced_format
+Text: Friedman C, Cimino JJ, Johnson SB (1 99 3) A conceptual model for clinical radiology reports. In
+--------------------------------------------------------------------------------
+
+Reference #46:
+Method: spaced_format
+Text: Gao T, Dontcheva M, Adar E, Liu Z, Karahalios K Data Tone: managing ambiguity in natural language
+--------------------------------------------------------------------------------
+
+Reference #47:
+Method: spaced_format
+Text: Ghosh S, Vinyals O, Strope B, Roy S, Dean T, Heck L (2 01 6) Contextual lstm (clstm) models for large
+--------------------------------------------------------------------------------
+
+Reference #48:
+Method: spaced_format
+Text: Glasgow B, Mandell A, Binney D, Ghemri L, Fisher D (1 99 8) MITA: an information-extraction approach
+--------------------------------------------------------------------------------
+
+Reference #49:
+Method: spaced_format
+Text: Goldberg Y (2 01 7) Neural network methods for natural language processing. Synthesis lectures on human
+--------------------------------------------------------------------------------
+
+Reference #50:
+Method: spaced_format
+Text: Gong Y, Liu X (2 00 1) Generic text summarization using relevance measure and latent semantic analysis.
+--------------------------------------------------------------------------------
+
+Reference #51:
+Method: spaced_format
+Text: Green Jr, BF, Wolf AK, Chomsky C, Laughery K (1 96 1) Baseball: an automatic question-answerer. In
+--------------------------------------------------------------------------------
+
+Reference #52:
+Method: spaced_format
+Text: Greff K, Srivastava RK, Koutník J, Steunebrink BR, Schmidhuber J (2 01 6) LSTM: A search space
+--------------------------------------------------------------------------------
+
+Reference #53:
+Method: spaced_format
+Text: Grishman R, Sager N, Raze C, Bookchin B (1 97 3) The linguistic string parser. In proceedings of the
+--------------------------------------------------------------------------------
+
+Reference #54:
+Method: spaced_format
+Text: Hayes PJ (1 99 2) Intelligent high-volume text processing using shallow, domain-specific techniques. Text-
+--------------------------------------------------------------------------------
+
+Reference #55:
+Method: spaced_format
+Text: Hendrix GG, Sacerdoti ED, Sagalowicz D, Slocum J (1 97 8) Developing a natural language interface to
+--------------------------------------------------------------------------------
+
+Reference #57:
+Method: spaced_format
+Text: Hirschman L, Grishman R, Sager N (1 97 6) From text to structured information: automatic processing of
+--------------------------------------------------------------------------------
+
+Reference #58:
+Method: spaced_format
+Text: Hochreiter S, Schmidhuber J (1 99 7) Long short-term memory. Neural Comput 9(8):1 73 5 – 1 78 0
+--------------------------------------------------------------------------------
+
+Reference #59:
+Method: spaced_format
+Text: Huang Z, Xu W, Yu K (2 01 5) Bidirectional LSTM-CRF models for sequence tagging. ar Xiv preprint
+--------------------------------------------------------------------------------
+
+Reference #60:
+Method: spaced_format
+Text: Hutchins WJ (1 98 6) Machine translation: past, present, future (p. 6 6). Ellis Horwood, Chichester
+--------------------------------------------------------------------------------
+
+Reference #61:
+Method: spaced_format
+Text: Jurafsky D, Martin J (2 00 8) H. Speech and language processing. 2 nd edn. Prentice-Hall, Englewood
+--------------------------------------------------------------------------------
+
+Reference #62:
+Method: spaced_format
+Text: Kamp H, Reyle U (1 99 3) Tense and aspect. In from discourse to logic (pp. 4 83-6 89). Springer Netherlands
+--------------------------------------------------------------------------------
+
+Reference #63:
+Method: spaced_format
+Text: Kang Y, Cai Z, Tan CW, Huang Q, Liu H (2 02 0) Natural language processing (NLP) in management
+--------------------------------------------------------------------------------
+
+Reference #64:
+Method: spaced_format
+Text: Kim Y. (2 01 4) Convolutional neural networks for sentence classification. ar Xiv preprint ar Xiv:1 40 8.5 88 2
+--------------------------------------------------------------------------------
+
+Reference #65:
+Method: spaced_format
+Text: Knight K, Langkilde I (2 00 0) Preserving ambiguities in generation via automata intersection. In AAAI/
+--------------------------------------------------------------------------------
+
+Reference #66:
+Method: spaced_format
+Text: Lass R (1 99 8) Phonology: An Introduction to Basic Concepts. Cambridge, UK; New York; Melbourne,
+--------------------------------------------------------------------------------
+
+Reference #67:
+Method: spaced_format
+Text: Lewis DD (1 99 8) Naive (Bayes) at forty: The independence assumption in information retrieval. In
+--------------------------------------------------------------------------------
+
+Reference #68:
+Method: spaced_format
+Text: Liddy ED (2 00 1). Natural language processing
+--------------------------------------------------------------------------------
+
+Reference #69:
+Method: spaced_format
+Text: Lopez MM, Kalita J (2 01 7) Deep learning applied to NLP. ar Xiv preprint ar Xiv:1 70 3.0 30 91
+--------------------------------------------------------------------------------
+
+Reference #70:
+Method: spaced_format
+Text: Luong MT, Sutskever I, Le Q V, Vinyals O, Zaremba W (2 01 4) Addressing the rare word problem in
+--------------------------------------------------------------------------------
+
+Reference #71:
+Method: spaced_format
+Text: Lyman M, Sager N, Friedman C, Chi E (1 98 5) Computer-structured narrative in ambulatory care: its use in
+--------------------------------------------------------------------------------
+
+Reference #72:
+Method: spaced_format
+Text: Lyman M, Sager N, Chi EC, Tick LJ, Nhan NT, Su Y, ..., Scherrer, J. (1 98 9) Medical Language
+--------------------------------------------------------------------------------
+
+Reference #73:
+Method: spaced_format
+Text: Maas A, Daly RE, Pham PT, Huang D, Ng AY, Potts C (2 01 1) Learning word vectors for sentiment
+--------------------------------------------------------------------------------
+
+Reference #74:
+Method: spaced_format
+Text: Mani I, Maybury MT (eds) (1 99 9) Advances in automatic text summarization, vol 2 93. MIT press,
+--------------------------------------------------------------------------------
+
+Reference #75:
+Method: spaced_format
+Text: Manning CD, Schütze H (1 99 9) Foundations of statistical natural language processing, vol 9 99. MIT
+--------------------------------------------------------------------------------
+
+Reference #76:
+Method: spaced_format
+Text: Marcus MP, Marcinkiewicz MA, Santorini B (1 99 3) Building a large annotated corpus of english: the
+--------------------------------------------------------------------------------
+
+Reference #77:
+Method: spaced_format
+Text: Mc Callum A, Nigam K (1 99 8) A comparison of event models for naive bayes text classification. In AAAI-
+--------------------------------------------------------------------------------
+
+Reference #78:
+Method: spaced_format
+Text: Mc Cray AT (1 99 1) Natural language processing for intelligent information retrieval. In Engineering in
+--------------------------------------------------------------------------------
+
+Reference #79:
+Method: spaced_format
+Text: Mc Cray AT (1 99 1) Extending a natural language parser with UMLS knowledge. In proceedings of the
+--------------------------------------------------------------------------------
+
+Reference #80:
+Method: spaced_format
+Text: Mc Cray AT, Nelson SJ (1 99 5) The representation of meaning in the UMLS. Methods Inf Med 3 4(1 – 2):
+--------------------------------------------------------------------------------
+
+Reference #81:
+Method: spaced_format
+Text: Mc Cray AT, Razi A (1 99 4) The UMLS knowledge source server. Medinfo Med Info 8:1 44 – 1 47
+--------------------------------------------------------------------------------
+
+Reference #82:
+Method: spaced_format
+Text: Mc Cray AT, Srinivasan S, Browne AC (1 99 4) Lexical methods for managing variation in biomedical
+--------------------------------------------------------------------------------
+
+Reference #83:
+Method: spaced_format
+Text: Mc Donald R, Crammer K, Pereira F (2 00 5) Flexible text segmentation with structured multilabel
+--------------------------------------------------------------------------------
+
+Reference #84:
+Method: spaced_format
+Text: Mc Gray AT, Sponsler JL, Brylawski B, Browne AC (1 98 7) The role of lexical knowledge in biomedical
+--------------------------------------------------------------------------------
+
+Reference #85:
+Method: spaced_format
+Text: Mc Keown KR (1 98 5) Text generation. Cambridge University Press, Cambridge
+--------------------------------------------------------------------------------
+
+Reference #86:
+Method: spaced_format
+Text: Merity S, Keskar NS, Socher R (2 01 8) An analysis of neural language modeling at multiple scales. ar Xiv
+--------------------------------------------------------------------------------
+
+Reference #87:
+Method: spaced_format
+Text: Mikolov T, Chen K, Corrado G., & Dean, J. (2 01 3). Distributed representations of words and phrases and
+--------------------------------------------------------------------------------
+
+Reference #88:
+Method: spaced_format
+Text: Morel-Guillemaz AM, Baud RH, Scherrer JR (1 99 0) Proximity processing of medical text. In medical
+--------------------------------------------------------------------------------
+
+Reference #89:
+Method: spaced_format
+Text: Morin E (1 99 9) Automatic acquisition of semantic relations between terms from technical corpora. In proc.
+--------------------------------------------------------------------------------
+
+Reference #90:
+Method: spaced_format
+Text: Müller M, Salathé M, Kummervold PE (2 02 0) Covid-twitter-bert: A natural language processing model to
+--------------------------------------------------------------------------------
+
+Reference #93:
+Method: spaced_format
+Text: Newatia R (2 01 9) https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-
+--------------------------------------------------------------------------------
+
+Reference #94:
+Method: spaced_format
+Text: Nhàn NT, Sager N, Lyman M, Tick LJ, Borst F, Su Y (1 98 9) A medical language processor for two indo-
+--------------------------------------------------------------------------------
+
+Reference #95:
+Method: spaced_format
+Text: Nießen S, Och FJ, Leusch G, Ney H (2 00 0) An evaluation tool for machine translation: fast evaluation for
+--------------------------------------------------------------------------------
+
+Reference #96:
+Method: spaced_format
+Text: Ochoa, A. (2 01 6). Meet the Pilot: Smart Earpiece Language Translator. https://www.indiegogo.com/
+--------------------------------------------------------------------------------
+
+Reference #97:
+Method: spaced_format
+Text: Ogallo, W., & Kanter, A. S. (2 01 7). Using natural language processing and network analysis to develop a
+--------------------------------------------------------------------------------
+
+Reference #98:
+Method: spaced_format
+Text: Otter DW, Medina JR, Kalita JK (2 02 0) A survey of the usages of deep learning for natural language
+--------------------------------------------------------------------------------
+
+Reference #99:
+Method: spaced_format
+Text: Ouyang Y, Li W, Li S, Lu Q (2 01 1) Applying regression models to query-focused multi-document
+--------------------------------------------------------------------------------
+
+Reference #100:
+Method: spaced_format
+Text: Palmer M, Gildea D, Kingsbury P (2 00 5) The proposition bank: an annotated corpus of semantic roles.
+--------------------------------------------------------------------------------
+
+Reference #101:
+Method: spaced_format
+Text: Papineni K, Roukos S, Ward T, Zhu WJ (2 00 2) BLEU: a method for automatic evaluation of machine
+--------------------------------------------------------------------------------
+
+Reference #102:
+Method: spaced_format
+Text: Peng Y, Chi J (2 01 9) Unsupervised cross-media retrieval using domain adaptation with scene graph. IEEE
+--------------------------------------------------------------------------------
+
+Reference #103:
+Method: spaced_format
+Text: Porter MF (1 98 0) An algorithm for suffix stripping. Program 1 4(3):1 30 – 1 37
+--------------------------------------------------------------------------------
+
+Reference #104:
+Method: spaced_format
+Text: Rae JW, Potapenko A, Jayakumar SM, Lillicrap TP, (2 01 9) Compressive transformers for long-range
+--------------------------------------------------------------------------------
+
+Reference #105:
+Method: spaced_format
+Text: Ranjan P, Basu HVSSA (2 00 3) Part of speech tagging and local word grouping techniques for natural
+--------------------------------------------------------------------------------
+
+Reference #106:
+Method: spaced_format
+Text: Rassinoux AM, Baud RH, Scherrer JR (1 99 2) Conceptual graphs model extension for knowledge
+--------------------------------------------------------------------------------
+
+Reference #107:
+Method: spaced_format
+Text: Rassinoux AM, Michel PA, Juge C, Baud R, Scherrer JR (1 99 4) Natural language processing of medical
+--------------------------------------------------------------------------------
+
+Reference #108:
+Method: spaced_format
+Text: Rassinoux AM, Juge C, Michel PA, Baud RH, Lemaitre D, Jean FC, Scherrer JR (1 99 5) Analysis of
+--------------------------------------------------------------------------------
+
+Reference #109:
+Method: spaced_format
+Text: Rennie J (2 00 0) ifile: An application of machine learning to e-mail filtering. In Proc. KDD 2 00 0 Workshop
+--------------------------------------------------------------------------------
+
+Reference #110:
+Method: spaced_format
+Text: Riedhammer K, Favre B, Hakkani-Tür D (2 01 0) Long story short – global unsupervised models for
+--------------------------------------------------------------------------------
+
+Reference #111:
+Method: spaced_format
+Text: Ritter A, Clark S, Etzioni O (2 01 1) Named entity recognition in tweets: an experimental study. In
+--------------------------------------------------------------------------------
+
+Reference #112:
+Method: spaced_format
+Text: Rospocher M, van Erp M, Vossen P, Fokkens A, Aldabe I, Rigau G, Soroa A, Ploeger T, Bogaard T(2 01 6)
+--------------------------------------------------------------------------------
+
+Reference #113:
+Method: spaced_format
+Text: Sager N, Lyman M, Tick LJ, Borst F, Nhan NT, Revillard C, … Scherrer JR (1 98 9) Adapting a medical
+--------------------------------------------------------------------------------
+
+Reference #114:
+Method: spaced_format
+Text: Sager N, Lyman M, Nhan NT, Tick LJ (1 99 5) Medical language processing: applications to patient data
+--------------------------------------------------------------------------------
+
+Reference #115:
+Method: spaced_format
+Text: Sahami M, Dumais S, Heckerman D, Horvitz E (1 99 8) A Bayesian approach to filtering junk e-mail. In
+--------------------------------------------------------------------------------
+
+Reference #116:
+Method: spaced_format
+Text: Sakkis G, Androutsopoulos I, Paliouras G, Karkaletsis V, Spyropoulos CD, Stamatopoulos P (2 00 1)
+--------------------------------------------------------------------------------
+
+Reference #117:
+Method: spaced_format
+Text: Sakkis G, Androutsopoulos I, Paliouras G et al (2 00 3) A memory-based approach to anti-spam filtering for
+--------------------------------------------------------------------------------
+
+Reference #118:
+Method: spaced_format
+Text: Santoro A, Faulkner R, Raposo D, Rae J, Chrzanowski M, Weber T, ..., Lillicrap T (2 01 8) Relational
+--------------------------------------------------------------------------------
+
+Reference #119:
+Method: spaced_format
+Text: Scherrer JR, Revillard C, Borst F, Berthoud M, Lovis C (1 99 4) Medical office automation integrated into
+--------------------------------------------------------------------------------
+
+Reference #120:
+Method: spaced_format
+Text: Seal D, Roy UK, Basak R (2 02 0) Sentence-level emotion detection from text based on semantic rules. In:
+--------------------------------------------------------------------------------
+
+Reference #121:
+Method: spaced_format
+Text: Sentiraama Corpus by Gangula Rama Rohit Reddy, Radhika Mamidi. Language Technologies Research
+--------------------------------------------------------------------------------
+
+Reference #122:
+Method: spaced_format
+Text: Sha F, Pereira F (2 00 3) Shallow parsing with conditional random fields. In proceedings of the 2 00 3
+--------------------------------------------------------------------------------
+
+Reference #123:
+Method: spaced_format
+Text: Sharifirad S, Matwin S, (2 01 9) When a tweet is actually sexist. A more comprehensive classification of
+--------------------------------------------------------------------------------
+
+Reference #124:
+Method: spaced_format
+Text: Sharma S, Srinivas PYKL, Balabantaray RC (2 01 6) Emotion Detection using Online Machine Learning
+--------------------------------------------------------------------------------
+
+Reference #125:
+Method: spaced_format
+Text: Shemtov H (1 99 7) Ambiguity management in natural language generation. Stanford University
+--------------------------------------------------------------------------------
+
+Reference #126:
+Method: spaced_format
+Text: Small SL, Cortell GW, Tanenhaus MK (1 98 8) Lexical Ambiguity Resolutions. Morgan Kauffman, San
+--------------------------------------------------------------------------------
+
+Reference #127:
+Method: spaced_format
+Text: Socher R, Perelygin A, Wu J, Chuang J, Manning CD, Ng AY, Potts C (2 01 3) Recursive deep models for
+--------------------------------------------------------------------------------
+
+Reference #128:
+Method: spaced_format
+Text: Sonnhammer EL, Eddy SR, Birney E, Bateman A, Durbin R (1 99 8) Pfam: multiple sequence alignments
+--------------------------------------------------------------------------------
+
+Reference #129:
+Method: spaced_format
+Text: Srihari S (2 01 0) Machine Learning: Generative and Discriminative Models. http://www.cedar.buffalo.edu/
+--------------------------------------------------------------------------------
+
+Reference #130:
+Method: spaced_format
+Text: Sun X, Morency LP, Okanohara D, Tsujii JI (2 00 8) Modeling latent-dynamic in shallow parsing: a latent
+--------------------------------------------------------------------------------
+
+Reference #131:
+Method: spaced_format
+Text: Sundheim BM, Chinchor NA (1 99 3) Survey of the message understanding conferences. In proceedings of
+--------------------------------------------------------------------------------
+
+Reference #132:
+Method: spaced_format
+Text: Sutskever I, Vinyals O, Le QV (2 01 4) Sequence to sequence learning with neural networks. In Advances
+--------------------------------------------------------------------------------
+
+Reference #133:
+Method: spaced_format
+Text: Sworna ZT, Mousavi Z, Babar MA (2 02 2) NLP methods in host-based intrusion detection Systems: A
+--------------------------------------------------------------------------------
+
+Reference #134:
+Method: spaced_format
+Text: Systems RAVN (2 01 7) "RAVN Systems Launch the ACE Powered GDPR Robot - Artificial Intelligence
+--------------------------------------------------------------------------------
+
+Reference #135:
+Method: spaced_format
+Text: Tan KL, Lee CP, Anbananthen KSM, Lim KM (2 02 2) Ro BERTa-LSTM: A hybrid model for sentiment
+--------------------------------------------------------------------------------
+
+Reference #136:
+Method: spaced_format
+Text: Tapaswi N, Jain S (2 01 2) Treebank based deep grammar acquisition and part-of-speech tagging for
+--------------------------------------------------------------------------------
+
+Reference #137:
+Method: spaced_format
+Text: Thomas C (2 01 9) https://towardsdatascience.com/recurrent-neural-networks-and-natural-language-
+--------------------------------------------------------------------------------
+
+Reference #138:
+Method: spaced_format
+Text: Tillmann C, Vogel S, Ney H, Zubiaga A, Sawaf H (1 99 7) Accelerated DP based search for statistical
+--------------------------------------------------------------------------------
+
+Reference #139:
+Method: spaced_format
+Text: Umber A, Bajwa I (2 01 1) “ Minimizing ambiguity in natural language software requirements specification,
+--------------------------------------------------------------------------------
+
+Reference #141:
+Method: spaced_format
+Text: Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser Ł , Polosukhin I, (2 01 7)
+--------------------------------------------------------------------------------
+
+Reference #142:
+Method: spaced_format
+Text: Wahlster W, Kobsa A (1 98 9) User models in dialog systems. In user models in dialog systems (pp. 4 – 3 4).
+--------------------------------------------------------------------------------
+
+Reference #143:
+Method: spaced_format
+Text: Walton D (1 99 6) A pragmatic synthesis. In: fallacies arising from ambiguity. Applied logic series, vol 1.
+--------------------------------------------------------------------------------
+
+Reference #144:
+Method: spaced_format
+Text: Wan X (2 00 8) Using only cross-document relationships for both generic and topic-focused multi-docu-
+--------------------------------------------------------------------------------
+
+Reference #145:
+Method: spaced_format
+Text: Wang W, Gang J, 2 01 8 Application of convolutional neural network in natural language processing. In
+--------------------------------------------------------------------------------
+
+Reference #146:
+Method: spaced_format
+Text: Wang D, Zhu S, Li T, Gong Y (2 00 9) Multi-document summarization using sentence-based topic models.
+--------------------------------------------------------------------------------
+
+Reference #147:
+Method: spaced_format
+Text: Wang D, Zhu S, Li T, Chi Y, Gong Y (2 01 1) Integrating document clustering and multidocument
+--------------------------------------------------------------------------------
+
+Reference #148:
+Method: spaced_format
+Text: Wang Z, Ng P, Ma X, Nallapati R, Xiang B (2 01 9) Multi-passage bert: A globally normalized bert model
+--------------------------------------------------------------------------------
+
+Reference #149:
+Method: spaced_format
+Text: Wen Z, Peng Y (2 02 0) Multi-level knowledge injecting for visual commonsense reasoning. IEEE
+--------------------------------------------------------------------------------
+
+Reference #150:
+Method: spaced_format
+Text: Wiese G, Weissenborn D, Neves M (2 01 7) Neural domain adaptation for biomedical question answering.
+--------------------------------------------------------------------------------
+
+Reference #151:
+Method: spaced_format
+Text: Wong A, Plasek JM, Montecalvo SP, Zhou L (2 01 8) Natural language processing and its implications for
+--------------------------------------------------------------------------------
+
+Reference #152:
+Method: spaced_format
+Text: Woods WA (1 97 8) Semantics and quantification in natural language question answering. Adv Comput 1 7:
+--------------------------------------------------------------------------------
+
+Reference #153:
+Method: spaced_format
+Text: Xia T (2 02 0) A constant time complexity spam detection algorithm for boosting throughput on rule-based
+--------------------------------------------------------------------------------
+
+Reference #154:
+Method: spaced_format
+Text: Xie P, Xing E (2 01 7) A constituent-centric neural architecture for reading comprehension. In proceedings
+--------------------------------------------------------------------------------
+
+Reference #155:
+Method: spaced_format
+Text: Yan X, Ye Y, Mao Y, Yu H (2 01 9) Shared-private information bottleneck method for cross-modal
+--------------------------------------------------------------------------------
+
+Reference #156:
+Method: spaced_format
+Text: Yi J, Nasukawa T, Bunescu R, Niblack W (2 00 3) Sentiment analyzer: extracting sentiments about a given
+--------------------------------------------------------------------------------
+
+Reference #157:
+Method: spaced_format
+Text: Young SJ, Chase LL (1 99 8) Speech recognition evaluation: a review of the US CSR and LVCSR
+--------------------------------------------------------------------------------
+
+Reference #158:
+Method: spaced_format
+Text: Yu S, et al. (2 01 8) "A multi-stage memory augmented neural network for machine reading comprehen-
+--------------------------------------------------------------------------------
+
+Reference #159:
+Method: spaced_format
+Text: Zajic DM, Dorr BJ, Lin J (2 00 8) Single-document and multi-document summarization techniques for
+--------------------------------------------------------------------------------
+
+Reference #160:
+Method: spaced_format
+Text: Zeroual I, Lakhouaja A, Belahbib R (2 01 7) Towards a standard part of speech tagset for the Arabic
+--------------------------------------------------------------------------------
+

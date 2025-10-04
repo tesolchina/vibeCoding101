@@ -1,0 +1,782 @@
+{
+  "10": {
+    "number": "10",
+    "text": "Baud RH, Rassinoux AM, Scherrer JR (1 99 2) Natural language processing and semantical representation",
+    "method": "spaced_format"
+  },
+  "11": {
+    "number": "11",
+    "text": "Baud RH, Alpay L, Lovis C (1 99 4) Let ’ s meet the users with natural language understanding. Knowledge",
+    "method": "spaced_format"
+  },
+  "12": {
+    "number": "12",
+    "text": "Bengio Y, Ducharme R, Vincent P (2 00 1) A neural probabilistic language model. Proceedings of NIPS",
+    "method": "spaced_format"
+  },
+  "13": {
+    "number": "13",
+    "text": "Benson E, Haghighi A, Barzilay R (2 01 1) Event discovery in social media feeds. In proceedings of the",
+    "method": "spaced_format"
+  },
+  "14": {
+    "number": "14",
+    "text": "Berger AL, Della Pietra SA, Della Pietra VJ (1 99 6) A maximum entropy approach to natural language",
+    "method": "spaced_format"
+  },
+  "15": {
+    "number": "15",
+    "text": "Blanzieri E, Bryl A (2 00 8) A survey of learning-based techniques of email spam filtering. Artif Intell Rev",
+    "method": "spaced_format"
+  },
+  "16": {
+    "number": "16",
+    "text": "Bondale N, Maloor P, Vaidyanathan A, Sengupta S, Rao PV (1 99 9) Extraction of information from open-",
+    "method": "spaced_format"
+  },
+  "17": {
+    "number": "17",
+    "text": "Borst F, Sager N, Nhàn NT, Su Y, Lyman M, Tick LJ, ..., Scherrer JR (1 98 9) Analyse automatique de",
+    "method": "spaced_format"
+  },
+  "18": {
+    "number": "18",
+    "text": "Briscoe EJ, Grover C, Boguraev B, Carroll J (1 98 7) A formalism and environment for the development of",
+    "method": "spaced_format"
+  },
+  "19": {
+    "number": "19",
+    "text": "Carreras X, Marquez L (2 00 1) Boosting trees for anti-spam email filtering. ar Xiv preprint cs/0 10 90 15",
+    "method": "spaced_format"
+  },
+  "20": {
+    "number": "20",
+    "text": "Chalkidis I, Fergadiotis M, Malakasiotis P, Aletras N, Androutsopoulos I (2 02 0) LEGAL-BERT: the",
+    "method": "spaced_format"
+  },
+  "21": {
+    "number": "21",
+    "text": "Chi EC, Lyman MS, Sager N, Friedman C, Macleod C (1 98 5) A database of computer-structured",
+    "method": "spaced_format"
+  },
+  "22": {
+    "number": "22",
+    "text": "Cho K, Van Merriënboer B, Bahdanau D, Bengio Y, (2 01 4) On the properties of neural machine",
+    "method": "spaced_format"
+  },
+  "23": {
+    "number": "23",
+    "text": "Chomsky N (1 96 5) Aspects of the theory of syntax. MIT Press, Cambridge, Massachusetts",
+    "method": "spaced_format"
+  },
+  "24": {
+    "number": "24",
+    "text": "Choudhary N (2 02 1) LDC-IL: the Indian repository of resources for language technology. Lang Resources",
+    "method": "spaced_format"
+  },
+  "25": {
+    "number": "25",
+    "text": "Chouikhi H, Chniter H, Jarray F (2 02 1) Arabic sentiment analysis using BERT model. In international",
+    "method": "spaced_format"
+  },
+  "26": {
+    "number": "26",
+    "text": "Chung J, Gulcehre C, Cho K, Bengio Y, (2 01 4) Empirical evaluation of gated recurrent neural networks",
+    "method": "spaced_format"
+  },
+  "27": {
+    "number": "27",
+    "text": "Cohen WW (1 99 6) Learning rules that classify e-mail. In AAAI spring symposium on machine learning in",
+    "method": "spaced_format"
+  },
+  "28": {
+    "number": "28",
+    "text": "Cohen PR, Morgan J, Ramsay AM (2 00 2) Intention in communication, Am J Psychol 1 04(4)",
+    "method": "spaced_format"
+  },
+  "29": {
+    "number": "29",
+    "text": "Collobert R, Weston J (2 00 8) A unified architecture for natural language processing. In proceedings of the",
+    "method": "spaced_format"
+  },
+  "30": {
+    "number": "30",
+    "text": "Dai Z, Yang Z, Yang Y, Carbonell J, Le QV, Salakhutdinov R, (2 01 9) Transformer-xl: attentive language",
+    "method": "spaced_format"
+  },
+  "31": {
+    "number": "31",
+    "text": "Davis E, Marcus G (2 01 5) Commonsense reasoning and commonsense knowledge in artificial intelli-",
+    "method": "spaced_format"
+  },
+  "32": {
+    "number": "32",
+    "text": "Desai NP, Dabhi VK (2 02 2) Resources and components for Gujarati NLP systems: a survey. Artif Intell",
+    "method": "spaced_format"
+  },
+  "33": {
+    "number": "33",
+    "text": "Devlin J, Chang MW, Lee K, Toutanova K, (2 01 8) Bert: pre-training of deep bidirectional transformers for",
+    "method": "spaced_format"
+  },
+  "34": {
+    "number": "34",
+    "text": "Diab M, Hacioglu K, Jurafsky D (2 00 4) Automatic tagging of Arabic text: From raw text to base phrase",
+    "method": "spaced_format"
+  },
+  "35": {
+    "number": "35",
+    "text": "Doddington G (2 00 2) Automatic evaluation of machine translation quality using n-gram co-occurrence",
+    "method": "spaced_format"
+  },
+  "36": {
+    "number": "36",
+    "text": "Drucker H, Wu D, Vapnik VN (1 99 9) Support vector machines for spam categorization. IEEE Trans",
+    "method": "spaced_format"
+  },
+  "37": {
+    "number": "37",
+    "text": "Dunlavy DM, O ’ Leary DP, Conroy JM, Schlesinger JD (2 00 7) QCS: A system for querying, clustering",
+    "method": "spaced_format"
+  },
+  "38": {
+    "number": "38",
+    "text": "Elkan C (2 00 8) Log-Linear Models and Conditional Random Fields. http://cseweb.ucsd.edu/welkan/2 50 B/",
+    "method": "spaced_format"
+  },
+  "39": {
+    "number": "39",
+    "text": "Emele MC, Dorna M (1 99 8) Ambiguity preserving machine translation using packed representations. In",
+    "method": "spaced_format"
+  },
+  "40": {
+    "number": "40",
+    "text": "Europarl: A Parallel Corpus for Statistical Machine Translation (2 00 5) Philipp Koehn , MT Summit 2 00 5",
+    "method": "spaced_format"
+  },
+  "41": {
+    "number": "41",
+    "text": "Fan Y, Tian F, Xia Y, Qin T, Li XY, Liu TY (2 02 0) Searching better architectures for neural machine",
+    "method": "spaced_format"
+  },
+  "42": {
+    "number": "42",
+    "text": "Fang H, Lu W, Wu F, Zhang Y, Shang X, Shao J, Zhuang Y (2 01 5) Topic aspect-oriented summarization",
+    "method": "spaced_format"
+  },
+  "43": {
+    "number": "43",
+    "text": "Fattah MA, Ren F (2 00 9) GA, MR, FFNN, PNN and GMM based models for automatic text summari-",
+    "method": "spaced_format"
+  },
+  "44": {
+    "number": "44",
+    "text": "Feldman S (1 99 9) NLP meets the jabberwocky: natural language processing in information retrieval.",
+    "method": "spaced_format"
+  },
+  "45": {
+    "number": "45",
+    "text": "Friedman C, Cimino JJ, Johnson SB (1 99 3) A conceptual model for clinical radiology reports. In",
+    "method": "spaced_format"
+  },
+  "46": {
+    "number": "46",
+    "text": "Gao T, Dontcheva M, Adar E, Liu Z, Karahalios K Data Tone: managing ambiguity in natural language",
+    "method": "spaced_format"
+  },
+  "47": {
+    "number": "47",
+    "text": "Ghosh S, Vinyals O, Strope B, Roy S, Dean T, Heck L (2 01 6) Contextual lstm (clstm) models for large",
+    "method": "spaced_format"
+  },
+  "48": {
+    "number": "48",
+    "text": "Glasgow B, Mandell A, Binney D, Ghemri L, Fisher D (1 99 8) MITA: an information-extraction approach",
+    "method": "spaced_format"
+  },
+  "49": {
+    "number": "49",
+    "text": "Goldberg Y (2 01 7) Neural network methods for natural language processing. Synthesis lectures on human",
+    "method": "spaced_format"
+  },
+  "50": {
+    "number": "50",
+    "text": "Gong Y, Liu X (2 00 1) Generic text summarization using relevance measure and latent semantic analysis.",
+    "method": "spaced_format"
+  },
+  "51": {
+    "number": "51",
+    "text": "Green Jr, BF, Wolf AK, Chomsky C, Laughery K (1 96 1) Baseball: an automatic question-answerer. In",
+    "method": "spaced_format"
+  },
+  "52": {
+    "number": "52",
+    "text": "Greff K, Srivastava RK, Koutník J, Steunebrink BR, Schmidhuber J (2 01 6) LSTM: A search space",
+    "method": "spaced_format"
+  },
+  "53": {
+    "number": "53",
+    "text": "Grishman R, Sager N, Raze C, Bookchin B (1 97 3) The linguistic string parser. In proceedings of the",
+    "method": "spaced_format"
+  },
+  "54": {
+    "number": "54",
+    "text": "Hayes PJ (1 99 2) Intelligent high-volume text processing using shallow, domain-specific techniques. Text-",
+    "method": "spaced_format"
+  },
+  "55": {
+    "number": "55",
+    "text": "Hendrix GG, Sacerdoti ED, Sagalowicz D, Slocum J (1 97 8) Developing a natural language interface to",
+    "method": "spaced_format"
+  },
+  "57": {
+    "number": "57",
+    "text": "Hirschman L, Grishman R, Sager N (1 97 6) From text to structured information: automatic processing of",
+    "method": "spaced_format"
+  },
+  "58": {
+    "number": "58",
+    "text": "Hochreiter S, Schmidhuber J (1 99 7) Long short-term memory. Neural Comput 9(8):1 73 5 – 1 78 0",
+    "method": "spaced_format"
+  },
+  "59": {
+    "number": "59",
+    "text": "Huang Z, Xu W, Yu K (2 01 5) Bidirectional LSTM-CRF models for sequence tagging. ar Xiv preprint",
+    "method": "spaced_format"
+  },
+  "60": {
+    "number": "60",
+    "text": "Hutchins WJ (1 98 6) Machine translation: past, present, future (p. 6 6). Ellis Horwood, Chichester",
+    "method": "spaced_format"
+  },
+  "61": {
+    "number": "61",
+    "text": "Jurafsky D, Martin J (2 00 8) H. Speech and language processing. 2 nd edn. Prentice-Hall, Englewood",
+    "method": "spaced_format"
+  },
+  "62": {
+    "number": "62",
+    "text": "Kamp H, Reyle U (1 99 3) Tense and aspect. In from discourse to logic (pp. 4 83-6 89). Springer Netherlands",
+    "method": "spaced_format"
+  },
+  "63": {
+    "number": "63",
+    "text": "Kang Y, Cai Z, Tan CW, Huang Q, Liu H (2 02 0) Natural language processing (NLP) in management",
+    "method": "spaced_format"
+  },
+  "64": {
+    "number": "64",
+    "text": "Kim Y. (2 01 4) Convolutional neural networks for sentence classification. ar Xiv preprint ar Xiv:1 40 8.5 88 2",
+    "method": "spaced_format"
+  },
+  "65": {
+    "number": "65",
+    "text": "Knight K, Langkilde I (2 00 0) Preserving ambiguities in generation via automata intersection. In AAAI/",
+    "method": "spaced_format"
+  },
+  "66": {
+    "number": "66",
+    "text": "Lass R (1 99 8) Phonology: An Introduction to Basic Concepts. Cambridge, UK; New York; Melbourne,",
+    "method": "spaced_format"
+  },
+  "67": {
+    "number": "67",
+    "text": "Lewis DD (1 99 8) Naive (Bayes) at forty: The independence assumption in information retrieval. In",
+    "method": "spaced_format"
+  },
+  "68": {
+    "number": "68",
+    "text": "Liddy ED (2 00 1). Natural language processing",
+    "method": "spaced_format"
+  },
+  "69": {
+    "number": "69",
+    "text": "Lopez MM, Kalita J (2 01 7) Deep learning applied to NLP. ar Xiv preprint ar Xiv:1 70 3.0 30 91",
+    "method": "spaced_format"
+  },
+  "70": {
+    "number": "70",
+    "text": "Luong MT, Sutskever I, Le Q V, Vinyals O, Zaremba W (2 01 4) Addressing the rare word problem in",
+    "method": "spaced_format"
+  },
+  "71": {
+    "number": "71",
+    "text": "Lyman M, Sager N, Friedman C, Chi E (1 98 5) Computer-structured narrative in ambulatory care: its use in",
+    "method": "spaced_format"
+  },
+  "72": {
+    "number": "72",
+    "text": "Lyman M, Sager N, Chi EC, Tick LJ, Nhan NT, Su Y, ..., Scherrer, J. (1 98 9) Medical Language",
+    "method": "spaced_format"
+  },
+  "73": {
+    "number": "73",
+    "text": "Maas A, Daly RE, Pham PT, Huang D, Ng AY, Potts C (2 01 1) Learning word vectors for sentiment",
+    "method": "spaced_format"
+  },
+  "74": {
+    "number": "74",
+    "text": "Mani I, Maybury MT (eds) (1 99 9) Advances in automatic text summarization, vol 2 93. MIT press,",
+    "method": "spaced_format"
+  },
+  "75": {
+    "number": "75",
+    "text": "Manning CD, Schütze H (1 99 9) Foundations of statistical natural language processing, vol 9 99. MIT",
+    "method": "spaced_format"
+  },
+  "76": {
+    "number": "76",
+    "text": "Marcus MP, Marcinkiewicz MA, Santorini B (1 99 3) Building a large annotated corpus of english: the",
+    "method": "spaced_format"
+  },
+  "77": {
+    "number": "77",
+    "text": "Mc Callum A, Nigam K (1 99 8) A comparison of event models for naive bayes text classification. In AAAI-",
+    "method": "spaced_format"
+  },
+  "78": {
+    "number": "78",
+    "text": "Mc Cray AT (1 99 1) Natural language processing for intelligent information retrieval. In Engineering in",
+    "method": "spaced_format"
+  },
+  "79": {
+    "number": "79",
+    "text": "Mc Cray AT (1 99 1) Extending a natural language parser with UMLS knowledge. In proceedings of the",
+    "method": "spaced_format"
+  },
+  "80": {
+    "number": "80",
+    "text": "Mc Cray AT, Nelson SJ (1 99 5) The representation of meaning in the UMLS. Methods Inf Med 3 4(1 – 2):",
+    "method": "spaced_format"
+  },
+  "81": {
+    "number": "81",
+    "text": "Mc Cray AT, Razi A (1 99 4) The UMLS knowledge source server. Medinfo Med Info 8:1 44 – 1 47",
+    "method": "spaced_format"
+  },
+  "82": {
+    "number": "82",
+    "text": "Mc Cray AT, Srinivasan S, Browne AC (1 99 4) Lexical methods for managing variation in biomedical",
+    "method": "spaced_format"
+  },
+  "83": {
+    "number": "83",
+    "text": "Mc Donald R, Crammer K, Pereira F (2 00 5) Flexible text segmentation with structured multilabel",
+    "method": "spaced_format"
+  },
+  "84": {
+    "number": "84",
+    "text": "Mc Gray AT, Sponsler JL, Brylawski B, Browne AC (1 98 7) The role of lexical knowledge in biomedical",
+    "method": "spaced_format"
+  },
+  "85": {
+    "number": "85",
+    "text": "Mc Keown KR (1 98 5) Text generation. Cambridge University Press, Cambridge",
+    "method": "spaced_format"
+  },
+  "86": {
+    "number": "86",
+    "text": "Merity S, Keskar NS, Socher R (2 01 8) An analysis of neural language modeling at multiple scales. ar Xiv",
+    "method": "spaced_format"
+  },
+  "87": {
+    "number": "87",
+    "text": "Mikolov T, Chen K, Corrado G., & Dean, J. (2 01 3). Distributed representations of words and phrases and",
+    "method": "spaced_format"
+  },
+  "88": {
+    "number": "88",
+    "text": "Morel-Guillemaz AM, Baud RH, Scherrer JR (1 99 0) Proximity processing of medical text. In medical",
+    "method": "spaced_format"
+  },
+  "89": {
+    "number": "89",
+    "text": "Morin E (1 99 9) Automatic acquisition of semantic relations between terms from technical corpora. In proc.",
+    "method": "spaced_format"
+  },
+  "90": {
+    "number": "90",
+    "text": "Müller M, Salathé M, Kummervold PE (2 02 0) Covid-twitter-bert: A natural language processing model to",
+    "method": "spaced_format"
+  },
+  "93": {
+    "number": "93",
+    "text": "Newatia R (2 01 9) https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-",
+    "method": "spaced_format"
+  },
+  "94": {
+    "number": "94",
+    "text": "Nhàn NT, Sager N, Lyman M, Tick LJ, Borst F, Su Y (1 98 9) A medical language processor for two indo-",
+    "method": "spaced_format"
+  },
+  "95": {
+    "number": "95",
+    "text": "Nießen S, Och FJ, Leusch G, Ney H (2 00 0) An evaluation tool for machine translation: fast evaluation for",
+    "method": "spaced_format"
+  },
+  "96": {
+    "number": "96",
+    "text": "Ochoa, A. (2 01 6). Meet the Pilot: Smart Earpiece Language Translator. https://www.indiegogo.com/",
+    "method": "spaced_format"
+  },
+  "97": {
+    "number": "97",
+    "text": "Ogallo, W., & Kanter, A. S. (2 01 7). Using natural language processing and network analysis to develop a",
+    "method": "spaced_format"
+  },
+  "98": {
+    "number": "98",
+    "text": "Otter DW, Medina JR, Kalita JK (2 02 0) A survey of the usages of deep learning for natural language",
+    "method": "spaced_format"
+  },
+  "99": {
+    "number": "99",
+    "text": "Ouyang Y, Li W, Li S, Lu Q (2 01 1) Applying regression models to query-focused multi-document",
+    "method": "spaced_format"
+  },
+  "100": {
+    "number": "100",
+    "text": "Palmer M, Gildea D, Kingsbury P (2 00 5) The proposition bank: an annotated corpus of semantic roles.",
+    "method": "spaced_format"
+  },
+  "101": {
+    "number": "101",
+    "text": "Papineni K, Roukos S, Ward T, Zhu WJ (2 00 2) BLEU: a method for automatic evaluation of machine",
+    "method": "spaced_format"
+  },
+  "102": {
+    "number": "102",
+    "text": "Peng Y, Chi J (2 01 9) Unsupervised cross-media retrieval using domain adaptation with scene graph. IEEE",
+    "method": "spaced_format"
+  },
+  "103": {
+    "number": "103",
+    "text": "Porter MF (1 98 0) An algorithm for suffix stripping. Program 1 4(3):1 30 – 1 37",
+    "method": "spaced_format"
+  },
+  "104": {
+    "number": "104",
+    "text": "Rae JW, Potapenko A, Jayakumar SM, Lillicrap TP, (2 01 9) Compressive transformers for long-range",
+    "method": "spaced_format"
+  },
+  "105": {
+    "number": "105",
+    "text": "Ranjan P, Basu HVSSA (2 00 3) Part of speech tagging and local word grouping techniques for natural",
+    "method": "spaced_format"
+  },
+  "106": {
+    "number": "106",
+    "text": "Rassinoux AM, Baud RH, Scherrer JR (1 99 2) Conceptual graphs model extension for knowledge",
+    "method": "spaced_format"
+  },
+  "107": {
+    "number": "107",
+    "text": "Rassinoux AM, Michel PA, Juge C, Baud R, Scherrer JR (1 99 4) Natural language processing of medical",
+    "method": "spaced_format"
+  },
+  "108": {
+    "number": "108",
+    "text": "Rassinoux AM, Juge C, Michel PA, Baud RH, Lemaitre D, Jean FC, Scherrer JR (1 99 5) Analysis of",
+    "method": "spaced_format"
+  },
+  "109": {
+    "number": "109",
+    "text": "Rennie J (2 00 0) ifile: An application of machine learning to e-mail filtering. In Proc. KDD 2 00 0 Workshop",
+    "method": "spaced_format"
+  },
+  "110": {
+    "number": "110",
+    "text": "Riedhammer K, Favre B, Hakkani-Tür D (2 01 0) Long story short – global unsupervised models for",
+    "method": "spaced_format"
+  },
+  "111": {
+    "number": "111",
+    "text": "Ritter A, Clark S, Etzioni O (2 01 1) Named entity recognition in tweets: an experimental study. In",
+    "method": "spaced_format"
+  },
+  "112": {
+    "number": "112",
+    "text": "Rospocher M, van Erp M, Vossen P, Fokkens A, Aldabe I, Rigau G, Soroa A, Ploeger T, Bogaard T(2 01 6)",
+    "method": "spaced_format"
+  },
+  "113": {
+    "number": "113",
+    "text": "Sager N, Lyman M, Tick LJ, Borst F, Nhan NT, Revillard C, … Scherrer JR (1 98 9) Adapting a medical",
+    "method": "spaced_format"
+  },
+  "114": {
+    "number": "114",
+    "text": "Sager N, Lyman M, Nhan NT, Tick LJ (1 99 5) Medical language processing: applications to patient data",
+    "method": "spaced_format"
+  },
+  "115": {
+    "number": "115",
+    "text": "Sahami M, Dumais S, Heckerman D, Horvitz E (1 99 8) A Bayesian approach to filtering junk e-mail. In",
+    "method": "spaced_format"
+  },
+  "116": {
+    "number": "116",
+    "text": "Sakkis G, Androutsopoulos I, Paliouras G, Karkaletsis V, Spyropoulos CD, Stamatopoulos P (2 00 1)",
+    "method": "spaced_format"
+  },
+  "117": {
+    "number": "117",
+    "text": "Sakkis G, Androutsopoulos I, Paliouras G et al (2 00 3) A memory-based approach to anti-spam filtering for",
+    "method": "spaced_format"
+  },
+  "118": {
+    "number": "118",
+    "text": "Santoro A, Faulkner R, Raposo D, Rae J, Chrzanowski M, Weber T, ..., Lillicrap T (2 01 8) Relational",
+    "method": "spaced_format"
+  },
+  "119": {
+    "number": "119",
+    "text": "Scherrer JR, Revillard C, Borst F, Berthoud M, Lovis C (1 99 4) Medical office automation integrated into",
+    "method": "spaced_format"
+  },
+  "120": {
+    "number": "120",
+    "text": "Seal D, Roy UK, Basak R (2 02 0) Sentence-level emotion detection from text based on semantic rules. In:",
+    "method": "spaced_format"
+  },
+  "121": {
+    "number": "121",
+    "text": "Sentiraama Corpus by Gangula Rama Rohit Reddy, Radhika Mamidi. Language Technologies Research",
+    "method": "spaced_format"
+  },
+  "122": {
+    "number": "122",
+    "text": "Sha F, Pereira F (2 00 3) Shallow parsing with conditional random fields. In proceedings of the 2 00 3",
+    "method": "spaced_format"
+  },
+  "123": {
+    "number": "123",
+    "text": "Sharifirad S, Matwin S, (2 01 9) When a tweet is actually sexist. A more comprehensive classification of",
+    "method": "spaced_format"
+  },
+  "124": {
+    "number": "124",
+    "text": "Sharma S, Srinivas PYKL, Balabantaray RC (2 01 6) Emotion Detection using Online Machine Learning",
+    "method": "spaced_format"
+  },
+  "125": {
+    "number": "125",
+    "text": "Shemtov H (1 99 7) Ambiguity management in natural language generation. Stanford University",
+    "method": "spaced_format"
+  },
+  "126": {
+    "number": "126",
+    "text": "Small SL, Cortell GW, Tanenhaus MK (1 98 8) Lexical Ambiguity Resolutions. Morgan Kauffman, San",
+    "method": "spaced_format"
+  },
+  "127": {
+    "number": "127",
+    "text": "Socher R, Perelygin A, Wu J, Chuang J, Manning CD, Ng AY, Potts C (2 01 3) Recursive deep models for",
+    "method": "spaced_format"
+  },
+  "128": {
+    "number": "128",
+    "text": "Sonnhammer EL, Eddy SR, Birney E, Bateman A, Durbin R (1 99 8) Pfam: multiple sequence alignments",
+    "method": "spaced_format"
+  },
+  "129": {
+    "number": "129",
+    "text": "Srihari S (2 01 0) Machine Learning: Generative and Discriminative Models. http://www.cedar.buffalo.edu/",
+    "method": "spaced_format"
+  },
+  "130": {
+    "number": "130",
+    "text": "Sun X, Morency LP, Okanohara D, Tsujii JI (2 00 8) Modeling latent-dynamic in shallow parsing: a latent",
+    "method": "spaced_format"
+  },
+  "131": {
+    "number": "131",
+    "text": "Sundheim BM, Chinchor NA (1 99 3) Survey of the message understanding conferences. In proceedings of",
+    "method": "spaced_format"
+  },
+  "132": {
+    "number": "132",
+    "text": "Sutskever I, Vinyals O, Le QV (2 01 4) Sequence to sequence learning with neural networks. In Advances",
+    "method": "spaced_format"
+  },
+  "133": {
+    "number": "133",
+    "text": "Sworna ZT, Mousavi Z, Babar MA (2 02 2) NLP methods in host-based intrusion detection Systems: A",
+    "method": "spaced_format"
+  },
+  "134": {
+    "number": "134",
+    "text": "Systems RAVN (2 01 7) \"RAVN Systems Launch the ACE Powered GDPR Robot - Artificial Intelligence",
+    "method": "spaced_format"
+  },
+  "135": {
+    "number": "135",
+    "text": "Tan KL, Lee CP, Anbananthen KSM, Lim KM (2 02 2) Ro BERTa-LSTM: A hybrid model for sentiment",
+    "method": "spaced_format"
+  },
+  "136": {
+    "number": "136",
+    "text": "Tapaswi N, Jain S (2 01 2) Treebank based deep grammar acquisition and part-of-speech tagging for",
+    "method": "spaced_format"
+  },
+  "137": {
+    "number": "137",
+    "text": "Thomas C (2 01 9) https://towardsdatascience.com/recurrent-neural-networks-and-natural-language-",
+    "method": "spaced_format"
+  },
+  "138": {
+    "number": "138",
+    "text": "Tillmann C, Vogel S, Ney H, Zubiaga A, Sawaf H (1 99 7) Accelerated DP based search for statistical",
+    "method": "spaced_format"
+  },
+  "139": {
+    "number": "139",
+    "text": "Umber A, Bajwa I (2 01 1) “ Minimizing ambiguity in natural language software requirements specification,",
+    "method": "spaced_format"
+  },
+  "141": {
+    "number": "141",
+    "text": "Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser Ł , Polosukhin I, (2 01 7)",
+    "method": "spaced_format"
+  },
+  "142": {
+    "number": "142",
+    "text": "Wahlster W, Kobsa A (1 98 9) User models in dialog systems. In user models in dialog systems (pp. 4 – 3 4).",
+    "method": "spaced_format"
+  },
+  "143": {
+    "number": "143",
+    "text": "Walton D (1 99 6) A pragmatic synthesis. In: fallacies arising from ambiguity. Applied logic series, vol 1.",
+    "method": "spaced_format"
+  },
+  "144": {
+    "number": "144",
+    "text": "Wan X (2 00 8) Using only cross-document relationships for both generic and topic-focused multi-docu-",
+    "method": "spaced_format"
+  },
+  "145": {
+    "number": "145",
+    "text": "Wang W, Gang J, 2 01 8 Application of convolutional neural network in natural language processing. In",
+    "method": "spaced_format"
+  },
+  "146": {
+    "number": "146",
+    "text": "Wang D, Zhu S, Li T, Gong Y (2 00 9) Multi-document summarization using sentence-based topic models.",
+    "method": "spaced_format"
+  },
+  "147": {
+    "number": "147",
+    "text": "Wang D, Zhu S, Li T, Chi Y, Gong Y (2 01 1) Integrating document clustering and multidocument",
+    "method": "spaced_format"
+  },
+  "148": {
+    "number": "148",
+    "text": "Wang Z, Ng P, Ma X, Nallapati R, Xiang B (2 01 9) Multi-passage bert: A globally normalized bert model",
+    "method": "spaced_format"
+  },
+  "149": {
+    "number": "149",
+    "text": "Wen Z, Peng Y (2 02 0) Multi-level knowledge injecting for visual commonsense reasoning. IEEE",
+    "method": "spaced_format"
+  },
+  "150": {
+    "number": "150",
+    "text": "Wiese G, Weissenborn D, Neves M (2 01 7) Neural domain adaptation for biomedical question answering.",
+    "method": "spaced_format"
+  },
+  "151": {
+    "number": "151",
+    "text": "Wong A, Plasek JM, Montecalvo SP, Zhou L (2 01 8) Natural language processing and its implications for",
+    "method": "spaced_format"
+  },
+  "152": {
+    "number": "152",
+    "text": "Woods WA (1 97 8) Semantics and quantification in natural language question answering. Adv Comput 1 7:",
+    "method": "spaced_format"
+  },
+  "153": {
+    "number": "153",
+    "text": "Xia T (2 02 0) A constant time complexity spam detection algorithm for boosting throughput on rule-based",
+    "method": "spaced_format"
+  },
+  "154": {
+    "number": "154",
+    "text": "Xie P, Xing E (2 01 7) A constituent-centric neural architecture for reading comprehension. In proceedings",
+    "method": "spaced_format"
+  },
+  "155": {
+    "number": "155",
+    "text": "Yan X, Ye Y, Mao Y, Yu H (2 01 9) Shared-private information bottleneck method for cross-modal",
+    "method": "spaced_format"
+  },
+  "156": {
+    "number": "156",
+    "text": "Yi J, Nasukawa T, Bunescu R, Niblack W (2 00 3) Sentiment analyzer: extracting sentiments about a given",
+    "method": "spaced_format"
+  },
+  "157": {
+    "number": "157",
+    "text": "Young SJ, Chase LL (1 99 8) Speech recognition evaluation: a review of the US CSR and LVCSR",
+    "method": "spaced_format"
+  },
+  "158": {
+    "number": "158",
+    "text": "Yu S, et al. (2 01 8) \"A multi-stage memory augmented neural network for machine reading comprehen-",
+    "method": "spaced_format"
+  },
+  "159": {
+    "number": "159",
+    "text": "Zajic DM, Dorr BJ, Lin J (2 00 8) Single-document and multi-document summarization techniques for",
+    "method": "spaced_format"
+  },
+  "160": {
+    "number": "160",
+    "text": "Zeroual I, Lakhouaja A, Belahbib R (2 01 7) Towards a standard part of speech tagset for the Arabic",
+    "method": "spaced_format"
+  },
+  "1": {
+    "number": "1",
+    "text": "Ahonen H, Heinonen O, Klemettinen M, Verkamo AI (1 99 8) Applying data mining techniques for",
+    "method": "single_format"
+  },
+  "2": {
+    "number": "2",
+    "text": "Alshawi H (1 99 2) The core language engine. MIT press",
+    "method": "single_format"
+  },
+  "3": {
+    "number": "3",
+    "text": "Alshemali B, Kalita J (2 02 0) Improving the reliability of deep neural networks in NLP: A review. Knowl-",
+    "method": "single_format"
+  },
+  "4": {
+    "number": "4",
+    "text": "Andreev ND (1 96 7) The intermediary language as the focal point of machine translation. In: Booth AD",
+    "method": "single_format"
+  },
+  "5": {
+    "number": "5",
+    "text": "Androutsopoulos I, Paliouras G, Karkaletsis V, Sakkis G, Spyropoulos CD, Stamatopoulos P (2 00 0)",
+    "method": "single_format"
+  },
+  "6": {
+    "number": "6",
+    "text": "Baclic O, Tunis M, Young K, Doan C, Swerdfeger H, Schonfeld J (2 02 0) Artificial intelligence in public",
+    "method": "single_format"
+  },
+  "7": {
+    "number": "7",
+    "text": "Bahdanau D, Cho K, Bengio Y (2 01 5) Neural machine translation by jointly learning to align and",
+    "method": "single_format"
+  },
+  "8": {
+    "number": "8",
+    "text": "Bangalore S, Rambow O, Whittaker S (2 00 0) Evaluation metrics for generation. In proceedings of the first",
+    "method": "single_format"
+  },
+  "9": {
+    "number": "9",
+    "text": "Baud RH, Rassinoux AM, Scherrer JR (1 99 1) Knowledge representation of discharge summaries. In",
+    "method": "single_format"
+  }
+}

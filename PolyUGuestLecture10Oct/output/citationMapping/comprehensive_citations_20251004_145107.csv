@@ -1,0 +1,599 @@
+Ref_Number,Reference_Text,Citation_Count,Context_1,Context_2,Context_3,All_Contexts
+0,Reference not found,11,"In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...","The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat...","In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat... | the users in prioritizing their messages based on the emotions attached with the message. Seal
+et al. (2 02 0) [ 1 20 ] proposed an efficient emotion detection method by searching emotional
+words from a pre-defined emotional keyword database and anal... | down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ... | ... and 6 more"
+1,,98,"with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei...","is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei...","with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei... | is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | ... and 93 more"
+2,,20,"A language can be defined as a set of rules or set of symbols where symbols are combined and
+used for conveying information or broadcasting the information. Since all the users may not be
+well-versed in machine specific language, N atural Language Pr...","In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...","In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...","A language can be defined as a set of rules or set of symbols where symbols are combined and
+used for conveying information or broadcasting the information. Since all the users may not be
+well-versed in machine specific language, N atural Language Pr... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | ... and 15 more"
+3,,26,"A language can be defined as a set of rules or set of symbols where symbols are combined and
+used for conveying information or broadcasting the information. Since all the users may not be
+well-versed in machine specific language, N atural Language Pr...","Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...","The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","A language can be defined as a set of rules or set of symbols where symbols are combined and
+used for conveying information or broadcasting the information. Since all the users may not be
+well-versed in machine specific language, N atural Language Pr... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat... | relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh... | ... and 21 more"
+4,,24,"with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...","with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | ... and 19 more"
+5,,26,"Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...","In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...","In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...","Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | ... and 21 more"
+6,,25,"Phonology is “ the study of sound pertaining to the system of language ” whereas Lass 19 98
+[ 6 6 ]wrote that phonology refers broadly with the sounds of language, concerned with sub-
+discipline of linguistics, behavior and organization of sounds. Ph...","Phonology is “ the study of sound pertaining to the system of language ” whereas Lass 19 98
+[ 6 6 ]wrote that phonology refers broadly with the sounds of language, concerned with sub-
+discipline of linguistics, behavior and organization of sounds. Ph...","with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","Phonology is “ the study of sound pertaining to the system of language ” whereas Lass 19 98
+[ 6 6 ]wrote that phonology refers broadly with the sounds of language, concerned with sub-
+discipline of linguistics, behavior and organization of sounds. Ph... | Phonology is “ the study of sound pertaining to the system of language ” whereas Lass 19 98
+[ 6 6 ]wrote that phonology refers broadly with the sounds of language, concerned with sub-
+discipline of linguistics, behavior and organization of sounds. Ph... | with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | ... and 20 more"
+7,,23,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ...","but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ...","The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat... | ... and 18 more"
+8,,21,"with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...","with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ... | but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ... | ... and 16 more"
+9,,22,"Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...","b)
+Components and Levels of Representation
+The process of language generation involves the following interweaved tasks. Content selec-
+tion: Information should be selected and included in the set. Depending on how this informa-
+tion is parsed into re...","The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | b)
+Components and Levels of Representation
+The process of language generation involves the following interweaved tasks. Content selec-
+tion: Information should be selected and included in the set. Depending on how this informa-
+tion is parsed into re... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat... | ... and 17 more"
+10,"Baud RH, Rassinoux AM, Scherrer JR (1 99 2) Natural language processing and semantical representation",1,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...",,,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ..."
+11,"Baud RH, Alpay L, Lovis C (1 99 4) Let ’ s meet the users with natural language understanding. Knowledge",1,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
+12,"Bengio Y, Ducharme R, Vincent P (2 00 1) A neural probabilistic language model. Proceedings of NIPS",1,"is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei...",,,"is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei..."
+13,"Benson E, Haghighi A, Barzilay R (2 01 1) Event discovery in social media feeds. In proceedings of the",1,"The lexicon was created using Me SH (Medical Subject Headings), Dorland ’ s Illustrated
+Medical Dictionary and general English Dictionaries. The Centre d ’ Informatique Hospitaliere
+of the Hopital Cantonal de Geneve is working on an electronic archiv...",,,"The lexicon was created using Me SH (Medical Subject Headings), Dorland ’ s Illustrated
+Medical Dictionary and general English Dictionaries. The Centre d ’ Informatique Hospitaliere
+of the Hopital Cantonal de Geneve is working on an electronic archiv..."
+14,"Berger AL, Della Pietra SA, Della Pietra VJ (1 99 6) A maximum entropy approach to natural language",2,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...","down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...",,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ... | down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ..."
+15,"Blanzieri E, Bryl A (2 00 8) A survey of learning-based techniques of email spam filtering. Artif Intell Rev",1,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe...",,,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe..."
+16,"Bondale N, Maloor P, Vaidyanathan A, Sengupta S, Rao PV (1 99 9) Extraction of information from open-",1,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe...",,,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe..."
+17,"Borst F, Sager N, Nhàn NT, Su Y, Lyman M, Tick LJ, ..., Scherrer JR (1 98 9) Analyse automatique de",1,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe...",,,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe..."
+18,"Briscoe EJ, Grover C, Boguraev B, Carroll J (1 98 7) A formalism and environment for the development of",2,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo...",,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo..."
+19,"Carreras X, Marquez L (2 00 1) Boosting trees for anti-spam email filtering. ar Xiv preprint cs/0 10 90 15",1,"The lexicon was created using Me SH (Medical Subject Headings), Dorland ’ s Illustrated
+Medical Dictionary and general English Dictionaries. The Centre d ’ Informatique Hospitaliere
+of the Hopital Cantonal de Geneve is working on an electronic archiv...",,,"The lexicon was created using Me SH (Medical Subject Headings), Dorland ’ s Illustrated
+Medical Dictionary and general English Dictionaries. The Centre d ’ Informatique Hospitaliere
+of the Hopital Cantonal de Geneve is working on an electronic archiv..."
+20,"Chalkidis I, Fergadiotis M, Malakasiotis P, Aletras N, Androutsopoulos I (2 02 0) LEGAL-BERT: the",1,"the users in prioritizing their messages based on the emotions attached with the message. Seal
+et al. (2 02 0) [ 1 20 ] proposed an efficient emotion detection method by searching emotional
+words from a pre-defined emotional keyword database and anal...",,,"the users in prioritizing their messages based on the emotions attached with the message. Seal
+et al. (2 02 0) [ 1 20 ] proposed an efficient emotion detection method by searching emotional
+words from a pre-defined emotional keyword database and anal..."
+21,"Chi EC, Lyman MS, Sager N, Friedman C, Macleod C (1 98 5) A database of computer-structured",1,"c)
+Paper Reviews: It provides reviews of computing and informatics conferences written in
+English and Spanish languages. It has 4 05 reviews which are evaluated on a 5-point scale
+ranging from very negative to very positive.
+d)
+IMDB: For natural lang...",,,"c)
+Paper Reviews: It provides reviews of computing and informatics conferences written in
+English and Spanish languages. It has 4 05 reviews which are evaluated on a 5-point scale
+ranging from very negative to very positive.
+d)
+IMDB: For natural lang..."
+22,"Cho K, Van Merriënboer B, Bahdanau D, Bengio Y, (2 01 4) On the properties of neural machine",1,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
+23,"Chomsky N (1 96 5) Aspects of the theory of syntax. MIT Press, Cambridge, Massachusetts",1,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d...",,,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d..."
+24,Choudhary N (2 02 1) LDC-IL: the Indian repository of resources for language technology. Lang Resources,1,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
+25,"Chouikhi H, Chniter H, Jarray F (2 02 1) Arabic sentiment analysis using BERT model. In international",2,"Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...","Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...",,"Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ..."
+26,"Chung J, Gulcehre C, Cho K, Bengio Y, (2 01 4) Empirical evaluation of gated recurrent neural networks",1,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ...",,,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ..."
+27,Cohen WW (1 99 6) Learning rules that classify e-mail. In AAAI spring symposium on machine learning in,4,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","Corpus is a collection of linguistic data, either compiled from written texts or transcribed from
+recorded speech. Corpora are intended primarily for testing linguistic hypotheses - e.g., to
+determine how a certain sound, word, or syntactic construct...","d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo...","The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | Corpus is a collection of linguistic data, either compiled from written texts or transcribed from
+recorded speech. Corpora are intended primarily for testing linguistic hypotheses - e.g., to
+determine how a certain sound, word, or syntactic construct... | d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo... | d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo..."
+28,"Cohen PR, Morgan J, Ramsay AM (2 00 2) Intention in communication, Am J Psychol 1 04(4)",1,"Naive Bayes is a probabilistic algorithm which is based on probability theory and Bayes ’
+Theorem to predict the tag of a text such as news or customer review. It helps to calculate the
+probability of each tag for the given text and return the tag wi...",,,"Naive Bayes is a probabilistic algorithm which is based on probability theory and Bayes ’
+Theorem to predict the tag of a text such as news or customer review. It helps to calculate the
+probability of each tag for the given text and return the tag wi..."
+29,"Collobert R, Weston J (2 00 8) A unified architecture for natural language processing. In proceedings of the",1,"Rationalist approach or symbolic approach assumes that a crucial part of the knowledge in the
+human mind is not derived by the senses but is firm in advance, probably by genetic
+inheritance. Noam Chomsky was the strongest advocate of this approach. I...",,,"Rationalist approach or symbolic approach assumes that a crucial part of the knowledge in the
+human mind is not derived by the senses but is firm in advance, probably by genetic
+inheritance. Noam Chomsky was the strongest advocate of this approach. I..."
+30,"Dai Z, Yang Z, Yang Y, Carbonell J, Le QV, Salakhutdinov R, (2 01 9) Transformer-xl: attentive language",1,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
+31,"Davis E, Marcus G (2 01 5) Commonsense reasoning and commonsense knowledge in artificial intelli-",1,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ...",,,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ..."
+32,"Desai NP, Dabhi VK (2 02 2) Resources and components for Gujarati NLP systems: a survey. Artif Intell",1,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...",,,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ..."
+33,"Devlin J, Chang MW, Lee K, Toutanova K, (2 01 8) Bert: pre-training of deep bidirectional transformers for",2,"Naive Bayes is a probabilistic algorithm which is based on probability theory and Bayes ’
+Theorem to predict the tag of a text such as news or customer review. It helps to calculate the
+probability of each tag for the given text and return the tag wi...","that even though a great amount of work on natural language processing is available in
+literature surveys (one may refer to [ 1 5 , 3 2 , 6 3 , 9 8 , 1 33 , 1 51 ] focusing on one domain such
+as usage of deep-learning techniques in NLP, techniques us...",,"Naive Bayes is a probabilistic algorithm which is based on probability theory and Bayes ’
+Theorem to predict the tag of a text such as news or customer review. It helps to calculate the
+probability of each tag for the given text and return the tag wi... | that even though a great amount of work on natural language processing is available in
+literature surveys (one may refer to [ 1 5 , 3 2 , 6 3 , 9 8 , 1 33 , 1 51 ] focusing on one domain such
+as usage of deep-learning techniques in NLP, techniques us..."
+34,"Diab M, Hacioglu K, Jurafsky D (2 00 4) Automatic tagging of Arabic text: From raw text to base phrase",1,"We next discuss some of the recent NLP projects implemented by various companies:
+a)
+ACE Powered GDPR Robot Launched by RAVN Systems [ 1 34 ]
+RAVN Systems, a leading expert in Artificial Intelligence (AI), Search and Knowledge
+Management Solutions, a...",,,"We next discuss some of the recent NLP projects implemented by various companies:
+a)
+ACE Powered GDPR Robot Launched by RAVN Systems [ 1 34 ]
+RAVN Systems, a leading expert in Artificial Intelligence (AI), Search and Knowledge
+Management Solutions, a..."
+35,Doddington G (2 00 2) Automatic evaluation of machine translation quality using n-gram co-occurrence,2,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo...",,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | d)
+There are around 1 60,0 00 sentence pairings in the IWSLT 1 4. The dataset includes
+descriptions in English-German (En-De) and German-English (De-En) languages. There
+are around 2 00 K training sentence sets in the IWSLT 1 3 dataset.
+e)
+The IIT Bo..."
+36,"Drucker H, Wu D, Vapnik VN (1 99 9) Support vector machines for spam categorization. IEEE Trans",2,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...","relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh... | relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
+37,"Dunlavy DM, O ’ Leary DP, Conroy JM, Schlesinger JD (2 00 7) QCS: A system for querying, clustering",1,"Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat...",,,"Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat..."
+38,Elkan C (2 00 8) Log-Linear Models and Conditional Random Fields. http://cseweb.ucsd.edu/welkan/2 50 B/,1,"Natural Language Processing can be applied into various areas like Machine Translation,
+Email Spam detection, Information Extraction, Summarization, Question Answering etc. Next,
+we discuss some of the areas with the relevant work done in those direc...",,,"Natural Language Processing can be applied into various areas like Machine Translation,
+Email Spam detection, Information Extraction, Summarization, Question Answering etc. Next,
+we discuss some of the areas with the relevant work done in those direc..."
+39,"Emele MC, Dorna M (1 99 8) Ambiguity preserving machine translation using packed representations. In",2,"with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta...","Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ...",,"with the use of a vocabulary. For example, in case of token drived , stemming results in “ driv ” ,
+whereas lemmatization attempts to return the correct basic form either drive or drived
+depending on the context it is used.
+d)
+Syntactic
+After Po S ta... | Ambiguity is one of the major problems of natural language which occurs when one
+sentence can lead to different interpretations. This is usually faced in syntactic, semantic,
+and lexical levels. In case of syntactic level ambiguity, one sentence can ..."
+40,"Europarl: A Parallel Corpus for Statistical Machine Translation (2 00 5) Philipp Koehn , MT Summit 2 00 5",1,"would be the case then the admins could easily view the personal banking information of
+customers with is not correct.
+Link: https://www.macobserver.com/analysis/capital-one-natural-language-chatbot-eno/
+c)
+Future of BI in Natural Language Processing...",,,"would be the case then the admins could easily view the personal banking information of
+customers with is not correct.
+Link: https://www.macobserver.com/analysis/capital-one-natural-language-chatbot-eno/
+c)
+Future of BI in Natural Language Processing..."
+41,"Fan Y, Tian F, Xia Y, Qin T, Li XY, Liu TY (2 02 0) Searching better architectures for neural machine",1,"Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat...",,,"Neural Networks those are recurrent in nature due to performing the same function for every
+data, also known as Recurrent Neural Networks (RNNs), have also been used in NLP, and
+found ideal for sequential data such as text, time series, financial dat..."
+42,"Fang H, Lu W, Wu F, Zhang Y, Shang X, Shao J, Zhuang Y (2 01 5) Topic aspect-oriented summarization",1,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ...",,,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ..."
+43,"Fattah MA, Ren F (2 00 9) GA, MR, FFNN, PNN and GMM based models for automatic text summari-",1,"is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei...",,,"is achieved by recognizing the entity referenced by an anaphor to resolve the references used
+within the text with the same sense. For example, (i) Ram topped in the class. (ii) He was
+intelligent. Here i) and ii) together form a discourse. Human bei..."
+44,Feldman S (1 99 9) NLP meets the jabberwocky: natural language processing in information retrieval.,1,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...",,,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ..."
+45,"Friedman C, Cimino JJ, Johnson SB (1 99 3) A conceptual model for clinical radiology reports. In",1,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...",,,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ..."
+46,"Gao T, Dontcheva M, Adar E, Liu Z, Karahalios K Data Tone: managing ambiguity in natural language",1,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...",,,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ..."
+47,"Ghosh S, Vinyals O, Strope B, Roy S, Dean T, Heck L (2 01 6) Contextual lstm (clstm) models for large",1,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...",,,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ..."
+48,"Glasgow B, Mandell A, Binney D, Ghemri L, Fisher D (1 99 8) MITA: an information-extraction approach",1,"Bi-directional Encoder Representations from Transformers (BERT) is a pre-trained model with
+unlabeled text available on Book Corpus and English Wikipedia. This can be fine-tuned to
+capture context for various NLP tasks such as question answering, sen...",,,"Bi-directional Encoder Representations from Transformers (BERT) is a pre-trained model with
+unlabeled text available on Book Corpus and English Wikipedia. This can be fine-tuned to
+capture context for various NLP tasks such as question answering, sen..."
+49,Goldberg Y (2 01 7) Neural network methods for natural language processing. Synthesis lectures on human,1,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d...",,,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d..."
+50,"Gong Y, Liu X (2 00 1) Generic text summarization using relevance measure and latent semantic analysis.",2,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","of up to 2.8 bi-lingual evaluation understudy (BLEU) scores compared to various neural
+machine translation systems. It outperformed the commonly used MT system on a WMT 1 4
+dataset.
+Fan et al. [ 4 1 ] introduced a gradient-based neural architecture s...",,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | of up to 2.8 bi-lingual evaluation understudy (BLEU) scores compared to various neural
+machine translation systems. It outperformed the commonly used MT system on a WMT 1 4
+dataset.
+Fan et al. [ 4 1 ] introduced a gradient-based neural architecture s..."
+51,"Green Jr, BF, Wolf AK, Chomsky C, Laughery K (1 96 1) Baseball: an automatic question-answerer. In",2,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d...","that even though a great amount of work on natural language processing is available in
+literature surveys (one may refer to [ 1 5 , 3 2 , 6 3 , 9 8 , 1 33 , 1 51 ] focusing on one domain such
+as usage of deep-learning techniques in NLP, techniques us...",,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d... | that even though a great amount of work on natural language processing is available in
+literature surveys (one may refer to [ 1 5 , 3 2 , 6 3 , 9 8 , 1 33 , 1 51 ] focusing on one domain such
+as usage of deep-learning techniques in NLP, techniques us..."
+52,"Greff K, Srivastava RK, Koutník J, Steunebrink BR, Schmidhuber J (2 01 6) LSTM: A search space",1,"In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ...",,,"In the late 1 94 0 s the term NLP wasn ’ t in existence, but the work regarding machine translation
+(MT) had started. In fact, Research in this period was not completely localized. Russian and
+English were the dominant languages for MT (Andreev,1 96 ..."
+53,"Grishman R, Sager N, Raze C, Bookchin B (1 97 3) The linguistic string parser. In proceedings of the",1,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe...",,,"b)
+Text Categorization
+Categorization systems input a large flow of data like official documents, military casualty
+reports, market data, newswires etc. and assign them to predefined categories or indices. For
+example, The Carnegie Group ’ s Construe..."
+54,"Hayes PJ (1 99 2) Intelligent high-volume text processing using shallow, domain-specific techniques. Text-",1,"of up to 2.8 bi-lingual evaluation understudy (BLEU) scores compared to various neural
+machine translation systems. It outperformed the commonly used MT system on a WMT 1 4
+dataset.
+Fan et al. [ 4 1 ] introduced a gradient-based neural architecture s...",,,"of up to 2.8 bi-lingual evaluation understudy (BLEU) scores compared to various neural
+machine translation systems. It outperformed the commonly used MT system on a WMT 1 4
+dataset.
+Fan et al. [ 4 1 ] introduced a gradient-based neural architecture s..."
+55,"Hendrix GG, Sacerdoti ED, Sagalowicz D, Slocum J (1 97 8) Developing a natural language interface to",1,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d...",,,"than one way is also an area to work upon where more accuracy can be achieved. Language
+containing informal phrases, expressions, idioms, and culture-specific lingo make difficult to
+design models intended for the broad use, however having a lot of d..."
+56,Reference not found,1,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
+57,"Hirschman L, Grishman R, Sager N (1 97 6) From text to structured information: automatic processing of",1,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ...",,,"but for the emphasis on heavy evaluation, starting a trend that became a major feature in 1 99 0 s
+(Young and Chase, 1 99 8; Sundheim and Chinchor,1 99 3) [ 1 31 , 1 57 ]. Work on user modeling
+(Wahlster and Kobsa, 1 98 9) [ 1 42 ] was one strand in ..."
+58,"Hochreiter S, Schmidhuber J (1 99 7) Long short-term memory. Neural Comput 9(8):1 73 5 – 1 78 0",2,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ...","of up to 2.8 bi-lingual evaluation understudy (BLEU) scores compared to various neural
+machine translation systems. It outperformed the commonly used MT system on a WMT 1 4
+dataset.
+Fan et al. [ 4 1 ] introduced a gradient-based neural architecture s...",,"The main objectives of NLP include interpretation, analysis, and manipulation of natural
+language data for the intended purpose with the use of various algorithms, tools, and methods.
+However, there are many challenges involved which may depend upon ... | of up to 2.8 bi-lingual evaluation understudy (BLEU) scores compared to various neural
+machine translation systems. It outperformed the commonly used MT system on a WMT 1 4
+dataset.
+Fan et al. [ 4 1 ] introduced a gradient-based neural architecture s..."
+59,"Huang Z, Xu W, Yu K (2 01 5) Bidirectional LSTM-CRF models for sequence tagging. ar Xiv preprint",1,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ...",,,"down, so an ability to summarize the data while keeping the meaning intact is highly
+required. This is important not just allowing us the ability to recognize the understand
+the important information for a large set of data, it is used to understand ..."
+60,"Hutchins WJ (1 98 6) Machine translation: past, present, future (p. 6 6). Ellis Horwood, Chichester",1,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh...",,,"relevant references cited therein. The use of BERT (Bidirectional Encoder Representations
+from Transformers) [ 3 3 ] model and successive models have also played an important role for
+NLP.
+Many researchers worked on NLP, building tools and systems wh..."
