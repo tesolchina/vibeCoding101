@@ -1,0 +1,9 @@
+# Core dependencies for Vibe Coding 101
+jupyter>=1.0.0
+notebook>=6.5.0
+ipython>=8.0.0
+
+# Optional but useful for data work
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
