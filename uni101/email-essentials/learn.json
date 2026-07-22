@@ -1,0 +1,209 @@
+{
+  "title": "Using Email Well at University",
+  "code": "uni101/email-essentials",
+  "intro": "Five short scenarios about using your university email as a professional identity tool. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "scenarios": [
+    {
+      "id": "s1",
+      "topic": "Email = identity",
+      "situation": "Ming set up his university email but left the display name as 王明. He emails Dr Smith, who teaches in English and cannot read Chinese.",
+      "question": "What will Dr Smith see, and what should Ming do?",
+      "options": [
+        {
+          "text": "Dr Smith sees 王明 and may not know who sent it or how to reply politely. Ming should change the display name to \"Ming Wang\" or a bilingual \"Ming Wang 王明\".",
+          "correct": true,
+          "feedback": "Right. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name."
+        },
+        {
+          "text": "It doesn't matter — the email address itself shows he's a student.",
+          "correct": false,
+          "feedback": "The address shows the institution, but the display name is what appears in the inbox list and greeting. A name staff can't read makes you harder to reply to and looks careless."
+        },
+        {
+          "text": "Ming should create a personal Gmail with an English name and use that instead.",
+          "correct": false,
+          "feedback": "No — the university address is the trusted, institution-bound identity. Fix the display name on the university account instead."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "topic": "Homework first",
+      "situation": "Anna wants to know when the essay is due. She opens a new email to her teacher.",
+      "question": "What should Anna do first?",
+      "options": [
+        {
+          "text": "Check the syllabus, notes, and course announcements before sending anything.",
+          "correct": true,
+          "feedback": "Exactly. If the answer is already in the materials, emailing the teacher signals you haven't done the work — and wastes their time."
+        },
+        {
+          "text": "Send the email — teachers are paid to answer questions.",
+          "correct": false,
+          "feedback": "Asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check."
+        },
+        {
+          "text": "Ask a classmate to email the teacher for her.",
+          "correct": false,
+          "feedback": "Same problem, delegated. Check the course materials first — the due date is almost certainly there."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "topic": "Salutations",
+      "situation": "Ben is writing a formal email to Professor Sarah Lee, whom he has never met.",
+      "question": "Which greeting is appropriate?",
+      "options": [
+        {
+          "text": "Dear Professor Lee,",
+          "correct": true,
+          "feedback": "Correct — formal greeting is Title + SURNAME."
+        },
+        {
+          "text": "Dear Professor Sarah,",
+          "correct": false,
+          "feedback": "Title + first name is always wrong (\"Dr John\", \"Professor Sarah\"). Use Title + surname: Professor Lee."
+        },
+        {
+          "text": "Hi Sarah!",
+          "correct": false,
+          "feedback": "First name alone is only acceptable when the teacher is clearly informal or has invited it — never in a first formal email."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "topic": "Address alias",
+      "situation": "Carla's university address is s2409831@uni.edu. She notices staff emails look like jane.chan@uni.edu.",
+      "question": "What should Carla do?",
+      "options": [
+        {
+          "text": "Check whether the university lets her add a readable alias like carla.gomez@uni.edu — most do — and switch to it.",
+          "correct": true,
+          "feedback": "Yes. A student-number address is functional but anonymous; a readable alias makes every email you send more professional."
+        },
+        {
+          "text": "Nothing — students can't change university addresses.",
+          "correct": false,
+          "feedback": "Most universities allow a readable alias alongside the student-number address. It's worth the five minutes to set up."
+        },
+        {
+          "text": "Put her full name and student number in every subject line instead.",
+          "correct": false,
+          "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "topic": "Inbox management",
+      "situation": "Dev's inbox shows 1,247 unread emails. He says: \"I read the important ones — the rest can sit there.\"",
+      "question": "What does this actually reveal?",
+      "options": [
+        {
+          "text": "He has no email system — and email management is part of time and project management. He needs a triage habit: read → act → archive, aiming for near-zero unread.",
+          "correct": true,
+          "feedback": "Right. A four-digit unread count means important mail WILL eventually be missed. Triage is a study skill, not a tidiness preference."
+        },
+        {
+          "text": "Nothing — unread counts are cosmetic.",
+          "correct": false,
+          "feedback": "An unmanaged inbox means no reliable way to catch deadlines, room changes, or feedback. It's a time-management failure waiting to surface."
+        },
+        {
+          "text": "He should delete everything and start fresh (\"declare email bankruptcy\") every term.",
+          "correct": false,
+          "feedback": "Bankruptcy without a new habit repeats the cycle. The fix is the daily triage habit: read → act → archive."
+        }
+      ]
+    }
+  ],
+  "finalCheck": [
+    {
+      "question": "Your display name at an English-medium university should be…",
+      "options": [
+        {
+          "text": "English (pinyin) or bilingual",
+          "correct": true
+        },
+        {
+          "text": "Chinese only",
+          "correct": false
+        },
+        {
+          "text": "A nickname",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Before emailing a teacher a question, you should…",
+      "options": [
+        {
+          "text": "Check syllabus, notes and announcements first",
+          "correct": true
+        },
+        {
+          "text": "Email immediately — faster",
+          "correct": false
+        },
+        {
+          "text": "Ask in three channels at once",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which is ALWAYS wrong?",
+      "options": [
+        {
+          "text": "Dr John (title + first name)",
+          "correct": true
+        },
+        {
+          "text": "Dear Dr Chan",
+          "correct": false
+        },
+        {
+          "text": "Dear Professor Lee",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "A readable address alias (name@ instead of s123456@)…",
+      "options": [
+        {
+          "text": "Is usually available and worth setting up",
+          "correct": true
+        },
+        {
+          "text": "Is impossible for students",
+          "correct": false
+        },
+        {
+          "text": "Is only for staff",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "1,000+ unread emails most likely means…",
+      "options": [
+        {
+          "text": "No email system — a time-management problem",
+          "correct": true
+        },
+        {
+          "text": "You are popular",
+          "correct": false
+        },
+        {
+          "text": "Nothing at all",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
