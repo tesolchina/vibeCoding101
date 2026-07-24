@@ -24,7 +24,8 @@
           "correct": false,
           "feedback": "No — the university address is the trusted, institution-bound identity. Fix the display name on the university account instead."
         }
-      ]
+      ],
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s1.mp3"
     },
     {
       "id": "s2",
@@ -47,7 +48,8 @@
           "correct": false,
           "feedback": "Same problem, delegated. Check the course materials first — the due date is almost certainly there."
         }
-      ]
+      ],
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s2.mp3"
     },
     {
       "id": "s3",
@@ -70,7 +72,8 @@
           "correct": false,
           "feedback": "First name alone is only acceptable when the teacher is clearly informal or has invited it — never in a first formal email."
         }
-      ]
+      ],
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s3.mp3"
     },
     {
       "id": "s4",
@@ -93,7 +96,8 @@
           "correct": false,
           "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name."
         }
-      ]
+      ],
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s4.mp3"
     },
     {
       "id": "s5",
@@ -116,7 +120,8 @@
           "correct": false,
           "feedback": "Bankruptcy without a new habit repeats the cycle. The fix is the daily triage habit: read → act → archive."
         }
-      ]
+      ],
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s5.mp3"
     }
   ],
   "finalCheck": [
@@ -205,5 +210,6 @@
         }
       ]
     }
-  ]
+  ],
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/intro.mp3"
 }
