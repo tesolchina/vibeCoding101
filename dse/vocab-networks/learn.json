@@ -1,0 +1,156 @@
+{
+  "title": "Learning Vocabulary in Networks",
+  "code": "dse/vocab-networks",
+  "intro": "Five short scenarios about how to actually learn new words from a reading passage — as connected networks, not lists. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "scenarios": [
+    {
+      "id": "s1",
+      "topic": "Networks, not lists",
+      "situation": "Ka-yan meets the word 'analyse' in a reading passage. She writes it in her notebook with the Chinese meaning and moves on.",
+      "question": "What would make this word stick better?",
+      "options": [
+        {
+          "text": "Also note its family (analysis, analytical, analyst), a couple of partners like 'analyse data', and how it differs from 'examine'.",
+          "correct": true,
+          "feedback": "Right. A word is learned when it is connected — family, collocates, near-synonyms. One connected word is worth five isolated ones."
+        },
+        {
+          "text": "Copy the word ten times so the spelling is automatic.",
+          "correct": false,
+          "feedback": "Copying builds spelling, not usable knowledge. Without connections to family and partner words, you still can't use it in writing."
+        },
+        {
+          "text": "Add nine more unrelated new words from the dictionary to make it a list of ten.",
+          "correct": false,
+          "feedback": "Ten unrelated words are harder to remember than ten connected ones. Build a network around words from your passage instead."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "topic": "Context before definition",
+      "situation": "Tom finds 'deteriorate' in a passage about air quality: 'Air quality has deteriorated sharply since 2019.' He asks his tutor what it means.",
+      "question": "What is the best first step?",
+      "options": [
+        {
+          "text": "Look back at the sentence: what happened to air quality since 2019, and what word pattern is it in ('has deteriorated sharply')?",
+          "correct": true,
+          "feedback": "Yes. The sentence is the anchor — it shows the meaning (got worse), the grammar (intransitive verb), and a partner word (sharply)."
+        },
+        {
+          "text": "Memorise the dictionary definition first, then re-read the passage later.",
+          "correct": false,
+          "feedback": "Definition-first learning is fragile. Meet the word doing its job in context first; the definition then confirms what you worked out."
+        },
+        {
+          "text": "Skip it — you can usually guess unknown words from the pictures.",
+          "correct": false,
+          "feedback": "Guessing and moving on is fine for reading speed, but if the word is high-value you should stop and anchor it in its sentence."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "topic": "Collocation",
+      "situation": "Wing writes in her essay: 'The government should do more attention to this problem.'",
+      "question": "What kind of error is this, and what is the fix?",
+      "options": [
+        {
+          "text": "A collocation error — 'attention' partners with 'pay', not 'do': 'pay more attention to'.",
+          "correct": true,
+          "feedback": "Exactly. The meaning was clear but the partnership was wrong. Fluency is mostly knowing which words go together."
+        },
+        {
+          "text": "A grammar error — she needs the passive voice.",
+          "correct": false,
+          "feedback": "The grammar is fine. The problem is the word partnership: English says 'pay attention', never 'do attention'."
+        },
+        {
+          "text": "A vocabulary error — 'attention' is the wrong word entirely.",
+          "correct": false,
+          "feedback": "'Attention' is the right word — it just needs its correct partner verb 'pay'. That's what a collocation is."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "topic": "Retrieval beats review",
+      "situation": "Two students learned the same 10 words on Monday. Amy re-reads her notes every day. Ben covers his notes and tests himself, then checks.",
+      "question": "Who will remember more by Friday?",
+      "options": [
+        {
+          "text": "Ben — self-testing (retrieval) strengthens memory much more than re-reading, especially spaced over days.",
+          "correct": true,
+          "feedback": "Right. Retrieval practice is one of the most reliable findings in learning science. Struggling to recall IS the learning."
+        },
+        {
+          "text": "Amy — repeated exposure is the safest way to memorise.",
+          "correct": false,
+          "feedback": "Re-reading feels safe because the notes look familiar — but familiarity is not recall. Ben's self-testing wins."
+        },
+        {
+          "text": "Both the same — what matters is total time spent.",
+          "correct": false,
+          "feedback": "Same time, very different results. HOW you practise matters: testing yourself beats reviewing."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "topic": "Production is the goal",
+      "situation": "After learning 10 words from a passage, Ken can match every word to its meaning in a quiz. His teacher says he is only halfway there.",
+      "question": "What is the missing half?",
+      "options": [
+        {
+          "text": "Using the words himself — writing his own sentences that combine two or three of them correctly.",
+          "correct": true,
+          "feedback": "Yes. Recognising a word (receptive) and using it (productive) are different skills. A word is yours when it appears in YOUR writing."
+        },
+        {
+          "text": "Learning another 10 words so his list is bigger.",
+          "correct": false,
+          "feedback": "More words without production just makes a longer passive list. Depth first: use this week's words in real sentences."
+        },
+        {
+          "text": "Learning the phonetic symbols for each word.",
+          "correct": false,
+          "feedback": "Pronunciation helps, but the gap the teacher means is production — using the words in his own sentences and paragraphs."
+        }
+      ]
+    }
+  ],
+  "finalCheck": [
+    {
+      "question": "You meet a useful new word in a reading passage. What is the FIRST thing to record?",
+      "options": [
+        { "text": "The sentence it appeared in, plus the pattern around it.", "correct": true },
+        { "text": "Its dictionary definition, copied in full.", "correct": false },
+        { "text": "Its phonetic transcription.", "correct": false }
+      ]
+    },
+    {
+      "question": "Roughly how many words should one session cover, and why?",
+      "options": [
+        { "text": "8–12 connected words — enough to form clusters, few enough for depth.", "correct": true },
+        { "text": "As many as possible — coverage matters most before the exam.", "correct": false },
+        { "text": "One word at a time, fully mastered before the next.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which is a collocation error?",
+      "options": [
+        { "text": "\"He did a big mistake.\"", "correct": true },
+        { "text": "\"He maked a mistake.\"", "correct": false },
+        { "text": "\"He made a mistake.\"", "correct": false }
+      ]
+    },
+    {
+      "question": "What should the END of every vocabulary session include?",
+      "options": [
+        { "text": "Writing your own sentences that combine 2–3 of the new words.", "correct": true },
+        { "text": "Re-reading the full word list three times.", "correct": false },
+        { "text": "Choosing the next passage to read.", "correct": false }
+      ]
+    }
+  ]
+}
