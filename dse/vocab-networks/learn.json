@@ -44,7 +44,8 @@
             "feedback": "Translation is one link only. Family, collocates and contrasts are what make the word stick."
           }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s1.mp3"
     },
     {
       "id": "s2",
@@ -87,7 +88,8 @@
             "feedback": "Print context can't give you sound — but it gives meaning, grammar and partners, which matter more first."
           }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s2.mp3"
     },
     {
       "id": "s3",
@@ -130,7 +132,8 @@
             "feedback": "Those are synonyms. Collocations are partners that appear together, like 'make a mistake'."
           }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s3.mp3"
     },
     {
       "id": "s4",
@@ -173,7 +176,8 @@
             "feedback": "Re-reading is weak for both — the retrieval effect applies to almost everything you learn."
           }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s4.mp3"
     },
     {
       "id": "s5",
@@ -216,41 +220,79 @@
             "feedback": "Difficulty isn't the split — even a simple word is only 'productive' once you can deploy it yourself."
           }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s5.mp3"
     }
   ],
   "finalCheck": [
     {
       "question": "You meet a useful new word in a reading passage. What is the FIRST thing to record?",
       "options": [
-        { "text": "The sentence it appeared in, plus the pattern around it.", "correct": true },
-        { "text": "Its dictionary definition, copied in full.", "correct": false },
-        { "text": "Its phonetic transcription.", "correct": false }
+        {
+          "text": "The sentence it appeared in, plus the pattern around it.",
+          "correct": true
+        },
+        {
+          "text": "Its dictionary definition, copied in full.",
+          "correct": false
+        },
+        {
+          "text": "Its phonetic transcription.",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Roughly how many words should one session cover, and why?",
       "options": [
-        { "text": "8–12 connected words — enough to form clusters, few enough for depth.", "correct": true },
-        { "text": "As many as possible — coverage matters most before the exam.", "correct": false },
-        { "text": "One word at a time, fully mastered before the next.", "correct": false }
+        {
+          "text": "8–12 connected words — enough to form clusters, few enough for depth.",
+          "correct": true
+        },
+        {
+          "text": "As many as possible — coverage matters most before the exam.",
+          "correct": false
+        },
+        {
+          "text": "One word at a time, fully mastered before the next.",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Which is a collocation error?",
       "options": [
-        { "text": "\"He did a big mistake.\"", "correct": true },
-        { "text": "\"He maked a mistake.\"", "correct": false },
-        { "text": "\"He made a mistake.\"", "correct": false }
+        {
+          "text": "\"He did a big mistake.\"",
+          "correct": true
+        },
+        {
+          "text": "\"He maked a mistake.\"",
+          "correct": false
+        },
+        {
+          "text": "\"He made a mistake.\"",
+          "correct": false
+        }
       ]
     },
     {
       "question": "What should the END of every vocabulary session include?",
       "options": [
-        { "text": "Writing your own sentences that combine 2–3 of the new words.", "correct": true },
-        { "text": "Re-reading the full word list three times.", "correct": false },
-        { "text": "Choosing the next passage to read.", "correct": false }
+        {
+          "text": "Writing your own sentences that combine 2–3 of the new words.",
+          "correct": true
+        },
+        {
+          "text": "Re-reading the full word list three times.",
+          "correct": false
+        },
+        {
+          "text": "Choosing the next passage to read.",
+          "correct": false
+        }
       ]
     }
-  ]
+  ],
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/intro.mp3"
 }
