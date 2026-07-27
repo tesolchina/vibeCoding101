@@ -10,21 +10,41 @@
       "question": "What would make this word stick better?",
       "options": [
         {
-          "text": "Also note its family (analysis, analytical, analyst), a couple of partners like 'analyse data', and how it differs from 'examine'.",
+          "text": "Note its family (analysis, analytical), partners like 'analyse data', and how it differs from 'examine'.",
           "correct": true,
           "feedback": "Right. A word is learned when it is connected — family, collocates, near-synonyms. One connected word is worth five isolated ones."
         },
         {
-          "text": "Copy the word ten times so the spelling is automatic.",
+          "text": "Copy the word ten times in the notebook so that the spelling becomes completely automatic.",
           "correct": false,
           "feedback": "Copying builds spelling, not usable knowledge. Without connections to family and partner words, you still can't use it in writing."
         },
         {
-          "text": "Add nine more unrelated new words from the dictionary to make it a list of ten.",
+          "text": "Add nine more new words from the dictionary so the notebook page becomes a round list of ten.",
           "correct": false,
           "feedback": "Ten unrelated words are harder to remember than ten connected ones. Build a network around words from your passage instead."
         }
-      ]
+      ],
+      "probe": {
+        "question": "Quick check: what does it mean to know a word as part of a 'network'?",
+        "options": [
+          {
+            "text": "Knowing its family, partner words and near-synonyms, not just one meaning",
+            "correct": true,
+            "feedback": "Exactly — connections are what make a word retrievable and usable."
+          },
+          {
+            "text": "Knowing every dictionary sense of the word by heart",
+            "correct": false,
+            "feedback": "Depth of connections beats breadth of senses — most senses you'll never need."
+          },
+          {
+            "text": "Being able to translate it instantly into Chinese",
+            "correct": false,
+            "feedback": "Translation is one link only. Family, collocates and contrasts are what make the word stick."
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -33,21 +53,41 @@
       "question": "What is the best first step?",
       "options": [
         {
-          "text": "Look back at the sentence: what happened to air quality since 2019, and what word pattern is it in ('has deteriorated sharply')?",
+          "text": "Re-read the sentence: what happened to air quality, and what pattern is the word in?",
           "correct": true,
           "feedback": "Yes. The sentence is the anchor — it shows the meaning (got worse), the grammar (intransitive verb), and a partner word (sharply)."
         },
         {
-          "text": "Memorise the dictionary definition first, then re-read the passage later.",
+          "text": "Memorise the dictionary definition carefully first, then come back and re-read the passage later.",
           "correct": false,
           "feedback": "Definition-first learning is fragile. Meet the word doing its job in context first; the definition then confirms what you worked out."
         },
         {
-          "text": "Skip it — you can usually guess unknown words from the pictures.",
+          "text": "Skip it for now — unknown words can usually be worked out from the pictures and the headline.",
           "correct": false,
           "feedback": "Guessing and moving on is fine for reading speed, but if the word is high-value you should stop and anchor it in its sentence."
         }
-      ]
+      ],
+      "probe": {
+        "question": "Quick check: what can the surrounding sentence tell you about a new word?",
+        "options": [
+          {
+            "text": "Its meaning in use, its grammar pattern, and its partner words",
+            "correct": true,
+            "feedback": "Right — one good sentence carries meaning, grammar and collocation all at once."
+          },
+          {
+            "text": "Only a rough guess — real meaning comes from the dictionary",
+            "correct": false,
+            "feedback": "The dictionary confirms; the sentence teaches. Context shows the word actually working."
+          },
+          {
+            "text": "Its pronunciation and phonetic transcription",
+            "correct": false,
+            "feedback": "Print context can't give you sound — but it gives meaning, grammar and partners, which matter more first."
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -61,16 +101,36 @@
           "feedback": "Exactly. The meaning was clear but the partnership was wrong. Fluency is mostly knowing which words go together."
         },
         {
-          "text": "A grammar error — she needs the passive voice.",
+          "text": "A grammar error — the sentence needs to be rewritten in the passive voice to sound right.",
           "correct": false,
           "feedback": "The grammar is fine. The problem is the word partnership: English says 'pay attention', never 'do attention'."
         },
         {
-          "text": "A vocabulary error — 'attention' is the wrong word entirely.",
+          "text": "A vocabulary error — 'attention' is the wrong word and should be replaced entirely.",
           "correct": false,
           "feedback": "'Attention' is the right word — it just needs its correct partner verb 'pay'. That's what a collocation is."
         }
-      ]
+      ],
+      "probe": {
+        "question": "Quick check: what is a collocation?",
+        "options": [
+          {
+            "text": "A habitual partnership between words, like 'pay attention' or 'heavy rain'",
+            "correct": true,
+            "feedback": "Yes — collocations are conventional pairings, not logical rules. That's why they must be learned as chunks."
+          },
+          {
+            "text": "A grammar rule about the order of subject, verb and object",
+            "correct": false,
+            "feedback": "That's syntax. Collocation is about which words habitually go together, regardless of grammar."
+          },
+          {
+            "text": "Two words that share the same meaning",
+            "correct": false,
+            "feedback": "Those are synonyms. Collocations are partners that appear together, like 'make a mistake'."
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -79,21 +139,41 @@
       "question": "Who will remember more by Friday?",
       "options": [
         {
-          "text": "Ben — self-testing (retrieval) strengthens memory much more than re-reading, especially spaced over days.",
+          "text": "Ben — self-testing strengthens memory far more than re-reading, especially spaced over days.",
           "correct": true,
           "feedback": "Right. Retrieval practice is one of the most reliable findings in learning science. Struggling to recall IS the learning."
         },
         {
-          "text": "Amy — repeated exposure is the safest way to memorise.",
+          "text": "Amy — repeated daily exposure to the notes is the safest and most proven way to memorise.",
           "correct": false,
           "feedback": "Re-reading feels safe because the notes look familiar — but familiarity is not recall. Ben's self-testing wins."
         },
         {
-          "text": "Both the same — what matters is total time spent.",
+          "text": "Both about the same — what really matters is the total time each student spends with the words.",
           "correct": false,
           "feedback": "Same time, very different results. HOW you practise matters: testing yourself beats reviewing."
         }
-      ]
+      ],
+      "probe": {
+        "question": "Quick check: why does self-testing beat re-reading?",
+        "options": [
+          {
+            "text": "The effort of pulling a word from memory is what strengthens the memory",
+            "correct": true,
+            "feedback": "Exactly — retrieval effort is the workout; re-reading is watching someone else exercise."
+          },
+          {
+            "text": "Testing is faster, so you can cover more words per session",
+            "correct": false,
+            "feedback": "Testing is often slower — and that struggle is precisely why it works better."
+          },
+          {
+            "text": "Re-reading only works for grammar, not vocabulary",
+            "correct": false,
+            "feedback": "Re-reading is weak for both — the retrieval effect applies to almost everything you learn."
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -102,21 +182,41 @@
       "question": "What is the missing half?",
       "options": [
         {
-          "text": "Using the words himself — writing his own sentences that combine two or three of them correctly.",
+          "text": "Using the words himself — writing sentences that combine two or three of them correctly.",
           "correct": true,
           "feedback": "Yes. Recognising a word (receptive) and using it (productive) are different skills. A word is yours when it appears in YOUR writing."
         },
         {
-          "text": "Learning another 10 words so his list is bigger.",
+          "text": "Learning another 10 words from the next passage so that his vocabulary list keeps growing.",
           "correct": false,
           "feedback": "More words without production just makes a longer passive list. Depth first: use this week's words in real sentences."
         },
         {
-          "text": "Learning the phonetic symbols for each word.",
+          "text": "Learning the phonetic symbols for each word so he can also pronounce them accurately.",
           "correct": false,
           "feedback": "Pronunciation helps, but the gap the teacher means is production — using the words in his own sentences and paragraphs."
         }
-      ]
+      ],
+      "probe": {
+        "question": "Quick check: what is the difference between receptive and productive vocabulary?",
+        "options": [
+          {
+            "text": "Receptive = understanding a word you meet; productive = using it in your own output",
+            "correct": true,
+            "feedback": "Right — and the receptive-to-productive step is exactly what sentence-writing practises."
+          },
+          {
+            "text": "Receptive = spoken words; productive = written words",
+            "correct": false,
+            "feedback": "Both modes can be receptive (listening/reading) or productive (speaking/writing) — the split is understanding vs using."
+          },
+          {
+            "text": "Receptive = easy words; productive = advanced words",
+            "correct": false,
+            "feedback": "Difficulty isn't the split — even a simple word is only 'productive' once you can deploy it yourself."
+          }
+        ]
+      }
     }
   ],
   "finalCheck": [
