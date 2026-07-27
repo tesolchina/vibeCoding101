@@ -311,5 +311,6 @@
       ]
     }
   ],
-  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/intro.mp3"
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/intro.mp3",
+  "video": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/video/lesson.mp4"
 }
