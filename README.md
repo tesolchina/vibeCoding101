@@ -3,13 +3,13 @@
 
   ## Agent packs — run any of these right now
 
-  Each pack is a folder with a `SKILL.md` (the agent's instructions), optional `knowledge.md`, and an optional `learn.json` (interactive scenarios, narration audio and a lesson video).
+  Each pack is a folder with a `SKILL.md` (the agent's instructions), optional `knowledge.md`, and an optional `learn.json` (interactive scenarios played as narrated slides: auto-play voice narration + animated pictures, with the task revealed after each step), plus `audio/` (MP3 narration), `images/` (one AI-generated illustration per scenario, referenced by `scenario.image`) and `video/` (a lesson video).
 
   | Pack | Code | What's inside | Run it | Run it in YOUR OWN agent |
   |---|---|---|---|---|
-  | **Using Email Well at University** | `uni101/email-essentials` | Learn + Act (video + audio) | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=uni101%2Femail-essentials) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/uni101/email-essentials) |
-| **Learning Vocabulary in Networks** | `dse/vocab-networks` | Learn + Act (video + audio) | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=dse%2Fvocab-networks) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/dse/vocab-networks) |
-| **Hong Kong's Digital Commons** | `hk/saanseoi-atlas` | Learn + Act (video + audio) | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=hk%2Fsaanseoi-atlas) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/hk/saanseoi-atlas) |
+  | **Using Email Well at University** | `uni101/email-essentials` | Learn + Act (narrated slides + pictures + video) | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=uni101%2Femail-essentials) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/uni101/email-essentials) |
+| **Learning Vocabulary in Networks** | `dse/vocab-networks` | Learn + Act (narrated slides + pictures + video) | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=dse%2Fvocab-networks) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/dse/vocab-networks) |
+| **Hong Kong's Digital Commons** | `hk/saanseoi-atlas` | Learn + Act (narrated slides + pictures + video) | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=hk%2Fsaanseoi-atlas) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/hk/saanseoi-atlas) |
 | **Collocation Tutor** | `uni101/collocation-tutor` | Agent only | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=uni101%2Fcollocation-tutor) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/uni101/collocation-tutor) |
 | **Thesis Tutor** | `uni101/thesis-tutor` | Agent only | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=uni101%2Fthesis-tutor) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/uni101/thesis-tutor) |
 | **Study Planner** | `uni101/study-planner` | Agent only | [Run on SAIL Studio](https://fiteagent.replit.app/go?ref=uni101%2Fstudy-planner) | [Open the pack](https://github.com/tesolchina/vibecoding101/tree/main/uni101/study-planner) |
@@ -21,5 +21,6 @@
   3. **SAIL Studio launcher:** paste the folder link (or just the code, e.g. `uni101/thesis-tutor`) at https://fiteagent.replit.app/go — Learn scenarios run free; the practice agent uses your own AI key.
 
   ### Author your own pack
-  Copy `agentTemplate/` — a pack is just `SKILL.md` (+ optional `knowledge.md`, `learn.json`, `audio/`, `video/`). See `AUTHORING-MC.md` for the learn.json format.
+  Copy `agentTemplate/` — a pack is just `SKILL.md` (+ optional `knowledge.md`, `learn.json`, `audio/`, `images/`, `video/`). See `AUTHORING-MC.md` for the learn.json format.
+  New packs should ship one illustration per scenario (`images/s1.jpg` … referenced via `scenario.image`, ≤960px JPEG, generated with nano-banana-pro — no text inside the picture) and per-scenario narration MP3s: the SAIL Studio player runs each step as a narrated slide and reveals the task after the narration ends.
   
