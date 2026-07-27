@@ -294,5 +294,6 @@
       ]
     }
   ],
-  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/intro.mp3"
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/intro.mp3",
+  "video": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/video/lesson.mp4"
 }
