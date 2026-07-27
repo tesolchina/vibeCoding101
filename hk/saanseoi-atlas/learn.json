@@ -28,11 +28,21 @@
       "probe": {
         "question": "Quick check: what are the two ingredients that make shared data a commons?",
         "options": [
-          { "text": "An open licence to reuse it, and a way for the community to contribute and correct it", "correct": true },
-          { "text": "Being free of charge and hosted on a government website", "correct": false },
-          { "text": "Being the most complete dataset available", "correct": false }
+          {
+            "text": "An open licence to reuse it, and a way for the community to contribute and correct it",
+            "correct": true
+          },
+          {
+            "text": "Being free of charge and hosted on a government website",
+            "correct": false
+          },
+          {
+            "text": "Being the most complete dataset available",
+            "correct": false
+          }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/s1.mp3"
     },
     {
       "id": "s2",
@@ -59,11 +69,21 @@
       "probe": {
         "question": "Quick check: in the Atlas taxonomy, how many districts (level 2) can a neighbourhood (level 5) belong to?",
         "options": [
-          { "text": "At least one — every division at level 3 or below must sit within a district", "correct": true },
-          { "text": "Zero — neighbourhoods are independent of districts", "correct": false },
-          { "text": "As many as the community votes for", "correct": false }
+          {
+            "text": "At least one — every division at level 3 or below must sit within a district",
+            "correct": true
+          },
+          {
+            "text": "Zero — neighbourhoods are independent of districts",
+            "correct": false
+          },
+          {
+            "text": "As many as the community votes for",
+            "correct": false
+          }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/s2.mp3"
     },
     {
       "id": "s3",
@@ -90,11 +110,21 @@
       "probe": {
         "question": "Quick check: what does the URL /v0/hk/search?q=tai+po most likely do?",
         "options": [
-          { "text": "Asks the Atlas to search Hong Kong places matching 'tai po' and return the results as data", "correct": true },
-          { "text": "Downloads the entire Atlas database", "correct": false },
-          { "text": "Edits the name of a place called Tai Po", "correct": false }
+          {
+            "text": "Asks the Atlas to search Hong Kong places matching 'tai po' and return the results as data",
+            "correct": true
+          },
+          {
+            "text": "Downloads the entire Atlas database",
+            "correct": false
+          },
+          {
+            "text": "Edits the name of a place called Tai Po",
+            "correct": false
+          }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/s3.mp3"
     },
     {
       "id": "s4",
@@ -121,11 +151,21 @@
       "probe": {
         "question": "Quick check: what is an OpenAPI specification?",
         "options": [
-          { "text": "A machine-readable contract listing an API's endpoints, inputs, and the exact shapes of its responses", "correct": true },
-          { "text": "A licence that makes an API free to use", "correct": false },
-          { "text": "The programming language the API is written in", "correct": false }
+          {
+            "text": "A machine-readable contract listing an API's endpoints, inputs, and the exact shapes of its responses",
+            "correct": true
+          },
+          {
+            "text": "A licence that makes an API free to use",
+            "correct": false
+          },
+          {
+            "text": "The programming language the API is written in",
+            "correct": false
+          }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/s4.mp3"
     },
     {
       "id": "s5",
@@ -152,53 +192,109 @@
       "probe": {
         "question": "Quick check: in the 'AI + open module' pattern, what does each side contribute?",
         "options": [
-          { "text": "The AI contributes language and reasoning; the open module contributes current, verifiable facts", "correct": true },
-          { "text": "The AI contributes facts; the module contributes conversation skills", "correct": false },
-          { "text": "Both sides contribute the same thing, for redundancy", "correct": false }
+          {
+            "text": "The AI contributes language and reasoning; the open module contributes current, verifiable facts",
+            "correct": true
+          },
+          {
+            "text": "The AI contributes facts; the module contributes conversation skills",
+            "correct": false
+          },
+          {
+            "text": "Both sides contribute the same thing, for redundancy",
+            "correct": false
+          }
         ]
-      }
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/s5.mp3"
     }
   ],
   "finalCheck": [
     {
       "question": "A dataset counts as a digital commons when it is…",
       "options": [
-        { "text": "Openly licensed and community-maintained", "correct": true },
-        { "text": "Free to view on a website", "correct": false },
-        { "text": "Produced by a government body", "correct": false }
+        {
+          "text": "Openly licensed and community-maintained",
+          "correct": true
+        },
+        {
+          "text": "Free to view on a website",
+          "correct": false
+        },
+        {
+          "text": "Produced by a government body",
+          "correct": false
+        }
       ]
     },
     {
       "question": "In the Atlas taxonomy, Mong Kok (a macrohood) sits at…",
       "options": [
-        { "text": "Level 4, inside the Yau Tsim Mong district", "correct": true },
-        { "text": "Level 2, as its own district", "correct": false },
-        { "text": "Level 0, alongside the SAR", "correct": false }
+        {
+          "text": "Level 4, inside the Yau Tsim Mong district",
+          "correct": true
+        },
+        {
+          "text": "Level 2, as its own district",
+          "correct": false
+        },
+        {
+          "text": "Level 0, alongside the SAR",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Compared with a downloadable file, an API…",
       "options": [
-        { "text": "Answers precise questions from the latest data on demand", "correct": true },
-        { "text": "Keeps the data private", "correct": false },
-        { "text": "Is only a fancier download link", "correct": false }
+        {
+          "text": "Answers precise questions from the latest data on demand",
+          "correct": true
+        },
+        {
+          "text": "Keeps the data private",
+          "correct": false
+        },
+        {
+          "text": "Is only a fancier download link",
+          "correct": false
+        }
       ]
     },
     {
       "question": "An OpenAPI specification tells callers…",
       "options": [
-        { "text": "Exactly what each endpoint accepts and what every response means", "correct": true },
-        { "text": "Who is allowed to use the API", "correct": false },
-        { "text": "How fast the API will respond", "correct": false }
+        {
+          "text": "Exactly what each endpoint accepts and what every response means",
+          "correct": true
+        },
+        {
+          "text": "Who is allowed to use the API",
+          "correct": false
+        },
+        {
+          "text": "How fast the API will respond",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Grounding an AI agent in an open data module mainly buys you…",
       "options": [
-        { "text": "Checkable, current answers tied to a shared source", "correct": true },
-        { "text": "Faster responses", "correct": false },
-        { "text": "A smaller AI model", "correct": false }
+        {
+          "text": "Checkable, current answers tied to a shared source",
+          "correct": true
+        },
+        {
+          "text": "Faster responses",
+          "correct": false
+        },
+        {
+          "text": "A smaller AI model",
+          "correct": false
+        }
       ]
     }
-  ]
+  ],
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/intro.mp3"
 }
