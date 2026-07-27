@@ -339,5 +339,6 @@
   ],
   "guardrails": "Works from real usage patterns — no invented collocations, no translation-only shortcuts.",
   "evaluation": "Your production sentences are the test — the coach checks them and you rate the session."
- }
+ },
+ "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/intro.jpg"
 }
