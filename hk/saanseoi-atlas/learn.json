@@ -329,18 +329,39 @@
  ],
  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/intro.mp3",
  "agent": {
-  "name": "Atlas Guide",
-  "job": "Answer questions about Hong Kong places and divisions, grounded in the SaanSeoi Atlas.",
-  "knowledge": "The Atlas division hierarchy and the open-commons ideas from Part A.",
-  "tools": "Live lookups against the Atlas demo API before every answer.",
+  "name": "Atlas Explorer Agent",
+  "job": "Build a grounded mini-profile of a Hong Kong place using ONLY live lookups against the demo Atlas snapshot — never invented facts.",
+  "knowledge": "The SaanSeoi digital-commons idea, the 7-level division taxonomy, and a curated demo snapshot of ~60 well-known HK places (EN + 繁體).",
+  "tools": "Two live API tools it calls by itself: atlas_search (find places by name/category) and atlas_get_place (fetch one record by id).",
   "workflow": [
-   "Read your question",
-   "Search the Atlas snapshot",
-   "Ground the answer in matching records",
-   "Answer with place ids cited"
+   "Read your brief",
+   "Search the Atlas for your place",
+   "Fetch the exact record(s) by id",
+   "Check the division chain and any gaps",
+   "Write the grounded profile, citing place ids"
   ],
-  "guardrails": "If a place isn't in the snapshot, it says so — it never invents records.",
-  "evaluation": "Check its citations against the Atlas — every claim should trace to a record."
+  "guardrails": "Every factual claim must come from a tool result. If the snapshot has no record, it says so honestly instead of inventing one.",
+  "evaluation": "You rate the profile 1–5 and may request one revision; the visible tool-call trace lets you audit exactly what it looked up.",
+  "taskLabel": "Run the Atlas agent",
+  "intake": [
+   {
+    "id": "place",
+    "label": "A Hong Kong place you care about",
+    "placeholder": "e.g. Star Ferry Pier, 旺角, Tai Kwun"
+   },
+   {
+    "id": "angle",
+    "label": "What should the profile focus on?",
+    "placeholder": "e.g. why it matters to your neighbourhood, transport, heritage",
+    "multiline": true
+   },
+   {
+    "id": "audience",
+    "label": "Who is it for?",
+    "placeholder": "e.g. exchange students, my classmates",
+    "optional": true
+   }
+  ]
  },
  "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/images/intro.jpg"
 }
