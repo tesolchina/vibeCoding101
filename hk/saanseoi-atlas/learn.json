@@ -341,5 +341,6 @@
   ],
   "guardrails": "If a place isn't in the snapshot, it says so — it never invents records.",
   "evaluation": "Check its citations against the Atlas — every claim should trace to a record."
- }
+ },
+ "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/images/intro.jpg"
 }
