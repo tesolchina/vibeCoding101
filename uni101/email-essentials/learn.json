@@ -10,21 +10,41 @@
       "question": "What will Dr Smith see, and what should Ming do?",
       "options": [
         {
-          "text": "Dr Smith sees 王明 and may not know who sent it or how to reply politely. Ming should change the display name to \"Ming Wang\" or a bilingual \"Ming Wang 王明\".",
+          "text": "Change the display name to \"Ming Wang\" or a bilingual \"Ming Wang 王明\" so every reader can address him.",
           "correct": true,
-          "feedback": "Right. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name."
+          "feedback": "Right. Dr Smith sees 王明 in his inbox and may not know who sent it or how to reply politely. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name."
         },
         {
-          "text": "It doesn't matter — the email address itself shows he's a student.",
+          "text": "Keep it as it is — the university address itself already tells Dr Smith exactly who is emailing him.",
           "correct": false,
           "feedback": "The address shows the institution, but the display name is what appears in the inbox list and greeting. A name staff can't read makes you harder to reply to and looks careless."
         },
         {
-          "text": "Ming should create a personal Gmail with an English name and use that instead.",
+          "text": "Create a personal Gmail account with an English name and email Dr Smith from that account instead.",
           "correct": false,
           "feedback": "No — the university address is the trusted, institution-bound identity. Fix the display name on the university account instead."
         }
       ],
+      "probe": {
+        "question": "Quick check: which part of an email appears in the recipient's inbox list and is used to greet you in replies?",
+        "options": [
+          {
+            "text": "The display name set on the account",
+            "correct": true,
+            "feedback": "Exactly — that's why an unreadable display name is a real problem, whatever the address says."
+          },
+          {
+            "text": "Only the email address — the name is never shown",
+            "correct": false,
+            "feedback": "Most mail clients show the display name first and the address only on hover. The name is what people actually see."
+          },
+          {
+            "text": "The subject line, which replaces the sender's name",
+            "correct": false,
+            "feedback": "The subject describes the message; the display name identifies the person. Both matter, but they do different jobs."
+          }
+        ]
+      },
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s1.mp3"
     },
     {
@@ -39,16 +59,36 @@
           "feedback": "Exactly. If the answer is already in the materials, emailing the teacher signals you haven't done the work — and wastes their time."
         },
         {
-          "text": "Send the email — teachers are paid to answer questions.",
+          "text": "Send a short, polite email right away — answering student questions is part of a teacher's job.",
           "correct": false,
-          "feedback": "Asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check."
+          "feedback": "Politeness doesn't fix the real problem: asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check."
         },
         {
-          "text": "Ask a classmate to email the teacher for her.",
+          "text": "Ask a classmate who knows the teacher better to send the question on her behalf instead.",
           "correct": false,
           "feedback": "Same problem, delegated. Check the course materials first — the due date is almost certainly there."
         }
       ],
+      "probe": {
+        "question": "Quick check: why does emailing a question that the syllabus already answers create a bad impression?",
+        "options": [
+          {
+            "text": "It shows the student didn't check the materials and shifts that work onto the teacher",
+            "correct": true,
+            "feedback": "Right — it costs the teacher time and tells them you skipped the first step every student is expected to take."
+          },
+          {
+            "text": "University rules forbid teachers from repeating information by email",
+            "correct": false,
+            "feedback": "There's no such rule — teachers can repeat information; the issue is what the question reveals about your effort."
+          },
+          {
+            "text": "Questions to teachers are only allowed during scheduled office hours",
+            "correct": false,
+            "feedback": "Email questions are fine at any reasonable time — as long as the answer isn't already in the materials."
+          }
+        ]
+      },
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s2.mp3"
     },
     {
@@ -73,6 +113,26 @@
           "feedback": "First name alone is only acceptable when the teacher is clearly informal or has invited it — never in a first formal email."
         }
       ],
+      "probe": {
+        "question": "Quick check: in formal English greetings, a title (Dr, Professor) combines with…",
+        "options": [
+          {
+            "text": "The surname only — \"Professor Lee\"",
+            "correct": true,
+            "feedback": "Yes. Title + surname is the safe formal pattern in English."
+          },
+          {
+            "text": "The first name only — \"Professor Sarah\"",
+            "correct": false,
+            "feedback": "Title + first name is a very common mistake — it is always wrong in formal English."
+          },
+          {
+            "text": "Either one — both are equally formal",
+            "correct": false,
+            "feedback": "They are not interchangeable: only title + surname is formal. Title + first name is always wrong."
+          }
+        ]
+      },
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s3.mp3"
     },
     {
@@ -82,21 +142,41 @@
       "question": "What should Carla do?",
       "options": [
         {
-          "text": "Check whether the university lets her add a readable alias like carla.gomez@uni.edu — most do — and switch to it.",
+          "text": "Check whether the university offers a readable alias like carla.gomez@uni.edu, and switch to it.",
           "correct": true,
-          "feedback": "Yes. A student-number address is functional but anonymous; a readable alias makes every email you send more professional."
+          "feedback": "Yes — most universities allow this. A student-number address is functional but anonymous; a readable alias makes every email you send more professional."
         },
         {
-          "text": "Nothing — students can't change university addresses.",
+          "text": "Accept the address — student email addresses are assigned by the university and cannot be changed.",
           "correct": false,
           "feedback": "Most universities allow a readable alias alongside the student-number address. It's worth the five minutes to set up."
         },
         {
-          "text": "Put her full name and student number in every subject line instead.",
+          "text": "Compensate by writing her full name and student number in the subject line of every email she sends.",
           "correct": false,
           "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name."
         }
       ],
+      "probe": {
+        "question": "Quick check: what is an email alias?",
+        "options": [
+          {
+            "text": "An additional address that delivers to the same mailbox",
+            "correct": true,
+            "feedback": "Right — same inbox, better first impression on everything you send."
+          },
+          {
+            "text": "A second mailbox that needs its own separate password",
+            "correct": false,
+            "feedback": "No new mailbox or password — an alias is just another name for the mailbox you already have."
+          },
+          {
+            "text": "A nickname that only appears inside the university portal",
+            "correct": false,
+            "feedback": "An alias is a real, usable email address — anyone inside or outside the university can send to it."
+          }
+        ]
+      },
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s4.mp3"
     },
     {
@@ -106,21 +186,41 @@
       "question": "What does this actually reveal?",
       "options": [
         {
-          "text": "He has no email system — and email management is part of time and project management. He needs a triage habit: read → act → archive, aiming for near-zero unread.",
+          "text": "He has no email system — triage (read → act → archive) is a core time-management habit he is missing.",
           "correct": true,
           "feedback": "Right. A four-digit unread count means important mail WILL eventually be missed. Triage is a study skill, not a tidiness preference."
         },
         {
-          "text": "Nothing — unread counts are cosmetic.",
+          "text": "Nothing — unread counts are cosmetic, and reading selectively is exactly what busy people do anyway.",
           "correct": false,
           "feedback": "An unmanaged inbox means no reliable way to catch deadlines, room changes, or feedback. It's a time-management failure waiting to surface."
         },
         {
-          "text": "He should delete everything and start fresh (\"declare email bankruptcy\") every term.",
+          "text": "He should delete everything and start fresh (\"declare email bankruptcy\") at the start of every term.",
           "correct": false,
           "feedback": "Bankruptcy without a new habit repeats the cycle. The fix is the daily triage habit: read → act → archive."
         }
       ],
+      "probe": {
+        "question": "Quick check: what is the goal of a daily email triage habit?",
+        "options": [
+          {
+            "text": "Every message gets read, acted on, or archived — unread stays near zero",
+            "correct": true,
+            "feedback": "Exactly — the point is that nothing important can hide, because nothing sits unprocessed."
+          },
+          {
+            "text": "Replying to every email within five minutes of it arriving",
+            "correct": false,
+            "feedback": "Triage is about processing, not instant replies — many messages just need to be read and archived."
+          },
+          {
+            "text": "Keeping messages unread on purpose so urgent ones stand out",
+            "correct": false,
+            "feedback": "That's the failure mode, not the system — with 1,000+ unread, nothing stands out anymore."
+          }
+        ]
+      },
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s5.mp3"
     }
   ],
@@ -133,11 +233,11 @@
           "correct": true
         },
         {
-          "text": "Chinese only",
+          "text": "Chinese characters only",
           "correct": false
         },
         {
-          "text": "A nickname",
+          "text": "A casual nickname",
           "correct": false
         }
       ]
@@ -146,32 +246,32 @@
       "question": "Before emailing a teacher a question, you should…",
       "options": [
         {
-          "text": "Check syllabus, notes and announcements first",
+          "text": "Check syllabus, notes and announcements",
           "correct": true
         },
         {
-          "text": "Email immediately — faster",
+          "text": "Email immediately — it's faster",
           "correct": false
         },
         {
-          "text": "Ask in three channels at once",
+          "text": "Ask in several channels at once",
           "correct": false
         }
       ]
     },
     {
-      "question": "Which is ALWAYS wrong?",
+      "question": "Which greeting pattern is ALWAYS wrong?",
       "options": [
         {
           "text": "Dr John (title + first name)",
           "correct": true
         },
         {
-          "text": "Dear Dr Chan",
+          "text": "Dear Dr Chan (title + surname)",
           "correct": false
         },
         {
-          "text": "Dear Professor Lee",
+          "text": "Dear Professor Lee (title + surname)",
           "correct": false
         }
       ]
@@ -184,11 +284,11 @@
           "correct": true
         },
         {
-          "text": "Is impossible for students",
+          "text": "Requires a separate second mailbox",
           "correct": false
         },
         {
-          "text": "Is only for staff",
+          "text": "Is reserved for staff accounts only",
           "correct": false
         }
       ]
@@ -201,11 +301,11 @@
           "correct": true
         },
         {
-          "text": "You are popular",
+          "text": "Harmless newsletter build-up",
           "correct": false
         },
         {
-          "text": "Nothing at all",
+          "text": "The spam filter needs adjusting",
           "correct": false
         }
       ]
