@@ -1,0 +1,204 @@
+{
+  "title": "Hong Kong's Digital Commons — the SaanSeoi Atlas",
+  "code": "hk/saanseoi-atlas",
+  "intro": "SaanSeoi (山水) is an open-source project building a 'digital commons' for Hong Kong — shared, open data about the city's places and districts that anyone can use. Five short scenarios walk you through what a digital commons is, how the Atlas organises Hong Kong, and how an open API lets software (and AI agents) use the data. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "scenarios": [
+    {
+      "id": "s1",
+      "topic": "What is a digital commons?",
+      "situation": "Ka-yan wants a complete list of Hong Kong neighbourhoods for a school project. She finds three sources: a private map app that forbids copying its data, a government PDF that is hard to extract, and the SaanSeoi Atlas, an open dataset anyone may use and improve.",
+      "question": "Which source is a 'digital commons', and what makes it one?",
+      "options": [
+        {
+          "text": "The SaanSeoi Atlas — it is openly licensed, shared by everyone, and anyone can use, check, and contribute to it.",
+          "correct": true,
+          "feedback": "Right. A commons is a resource the community shares and maintains together — like a public park, but made of data. Open licence + open contribution is what separates a commons from a product or a locked-up publication."
+        },
+        {
+          "text": "The private map app — it has the most accurate and up-to-date data, and accuracy is what defines a commons.",
+          "correct": false,
+          "feedback": "Accuracy is valuable, but it doesn't make something a commons. If the licence forbids reuse, the data belongs to the company, not the community — you can look, but you can't build on it."
+        },
+        {
+          "text": "The government PDF — it is published by a public body, and anything from the government is automatically a commons.",
+          "correct": false,
+          "feedback": "Public origin isn't enough. A PDF that is hard to extract and carries no clear reuse licence is 'published' but not really usable as shared infrastructure. A commons must be practically reusable, not just visible."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what are the two ingredients that make shared data a commons?",
+        "options": [
+          { "text": "An open licence to reuse it, and a way for the community to contribute and correct it", "correct": true },
+          { "text": "Being free of charge and hosted on a government website", "correct": false },
+          { "text": "Being the most complete dataset available", "correct": false }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "topic": "Divisions: how the Atlas slices Hong Kong",
+      "situation": "The Atlas organises Hong Kong into division levels: 0 = SAR, 1 = Area (Kowloon, Hong Kong Island, New Territories), 2 = District (e.g. Yau Tsim Mong), 3 = Town, 4 = Macrohood (e.g. Mong Kok), 5 = Neighbourhood (e.g. Prince Edward), 6 = Microhood. Tommy wants to file 'Prince Edward' into this hierarchy.",
+      "question": "Where does Prince Edward belong, and why does a strict hierarchy matter?",
+      "options": [
+        {
+          "text": "Level 5 (Neighbourhood), inside Mong Kok (level 4), inside Yau Tsim Mong (level 2) — a strict chain means software can always answer 'what district is this in?'",
+          "correct": true,
+          "feedback": "Exactly. Every division below District must sit inside exactly one district, so a program (or an AI agent) can walk up the chain from any small place to its district and area without guessing."
+        },
+        {
+          "text": "Level 2 (District), because everyone in Hong Kong calls Prince Edward a district in everyday speech.",
+          "correct": false,
+          "feedback": "Everyday speech is loose — people say 'district' for many neighbourhood-sized places. The Atlas fixes each name to one defined level precisely so that casual usage doesn't break the data. Prince Edward is a neighbourhood inside Mong Kok, inside the Yau Tsim Mong district."
+        },
+        {
+          "text": "It can be filed at several levels at once, since boundaries in Hong Kong are fuzzy and flexibility is more useful than rules.",
+          "correct": false,
+          "feedback": "Fuzzy boundaries are real, but if one name lived at several levels, queries like 'list all neighbourhoods in Yau Tsim Mong' would return duplicates and contradictions. The taxonomy rules (one level per division, one parent district) are what make the data computable."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: in the Atlas taxonomy, how many districts (level 2) can a neighbourhood (level 5) belong to?",
+        "options": [
+          { "text": "At least one — every division at level 3 or below must sit within a district", "correct": true },
+          { "text": "Zero — neighbourhoods are independent of districts", "correct": false },
+          { "text": "As many as the community votes for", "correct": false }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "topic": "Why an API and not a spreadsheet?",
+      "situation": "The Atlas publishes its data through a web API with addresses like /v0/hk/places/{id}, /v0/hk/search?q=..., and /v0/divisions. Mei asks: 'Why not just publish one big spreadsheet for people to download?'",
+      "question": "What does an API give you that a downloadable spreadsheet does not?",
+      "options": [
+        {
+          "text": "Software can ask precise, live questions — 'search places named Tai Po', 'get this one place' — and always receive the current version of the data.",
+          "correct": true,
+          "feedback": "Right. An API is a question-answering service: each URL is a specific question, and the answer is always drawn from the latest published snapshot. Spreadsheets go stale the moment they are downloaded, and every user must re-process the whole file."
+        },
+        {
+          "text": "An API keeps the data secret — only approved programmers can see it, which protects the project.",
+          "correct": false,
+          "feedback": "Backwards for a commons: the point of the Atlas API is to open the data to everyone, not to hide it. (An API key mainly helps the project manage load and abuse, not secrecy.)"
+        },
+        {
+          "text": "Nothing important — an API is just a more fashionable word for a download link.",
+          "correct": false,
+          "feedback": "A download gives you a frozen copy; an API answers specific questions on demand from live data. That difference is exactly what lets apps and AI agents build on the Atlas without each keeping their own stale copy."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what does the URL /v0/hk/search?q=tai+po most likely do?",
+        "options": [
+          { "text": "Asks the Atlas to search Hong Kong places matching 'tai po' and return the results as data", "correct": true },
+          { "text": "Downloads the entire Atlas database", "correct": false },
+          { "text": "Edits the name of a place called Tai Po", "correct": false }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "topic": "Reading an API's contract (OpenAPI)",
+      "situation": "The Atlas API describes itself with an OpenAPI specification: every endpoint lists its inputs, and every response has a declared shape — 200 means 'here is the place', 404 means 'no such place', 503 means 'the data snapshot is not ready yet'. Jason's app gets a 503 and he assumes the API is broken forever.",
+      "question": "What should Jason conclude from the 503, and why do declared response codes matter?",
+      "options": [
+        {
+          "text": "503 is a documented, temporary state — 'snapshot not ready' — so his app should wait and retry, not give up. Declared codes let programs handle each outcome deliberately.",
+          "correct": true,
+          "feedback": "Exactly. Because the API publishes its contract, every caller — human or AI agent — knows in advance what each status means and can respond sensibly: retry on 503, show 'not found' on 404, use the data on 200."
+        },
+        {
+          "text": "Any error code means the project is abandoned — reliable services never return errors.",
+          "correct": false,
+          "feedback": "Even the best services have moments when data is being republished or a request doesn't match anything. Maturity isn't 'no errors' — it's errors that are documented and predictable, which is what the OpenAPI spec provides."
+        },
+        {
+          "text": "He should ignore status codes and just check whether the response text looks roughly like data.",
+          "correct": false,
+          "feedback": "Guessing from the shape of the text is fragile and breaks silently. The status code is the API telling you exactly what happened — well-built software (and well-built agents) read the contract instead of guessing."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what is an OpenAPI specification?",
+        "options": [
+          { "text": "A machine-readable contract listing an API's endpoints, inputs, and the exact shapes of its responses", "correct": true },
+          { "text": "A licence that makes an API free to use", "correct": false },
+          { "text": "The programming language the API is written in", "correct": false }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "topic": "From open module to AI agent",
+      "situation": "A student team wants an AI tutor that answers questions about Hong Kong neighbourhoods. Option A: let the AI answer purely from its training memory. Option B: connect the AI to the Atlas API so it looks up divisions and places before answering.",
+      "question": "Why is Option B — grounding the agent in the open module — the stronger design?",
+      "options": [
+        {
+          "text": "The agent's answers become checkable against a shared, current source — and every improvement to the commons instantly improves the agent.",
+          "correct": true,
+          "feedback": "Right. This is the whole experiment of wrapping open modules into agent platforms: the AI supplies language and reasoning, the commons supplies verifiable facts, and the two stay separate so each can improve independently."
+        },
+        {
+          "text": "Option A is actually just as good — a large AI model already memorised everything about Hong Kong during training.",
+          "correct": false,
+          "feedback": "Training memory is frozen at training time, blurry about small places, and impossible to audit. For a granular, changing city taxonomy, memory alone confidently invents details — grounding in live data is what makes answers trustworthy."
+        },
+        {
+          "text": "Option B matters only because API calls make the agent respond faster than a plain AI.",
+          "correct": false,
+          "feedback": "Speed isn't the point — an extra API call is usually slightly slower. The gain is accuracy and accountability: the agent can cite exactly which Atlas record its answer came from."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: in the 'AI + open module' pattern, what does each side contribute?",
+        "options": [
+          { "text": "The AI contributes language and reasoning; the open module contributes current, verifiable facts", "correct": true },
+          { "text": "The AI contributes facts; the module contributes conversation skills", "correct": false },
+          { "text": "Both sides contribute the same thing, for redundancy", "correct": false }
+        ]
+      }
+    }
+  ],
+  "finalCheck": [
+    {
+      "question": "A dataset counts as a digital commons when it is…",
+      "options": [
+        { "text": "Openly licensed and community-maintained", "correct": true },
+        { "text": "Free to view on a website", "correct": false },
+        { "text": "Produced by a government body", "correct": false }
+      ]
+    },
+    {
+      "question": "In the Atlas taxonomy, Mong Kok (a macrohood) sits at…",
+      "options": [
+        { "text": "Level 4, inside the Yau Tsim Mong district", "correct": true },
+        { "text": "Level 2, as its own district", "correct": false },
+        { "text": "Level 0, alongside the SAR", "correct": false }
+      ]
+    },
+    {
+      "question": "Compared with a downloadable file, an API…",
+      "options": [
+        { "text": "Answers precise questions from the latest data on demand", "correct": true },
+        { "text": "Keeps the data private", "correct": false },
+        { "text": "Is only a fancier download link", "correct": false }
+      ]
+    },
+    {
+      "question": "An OpenAPI specification tells callers…",
+      "options": [
+        { "text": "Exactly what each endpoint accepts and what every response means", "correct": true },
+        { "text": "Who is allowed to use the API", "correct": false },
+        { "text": "How fast the API will respond", "correct": false }
+      ]
+    },
+    {
+      "question": "Grounding an AI agent in an open data module mainly buys you…",
+      "options": [
+        { "text": "Checkable, current answers tied to a shared source", "correct": true },
+        { "text": "Faster responses", "correct": false },
+        { "text": "A smaller AI model", "correct": false }
+      ]
+    }
+  ]
+}
