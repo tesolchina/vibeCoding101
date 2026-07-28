@@ -1,386 +1,386 @@
 {
- "title": "Using Email Well at University",
- "code": "uni101/email-essentials",
- "intro": "Five short scenarios about using your university email as a professional identity tool. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
- "scenarios": [
-  {
-   "id": "s1",
-   "topic": "Email = identity",
-   "situation": "Ming set up his university email but left the display name as 王明. He emails Dr Smith, who teaches in English and cannot read Chinese.",
-   "question": "What will Dr Smith see, and what should Ming do?",
-   "options": [
+  "title": "Using Email Well at University",
+  "code": "uni101/email-essentials",
+  "intro": "Five short scenarios about using your university email as a professional identity tool. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "scenarios": [
     {
-     "text": "Switch to \"Ming Wang\" (or a bilingual name)",
-     "correct": true,
-     "feedback": "Right. Dr Smith sees 王明 in his inbox and may not know who sent it or how to reply politely. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name."
+      "id": "s1",
+      "topic": "Email = identity",
+      "situation": "Ming set up his university email but left the display name as 王明. He emails Dr Smith, who teaches in English and cannot read Chinese.",
+      "question": "What will Dr Smith see, and what should Ming do?",
+      "options": [
+        {
+          "text": "Switch to \"Ming Wang\" (or a bilingual name)",
+          "correct": true,
+          "feedback": "Right. Dr Smith sees 王明 in his inbox and may not know who sent it or how to reply politely. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name."
+        },
+        {
+          "text": "Keep 王明 but sign the email “Ming” at the bottom",
+          "correct": false,
+          "feedback": "A signature helps once the email is opened, but the inbox list and the reply greeting still show 王明. The display name itself is what Dr Smith sees first — fix it at the source."
+        },
+        {
+          "text": "Put “from Ming Wang” in the subject line instead",
+          "correct": false,
+          "feedback": "That patches one message, not the identity. Every future email, calendar invite and reply thread still shows 王明. Set the display name once and the problem disappears everywhere."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: which part of an email appears in the recipient's inbox list and is used to greet you in replies?",
+        "options": [
+          {
+            "text": "The display name set on the account",
+            "correct": true,
+            "feedback": "Exactly — that's why an unreadable display name is a real problem, whatever the address says."
+          },
+          {
+            "text": "Only the email address — the name is never shown",
+            "correct": false,
+            "feedback": "Most mail clients show the display name first and the address only on hover. The name is what people actually see."
+          },
+          {
+            "text": "The subject line, which replaces the sender's name",
+            "correct": false,
+            "feedback": "The subject describes the message; the display name identifies the person. Both matter, but they do different jobs."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s1.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s1.jpg",
+      "bullets": [
+        "Ming's display name is still 王明",
+        "Dr Smith reads English only",
+        "The display name is what the inbox shows"
+      ]
     },
     {
-     "text": "Keep it — the address shows who he is",
-     "correct": false,
-     "feedback": "The address shows the institution, but the display name is what appears in the inbox list and greeting. A name staff can't read makes you harder to reply to and looks careless."
+      "id": "s2",
+      "topic": "Homework first",
+      "situation": "Anna wants to know when the essay is due. She opens a new email to her teacher.",
+      "question": "What should Anna do first?",
+      "options": [
+        {
+          "text": "Check the syllabus and announcements first",
+          "correct": true,
+          "feedback": "Exactly. If the answer is already in the materials, emailing the teacher signals you haven't done the work — and wastes their time."
+        },
+        {
+          "text": "Send a short, polite email now",
+          "correct": false,
+          "feedback": "Politeness doesn't fix the real problem: asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check."
+        },
+        {
+          "text": "Wait and ask in person after the next lecture",
+          "correct": false,
+          "feedback": "Politer than emailing, but the next lecture may be after the deadline — and the answer is probably already published. Check the syllabus and announcements first; then you either need no email or can send a much better one."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: why does emailing a question that the syllabus already answers create a bad impression?",
+        "options": [
+          {
+            "text": "It shows the student didn't check the materials and shifts that work onto the teacher",
+            "correct": true,
+            "feedback": "Right — it costs the teacher time and tells them you skipped the first step every student is expected to take."
+          },
+          {
+            "text": "University rules forbid teachers from repeating information by email",
+            "correct": false,
+            "feedback": "There's no such rule — teachers can repeat information; the issue is what the question reveals about your effort."
+          },
+          {
+            "text": "Questions to teachers are only allowed during scheduled office hours",
+            "correct": false,
+            "feedback": "Email questions are fine at any reasonable time — as long as the answer isn't already in the materials."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s2.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s2.jpg",
+      "bullets": [
+        "Anna wants the essay due date",
+        "She is about to email the teacher",
+        "The syllabus is already posted"
+      ]
     },
     {
-     "text": "Email from a personal Gmail instead",
-     "correct": false,
-     "feedback": "No — the university address is the trusted, institution-bound identity. Fix the display name on the university account instead."
+      "id": "s3",
+      "topic": "Salutations",
+      "situation": "Ben is writing a formal email to Professor Sarah Lee, whom he has never met.",
+      "question": "Which greeting is appropriate?",
+      "options": [
+        {
+          "text": "Dear Professor Lee,",
+          "correct": true,
+          "feedback": "Correct — formal greeting is Title + SURNAME."
+        },
+        {
+          "text": "Dear Professor Sarah,",
+          "correct": false,
+          "feedback": "Title + first name is always wrong (\"Dr John\", \"Professor Sarah\"). Use Title + surname: Professor Lee."
+        },
+        {
+          "text": "Dear Ms Lee,",
+          "correct": false,
+          "feedback": "“Ms” is readable, but it downgrades an academic title. If someone holds “Professor” or “Dr”, use it — defaulting to Ms/Mr with academics reads as either careless or pointed."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: in formal English greetings, a title (Dr, Professor) combines with…",
+        "options": [
+          {
+            "text": "The surname only — \"Professor Lee\"",
+            "correct": true,
+            "feedback": "Yes. Title + surname is the safe formal pattern in English."
+          },
+          {
+            "text": "The first name only — \"Professor Sarah\"",
+            "correct": false,
+            "feedback": "Title + first name is a very common mistake — it is always wrong in formal English."
+          },
+          {
+            "text": "Either one — both are equally formal",
+            "correct": false,
+            "feedback": "They are not interchangeable: only title + surname is formal. Title + first name is always wrong."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s3.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s3.jpg",
+      "bullets": [
+        "First email to Professor Sarah Lee",
+        "They have never met",
+        "A formal greeting is expected"
+      ]
+    },
+    {
+      "id": "s4",
+      "topic": "Address alias",
+      "situation": "Carla's university address is s2409831@uni.edu. She notices staff emails look like jane.chan@uni.edu.",
+      "question": "What should Carla do?",
+      "options": [
+        {
+          "text": "Request a readable alias like carla.gomez@",
+          "correct": true,
+          "feedback": "Yes — most universities allow this. A student-number address is functional but anonymous; a readable alias makes every email you send more professional."
+        },
+        {
+          "text": "Just set a clear display name — the address itself never matters",
+          "correct": false,
+          "feedback": "The display name matters most, but the address still appears when people copy it, forward it, or type it from a paper form. s123456@ is error-prone and anonymous; a readable alias fixes both halves."
+        },
+        {
+          "text": "Add her name to every subject line",
+          "correct": false,
+          "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what is an email alias?",
+        "options": [
+          {
+            "text": "An additional address that delivers to the same mailbox",
+            "correct": true,
+            "feedback": "Right — same inbox, better first impression on everything you send."
+          },
+          {
+            "text": "A second mailbox that needs its own separate password",
+            "correct": false,
+            "feedback": "No new mailbox or password — an alias is just another name for the mailbox you already have."
+          },
+          {
+            "text": "A nickname that only appears inside the university portal",
+            "correct": false,
+            "feedback": "An alias is a real, usable email address — anyone inside or outside the university can send to it."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s4.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s4.jpg",
+      "bullets": [
+        "Her address: s2409831@uni.edu",
+        "Staff addresses look like jane.chan@",
+        "Every email carries this first impression"
+      ]
+    },
+    {
+      "id": "s5",
+      "topic": "Inbox management",
+      "situation": "Dev's inbox shows 1,247 unread emails. He says: \"I read the important ones — the rest can sit there.\"",
+      "question": "What does this actually reveal?",
+      "options": [
+        {
+          "text": "He has no email system — triage is missing",
+          "correct": true,
+          "feedback": "Right. A four-digit unread count means important mail WILL eventually be missed. Triage is a study skill, not a tidiness preference."
+        },
+        {
+          "text": "Nothing — plenty of busy people read mail and just leave it marked unread",
+          "correct": false,
+          "feedback": "Some do — but then “unread” tells them nothing and they must re-scan everything repeatedly. The unread marker only works as a to-do signal if you keep it meaningful; at 1,000+ it has stopped signalling anything."
+        },
+        {
+          "text": "His spam filter needs tightening — most of it is junk",
+          "correct": false,
+          "feedback": "Some of it is junk, but a filter cannot triage the real mail underneath: deadlines, replies owed, admin requests. 1,000+ unread means no system for deciding what needs action — that is a workflow problem, not a filter problem."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what is the goal of a daily email triage habit?",
+        "options": [
+          {
+            "text": "Every message gets read, acted on, or archived — unread stays near zero",
+            "correct": true,
+            "feedback": "Exactly — the point is that nothing important can hide, because nothing sits unprocessed."
+          },
+          {
+            "text": "Replying to every email within five minutes of it arriving",
+            "correct": false,
+            "feedback": "Triage is about processing, not instant replies — many messages just need to be read and archived."
+          },
+          {
+            "text": "Keeping messages unread on purpose so urgent ones stand out",
+            "correct": false,
+            "feedback": "That's the failure mode, not the system — with 1,000+ unread, nothing stands out anymore."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s5.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s5.jpg",
+      "bullets": [
+        "1,247 unread emails",
+        "Dev: \"the important ones get read\"",
+        "No read → act → archive habit"
+      ]
     }
-   ],
-   "probe": {
-    "question": "Quick check: which part of an email appears in the recipient's inbox list and is used to greet you in replies?",
-    "options": [
-     {
-      "text": "The display name set on the account",
-      "correct": true,
-      "feedback": "Exactly — that's why an unreadable display name is a real problem, whatever the address says."
-     },
-     {
-      "text": "Only the email address — the name is never shown",
-      "correct": false,
-      "feedback": "Most mail clients show the display name first and the address only on hover. The name is what people actually see."
-     },
-     {
-      "text": "The subject line, which replaces the sender's name",
-      "correct": false,
-      "feedback": "The subject describes the message; the display name identifies the person. Both matter, but they do different jobs."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s1.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s1.jpg",
-   "bullets": [
-    "Ming's display name is still 王明",
-    "Dr Smith reads English only",
-    "The display name is what the inbox shows"
-   ]
-  },
-  {
-   "id": "s2",
-   "topic": "Homework first",
-   "situation": "Anna wants to know when the essay is due. She opens a new email to her teacher.",
-   "question": "What should Anna do first?",
-   "options": [
-    {
-     "text": "Check the syllabus and announcements first",
-     "correct": true,
-     "feedback": "Exactly. If the answer is already in the materials, emailing the teacher signals you haven't done the work — and wastes their time."
-    },
-    {
-     "text": "Send a short, polite email now",
-     "correct": false,
-     "feedback": "Politeness doesn't fix the real problem: asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check."
-    },
-    {
-     "text": "Ask a classmate to email for her",
-     "correct": false,
-     "feedback": "Same problem, delegated. Check the course materials first — the due date is almost certainly there."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: why does emailing a question that the syllabus already answers create a bad impression?",
-    "options": [
-     {
-      "text": "It shows the student didn't check the materials and shifts that work onto the teacher",
-      "correct": true,
-      "feedback": "Right — it costs the teacher time and tells them you skipped the first step every student is expected to take."
-     },
-     {
-      "text": "University rules forbid teachers from repeating information by email",
-      "correct": false,
-      "feedback": "There's no such rule — teachers can repeat information; the issue is what the question reveals about your effort."
-     },
-     {
-      "text": "Questions to teachers are only allowed during scheduled office hours",
-      "correct": false,
-      "feedback": "Email questions are fine at any reasonable time — as long as the answer isn't already in the materials."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s2.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s2.jpg",
-   "bullets": [
-    "Anna wants the essay due date",
-    "She is about to email the teacher",
-    "The syllabus is already posted"
-   ]
-  },
-  {
-   "id": "s3",
-   "topic": "Salutations",
-   "situation": "Ben is writing a formal email to Professor Sarah Lee, whom he has never met.",
-   "question": "Which greeting is appropriate?",
-   "options": [
-    {
-     "text": "Dear Professor Lee,",
-     "correct": true,
-     "feedback": "Correct — formal greeting is Title + SURNAME."
-    },
-    {
-     "text": "Dear Professor Sarah,",
-     "correct": false,
-     "feedback": "Title + first name is always wrong (\"Dr John\", \"Professor Sarah\"). Use Title + surname: Professor Lee."
-    },
-    {
-     "text": "Hi Sarah!",
-     "correct": false,
-     "feedback": "First name alone is only acceptable when the teacher is clearly informal or has invited it — never in a first formal email."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: in formal English greetings, a title (Dr, Professor) combines with…",
-    "options": [
-     {
-      "text": "The surname only — \"Professor Lee\"",
-      "correct": true,
-      "feedback": "Yes. Title + surname is the safe formal pattern in English."
-     },
-     {
-      "text": "The first name only — \"Professor Sarah\"",
-      "correct": false,
-      "feedback": "Title + first name is a very common mistake — it is always wrong in formal English."
-     },
-     {
-      "text": "Either one — both are equally formal",
-      "correct": false,
-      "feedback": "They are not interchangeable: only title + surname is formal. Title + first name is always wrong."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s3.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s3.jpg",
-   "bullets": [
-    "First email to Professor Sarah Lee",
-    "They have never met",
-    "A formal greeting is expected"
-   ]
-  },
-  {
-   "id": "s4",
-   "topic": "Address alias",
-   "situation": "Carla's university address is s2409831@uni.edu. She notices staff emails look like jane.chan@uni.edu.",
-   "question": "What should Carla do?",
-   "options": [
-    {
-     "text": "Request a readable alias like carla.gomez@",
-     "correct": true,
-     "feedback": "Yes — most universities allow this. A student-number address is functional but anonymous; a readable alias makes every email you send more professional."
-    },
-    {
-     "text": "Accept it — student addresses are fixed",
-     "correct": false,
-     "feedback": "Most universities allow a readable alias alongside the student-number address. It's worth the five minutes to set up."
-    },
-    {
-     "text": "Add her name to every subject line",
-     "correct": false,
-     "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: what is an email alias?",
-    "options": [
-     {
-      "text": "An additional address that delivers to the same mailbox",
-      "correct": true,
-      "feedback": "Right — same inbox, better first impression on everything you send."
-     },
-     {
-      "text": "A second mailbox that needs its own separate password",
-      "correct": false,
-      "feedback": "No new mailbox or password — an alias is just another name for the mailbox you already have."
-     },
-     {
-      "text": "A nickname that only appears inside the university portal",
-      "correct": false,
-      "feedback": "An alias is a real, usable email address — anyone inside or outside the university can send to it."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s4.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s4.jpg",
-   "bullets": [
-    "Her address: s2409831@uni.edu",
-    "Staff addresses look like jane.chan@",
-    "Every email carries this first impression"
-   ]
-  },
-  {
-   "id": "s5",
-   "topic": "Inbox management",
-   "situation": "Dev's inbox shows 1,247 unread emails. He says: \"I read the important ones — the rest can sit there.\"",
-   "question": "What does this actually reveal?",
-   "options": [
-    {
-     "text": "He has no email system — triage is missing",
-     "correct": true,
-     "feedback": "Right. A four-digit unread count means important mail WILL eventually be missed. Triage is a study skill, not a tidiness preference."
-    },
-    {
-     "text": "Nothing — unread counts are cosmetic",
-     "correct": false,
-     "feedback": "An unmanaged inbox means no reliable way to catch deadlines, room changes, or feedback. It's a time-management failure waiting to surface."
-    },
-    {
-     "text": "He should delete everything each term",
-     "correct": false,
-     "feedback": "Bankruptcy without a new habit repeats the cycle. The fix is the daily triage habit: read → act → archive."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: what is the goal of a daily email triage habit?",
-    "options": [
-     {
-      "text": "Every message gets read, acted on, or archived — unread stays near zero",
-      "correct": true,
-      "feedback": "Exactly — the point is that nothing important can hide, because nothing sits unprocessed."
-     },
-     {
-      "text": "Replying to every email within five minutes of it arriving",
-      "correct": false,
-      "feedback": "Triage is about processing, not instant replies — many messages just need to be read and archived."
-     },
-     {
-      "text": "Keeping messages unread on purpose so urgent ones stand out",
-      "correct": false,
-      "feedback": "That's the failure mode, not the system — with 1,000+ unread, nothing stands out anymore."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s5.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s5.jpg",
-   "bullets": [
-    "1,247 unread emails",
-    "Dev: \"the important ones get read\"",
-    "No read → act → archive habit"
-   ]
-  }
- ],
- "finalCheck": [
-  {
-   "question": "Your display name at an English-medium university should be…",
-   "options": [
-    {
-     "text": "English (pinyin) or bilingual",
-     "correct": true
-    },
-    {
-     "text": "Chinese characters only",
-     "correct": false
-    },
-    {
-     "text": "A casual nickname",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "Before emailing a teacher a question, you should…",
-   "options": [
-    {
-     "text": "Check syllabus, notes and announcements",
-     "correct": true
-    },
-    {
-     "text": "Email immediately — it's faster",
-     "correct": false
-    },
-    {
-     "text": "Ask in several channels at once",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "Which greeting pattern is ALWAYS wrong?",
-   "options": [
-    {
-     "text": "Dr John (title + first name)",
-     "correct": true
-    },
-    {
-     "text": "Dear Dr Chan (title + surname)",
-     "correct": false
-    },
-    {
-     "text": "Dear Professor Lee (title + surname)",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "A readable address alias (name@ instead of s123456@)…",
-   "options": [
-    {
-     "text": "Is usually available and worth setting up",
-     "correct": true
-    },
-    {
-     "text": "Requires a separate second mailbox",
-     "correct": false
-    },
-    {
-     "text": "Is reserved for staff accounts only",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "1,000+ unread emails most likely means…",
-   "options": [
-    {
-     "text": "No email system — a time-management problem",
-     "correct": true
-    },
-    {
-     "text": "Harmless newsletter build-up",
-     "correct": false
-    },
-    {
-     "text": "The spam filter needs adjusting",
-     "correct": false
-    }
-   ]
-  }
- ],
- "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/intro.mp3",
- "agent": {
-  "name": "Email Essentials Coach",
-  "job": "Turn your rough points into one polished, professional university email.",
-  "knowledge": "The etiquette rules from Part A — readable names, Title + surname greetings, homework-first questions, professional tone.",
-  "tools": "A language model guided by this pack's SKILL and knowledge files.",
-  "workflow": [
-   "Read your briefing",
-   "Check it against the etiquette rules",
-   "Draft the email",
-   "Review tone, greeting and format",
-   "Deliver the email with key choices explained"
   ],
-  "guardrails": "Sticks to university email tasks only; never invents facts or writes fake excuses on your behalf.",
-  "evaluation": "You rate each deliverable 1–5 and may request one revision — that feedback loop is how the agent improves.",
-  "taskLabel": "Draft my email",
-  "intake": [
-   {
-    "id": "recipient",
-    "label": "Who are you writing to?",
-    "placeholder": "e.g. Professor Lee, my ENG1001 teacher"
-   },
-   {
-    "id": "purpose",
-    "label": "What do you need from them?",
-    "placeholder": "e.g. ask for a two-day extension on Essay 2"
-   },
-   {
-    "id": "points",
-    "label": "Key points to include",
-    "placeholder": "e.g. I was ill this week; I can show a medical note; new deadline Friday",
-    "multiline": true
-   },
-   {
-    "id": "tone",
-    "label": "Anything about tone or length?",
-    "placeholder": "e.g. very formal, short",
-    "optional": true
-   }
-  ]
- },
- "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/intro.jpg"
+  "finalCheck": [
+    {
+      "question": "Your display name at an English-medium university should be…",
+      "options": [
+        {
+          "text": "English (pinyin) or bilingual",
+          "correct": true
+        },
+        {
+          "text": "Chinese characters only",
+          "correct": false
+        },
+        {
+          "text": "Whatever name is on your student record",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Before emailing a teacher a question, you should…",
+      "options": [
+        {
+          "text": "Check syllabus, notes and announcements",
+          "correct": true
+        },
+        {
+          "text": "Email immediately — teachers prefer early questions",
+          "correct": false
+        },
+        {
+          "text": "Ask a classmate first, then email if they are also unsure",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which greeting pattern is ALWAYS wrong?",
+      "options": [
+        {
+          "text": "Dr John (title + first name)",
+          "correct": true
+        },
+        {
+          "text": "Dear Dr Chan (title + surname)",
+          "correct": false
+        },
+        {
+          "text": "Dear Professor Lee (title + surname)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "A readable address alias (name@ instead of s123456@)…",
+      "options": [
+        {
+          "text": "Is usually available and worth setting up",
+          "correct": true
+        },
+        {
+          "text": "Requires a separate second mailbox",
+          "correct": false
+        },
+        {
+          "text": "Is reserved for staff accounts only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "1,000+ unread emails most likely means…",
+      "options": [
+        {
+          "text": "No email system — a time-management problem",
+          "correct": true
+        },
+        {
+          "text": "Harmless newsletter build-up",
+          "correct": false
+        },
+        {
+          "text": "The spam filter needs adjusting",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/intro.mp3",
+  "agent": {
+    "name": "Email Essentials Coach",
+    "job": "Turn your rough points into one polished, professional university email.",
+    "knowledge": "The etiquette rules from Part A — readable names, Title + surname greetings, homework-first questions, professional tone.",
+    "tools": "A language model guided by this pack's SKILL and knowledge files.",
+    "workflow": [
+      "Read your briefing",
+      "Check it against the etiquette rules",
+      "Draft the email",
+      "Review tone, greeting and format",
+      "Deliver the email with key choices explained"
+    ],
+    "guardrails": "Sticks to university email tasks only; never invents facts or writes fake excuses on your behalf.",
+    "evaluation": "You rate each deliverable 1–5 and may request one revision — that feedback loop is how the agent improves.",
+    "taskLabel": "Draft my email",
+    "intake": [
+      {
+        "id": "recipient",
+        "label": "Who are you writing to?",
+        "placeholder": "e.g. Professor Lee, my ENG1001 teacher"
+      },
+      {
+        "id": "purpose",
+        "label": "What do you need from them?",
+        "placeholder": "e.g. ask for a two-day extension on Essay 2"
+      },
+      {
+        "id": "points",
+        "label": "Key points to include",
+        "placeholder": "e.g. I was ill this week; I can show a medical note; new deadline Friday",
+        "multiline": true
+      },
+      {
+        "id": "tone",
+        "label": "Anything about tone or length?",
+        "placeholder": "e.g. very formal, short",
+        "optional": true
+      }
+    ]
+  },
+  "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/intro.jpg"
 }
