@@ -1,7 +1,7 @@
 {
   "title": "Using Email Well at University",
   "code": "uni101/email-essentials",
-  "intro": "Five short scenarios about using your university email as a professional identity tool. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "intro": "Meet Ming. It's his first week at an English-medium university, and every email choice he makes is about to shape how his teachers see him. You make his choices — you get instant feedback. No account or AI key needed for this part.",
   "scenarios": [
     {
       "id": "s1",
@@ -12,17 +12,20 @@
         {
           "text": "Switch to \"Ming Wang\" (or a bilingual name)",
           "correct": true,
-          "feedback": "Right. Dr Smith sees 王明 in his inbox and may not know who sent it or how to reply politely. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name."
+          "feedback": "Right. Dr Smith sees 王明 in his inbox and may not know who sent it or how to reply politely. At an English-medium university your display name must be readable by everyone — use pinyin or a bilingual name.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s1_0.mp3"
         },
         {
           "text": "Keep 王明 but sign the email “Ming” at the bottom",
           "correct": false,
-          "feedback": "A signature helps once the email is opened, but the inbox list and the reply greeting still show 王明. The display name itself is what Dr Smith sees first — fix it at the source."
+          "feedback": "A signature helps once the email is opened, but the inbox list and the reply greeting still show 王明. The display name itself is what Dr Smith sees first — fix it at the source.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s1_1.mp3"
         },
         {
           "text": "Put “from Ming Wang” in the subject line instead",
           "correct": false,
-          "feedback": "That patches one message, not the identity. Every future email, calendar invite and reply thread still shows 王明. Set the display name once and the problem disappears everywhere."
+          "feedback": "That patches one message, not the identity. Every future email, calendar invite and reply thread still shows 王明. Set the display name once and the problem disappears everywhere.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s1_2.mp3"
         }
       ],
       "probe": {
@@ -56,23 +59,26 @@
     {
       "id": "s2",
       "topic": "Homework first",
-      "situation": "Anna wants to know when the essay is due. She opens a new email to her teacher.",
-      "question": "What should Anna do first?",
+      "situation": "Ming wants to know when his first essay is due. He opens a new email to his teacher.",
+      "question": "What should Ming do first?",
       "options": [
         {
           "text": "Check the syllabus and announcements first",
           "correct": true,
-          "feedback": "Exactly. If the answer is already in the materials, emailing the teacher signals you haven't done the work — and wastes their time."
+          "feedback": "Exactly. If the answer is already in the materials, emailing the teacher signals you haven't done the work — and wastes their time.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s2_0.mp3"
         },
         {
           "text": "Send a short, polite email now",
           "correct": false,
-          "feedback": "Politeness doesn't fix the real problem: asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check."
+          "feedback": "Politeness doesn't fix the real problem: asking something already answered in the syllabus is disrespectful of the teacher's time and exposes that you didn't check.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s2_1.mp3"
         },
         {
           "text": "Wait and ask in person after the next lecture",
           "correct": false,
-          "feedback": "Politer than emailing, but the next lecture may be after the deadline — and the answer is probably already published. Check the syllabus and announcements first; then you either need no email or can send a much better one."
+          "feedback": "Politer than emailing, but the next lecture may be after the deadline — and the answer is probably already published. Check the syllabus and announcements first; then you either need no email or can send a much better one.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s2_2.mp3"
         }
       ],
       "probe": {
@@ -98,31 +104,35 @@
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s2.mp3",
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s2.jpg",
       "bullets": [
-        "Anna wants the essay due date",
-        "She is about to email the teacher",
+        "Ming wants the essay due date",
+        "He is about to email the teacher",
         "The syllabus is already posted"
-      ]
+      ],
+      "transition": "Later that evening — display name fixed, first assignment on his mind."
     },
     {
       "id": "s3",
       "topic": "Salutations",
-      "situation": "Ben is writing a formal email to Professor Sarah Lee, whom he has never met.",
+      "situation": "Ming is writing his first formal email to Professor Sarah Lee, whom he has never met, to ask about joining her seminar.",
       "question": "Which greeting is appropriate?",
       "options": [
         {
           "text": "Dear Professor Lee,",
           "correct": true,
-          "feedback": "Correct — formal greeting is Title + SURNAME."
+          "feedback": "Correct — formal greeting is Title + SURNAME.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s3_0.mp3"
         },
         {
           "text": "Dear Professor Sarah,",
           "correct": false,
-          "feedback": "Title + first name is always wrong (\"Dr John\", \"Professor Sarah\"). Use Title + surname: Professor Lee."
+          "feedback": "Title + first name is always wrong (\"Dr John\", \"Professor Sarah\"). Use Title + surname: Professor Lee.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s3_1.mp3"
         },
         {
           "text": "Dear Ms Lee,",
           "correct": false,
-          "feedback": "“Ms” is readable, but it downgrades an academic title. If someone holds “Professor” or “Dr”, use it — defaulting to Ms/Mr with academics reads as either careless or pointed."
+          "feedback": "“Ms” is readable, but it downgrades an academic title. If someone holds “Professor” or “Dr”, use it — defaulting to Ms/Mr with academics reads as either careless or pointed.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s3_2.mp3"
         }
       ],
       "probe": {
@@ -148,31 +158,35 @@
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s3.mp3",
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s3.jpg",
       "bullets": [
-        "First email to Professor Sarah Lee",
+        "Ming's first email to Professor Sarah Lee",
         "They have never met",
         "A formal greeting is expected"
-      ]
+      ],
+      "transition": "Two days later — this time the syllabus can't help."
     },
     {
       "id": "s4",
       "topic": "Address alias",
-      "situation": "Carla's university address is s2409831@uni.edu. She notices staff emails look like jane.chan@uni.edu.",
-      "question": "What should Carla do?",
+      "situation": "Ming's university address is s2409831@uni.edu. He notices staff emails look like jane.chan@uni.edu, while his is a string of digits.",
+      "question": "What should Ming do?",
       "options": [
         {
-          "text": "Request a readable alias like carla.gomez@",
+          "text": "Request a readable alias like ming.wang@",
           "correct": true,
-          "feedback": "Yes — most universities allow this. A student-number address is functional but anonymous; a readable alias makes every email you send more professional."
+          "feedback": "Yes — most universities allow this. A student-number address is functional but anonymous; a readable alias makes every email you send more professional.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s4_0.mp3"
         },
         {
           "text": "Just set a clear display name — the address itself never matters",
           "correct": false,
-          "feedback": "The display name matters most, but the address still appears when people copy it, forward it, or type it from a paper form. s123456@ is error-prone and anonymous; a readable alias fixes both halves."
+          "feedback": "The display name matters most, but the address still appears when people copy it, forward it, or type it from a paper form. s123456@ is error-prone and anonymous; a readable alias fixes both halves.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s4_1.mp3"
         },
         {
-          "text": "Add her name to every subject line",
+          "text": "Add his name to every subject line",
           "correct": false,
-          "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name."
+          "feedback": "That clutters subject lines. Fix the root cause: set a readable alias and a proper display name.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s4_2.mp3"
         }
       ],
       "probe": {
@@ -198,31 +212,35 @@
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/s4.mp3",
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/images/s4.jpg",
       "bullets": [
-        "Her address: s2409831@uni.edu",
+        "His address: s2409831@uni.edu",
         "Staff addresses look like jane.chan@",
         "Every email carries this first impression"
-      ]
+      ],
+      "transition": "Professor Lee's reply arrives — but look at the address it was sent to."
     },
     {
       "id": "s5",
       "topic": "Inbox management",
-      "situation": "Dev's inbox shows 1,247 unread emails. He says: \"I read the important ones — the rest can sit there.\"",
+      "situation": "Ming's coursemate Dev shows his phone: 1,247 unread emails. Dev shrugs: \"I read the important ones — the rest can sit there.\"",
       "question": "What does this actually reveal?",
       "options": [
         {
           "text": "He has no email system — triage is missing",
           "correct": true,
-          "feedback": "Right. A four-digit unread count means important mail WILL eventually be missed. Triage is a study skill, not a tidiness preference."
+          "feedback": "Right. A four-digit unread count means important mail WILL eventually be missed. Triage is a study skill, not a tidiness preference.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s5_0.mp3"
         },
         {
           "text": "Nothing — plenty of busy people read mail and just leave it marked unread",
           "correct": false,
-          "feedback": "Some do — but then “unread” tells them nothing and they must re-scan everything repeatedly. The unread marker only works as a to-do signal if you keep it meaningful; at 1,000+ it has stopped signalling anything."
+          "feedback": "Some do — but then “unread” tells them nothing and they must re-scan everything repeatedly. The unread marker only works as a to-do signal if you keep it meaningful; at 1,000+ it has stopped signalling anything.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s5_1.mp3"
         },
         {
           "text": "His spam filter needs tightening — most of it is junk",
           "correct": false,
-          "feedback": "Some of it is junk, but a filter cannot triage the real mail underneath: deadlines, replies owed, admin requests. 1,000+ unread means no system for deciding what needs action — that is a workflow problem, not a filter problem."
+          "feedback": "Some of it is junk, but a filter cannot triage the real mail underneath: deadlines, replies owed, admin requests. 1,000+ unread means no system for deciding what needs action — that is a workflow problem, not a filter problem.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/email-essentials/audio/fb_s5_2.mp3"
         }
       ],
       "probe": {
@@ -251,7 +269,8 @@
         "1,247 unread emails",
         "Dev: \"the important ones get read\"",
         "No read → act → archive habit"
-      ]
+      ],
+      "transition": "Six weeks into term. Ming's inbox is under control — his coursemate Dev's is not."
     }
   ],
   "finalCheck": [
