@@ -1,28 +1,31 @@
 {
   "title": "Hong Kong's Digital Commons — the SaanSeoi Atlas",
   "code": "hk/saanseoi-atlas",
-  "intro": "SaanSeoi (山水) is an open-source project building a 'digital commons' for Hong Kong — shared, open data about the city's places and districts that anyone can use. Five short scenarios walk you through what a digital commons is, how the Atlas organises Hong Kong, and how an open API lets software (and AI agents) use the data. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "intro": "SaanSeoi (山水) is an open-source project building a 'digital commons' for Hong Kong — shared, open data about the city's places and districts that anyone can use. Meet Jason: his team has one week to build an AI tutor about Hong Kong neighbourhoods, and every decision about data, structure and APIs is his to make. You make his calls — instant feedback, no account or AI key needed.",
   "scenarios": [
     {
       "id": "s1",
       "topic": "What is a digital commons?",
-      "situation": "Ka-yan wants a complete list of Hong Kong neighbourhoods for a school project. She finds three sources: a private map app that forbids copying its data, a government PDF that is hard to extract, and the SaanSeoi Atlas, an open dataset anyone may use and improve.",
+      "situation": "Jason needs a complete list of Hong Kong neighbourhoods for the tutor. He finds three sources: a private map app that forbids copying its data, a government PDF that is hard to extract, and the SaanSeoi Atlas, an open dataset anyone may use and improve.",
       "question": "Which source is a 'digital commons', and what makes it one?",
       "options": [
         {
           "text": "The Atlas — open licence, anyone can use and improve it",
           "correct": true,
-          "feedback": "Right. A commons is a resource the community shares and maintains together — like a public park, but made of data. Open licence + open contribution is what separates a commons from a product or a locked-up publication."
+          "feedback": "Right. A commons is a resource the community shares and maintains together — like a public park, but made of data. Open licence + open contribution is what separates a commons from a product or a locked-up publication.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s1_0.mp3"
         },
         {
           "text": "The map app — it is free for anyone to use",
           "correct": false,
-          "feedback": "Free to use is not the same as free to reuse. The app’s data is closed: you cannot download it, correct it, or build on it. A commons needs an open licence and a community that can maintain and improve the resource."
+          "feedback": "Free to use is not the same as free to reuse. The app’s data is closed: you cannot download it, correct it, or build on it. A commons needs an open licence and a community that can maintain and improve the resource.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s1_1.mp3"
         },
         {
           "text": "The PDF — government data is automatically a commons",
           "correct": false,
-          "feedback": "Public origin isn't enough. A PDF that is hard to extract and carries no clear reuse licence is 'published' but not really usable as shared infrastructure. A commons must be practically reusable, not just visible."
+          "feedback": "Public origin isn't enough. A PDF that is hard to extract and carries no clear reuse licence is 'published' but not really usable as shared infrastructure. A commons must be practically reusable, not just visible.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s1_2.mp3"
         }
       ],
       "probe": {
@@ -45,7 +48,7 @@
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/s1.mp3",
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/images/s1.jpg",
       "bullets": [
-        "Ka-yan needs a full list of HK neighbourhoods",
+        "Jason needs a full list of HK neighbourhoods",
         "Private map app: copying forbidden",
         "Government PDF: hard to extract",
         "SaanSeoi Atlas: open, anyone can improve it"
@@ -54,23 +57,26 @@
     {
       "id": "s2",
       "topic": "Divisions: how the Atlas slices Hong Kong",
-      "situation": "The Atlas organises Hong Kong into division levels: 0 = SAR, 1 = Area (Kowloon, Hong Kong Island, New Territories), 2 = District (e.g. Yau Tsim Mong), 3 = Town, 4 = Macrohood (e.g. Mong Kok), 5 = Neighbourhood (e.g. Prince Edward), 6 = Microhood. Tommy wants to file 'Prince Edward' into this hierarchy.",
+      "situation": "The Atlas organises Hong Kong into division levels: 0 = SAR, 1 = Area (Kowloon, Hong Kong Island, New Territories), 2 = District (e.g. Yau Tsim Mong), 3 = Town, 4 = Macrohood (e.g. Mong Kok), 5 = Neighbourhood (e.g. Prince Edward), 6 = Microhood. Jason wants to file 'Prince Edward' into this hierarchy.",
       "question": "Where does Prince Edward belong, and why does a strict hierarchy matter?",
       "options": [
         {
           "text": "Level 5, inside Mong Kok, inside Yau Tsim Mong",
           "correct": true,
-          "feedback": "Exactly. Every division below District must sit inside exactly one district, so a program (or an AI agent) can walk up the chain from any small place to its district and area without guessing."
+          "feedback": "Exactly. Every division below District must sit inside exactly one district, so a program (or an AI agent) can walk up the chain from any small place to its district and area without guessing.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s2_0.mp3"
         },
         {
           "text": "Level 2 — people call it a district in daily speech",
           "correct": false,
-          "feedback": "Everyday speech is loose — people say 'district' for many neighbourhood-sized places. The Atlas fixes each name to one defined level precisely so that casual usage doesn't break the data. Prince Edward is a neighbourhood inside Mong Kok, inside the Yau Tsim Mong district."
+          "feedback": "Everyday speech is loose — people say 'district' for many neighbourhood-sized places. The Atlas fixes each name to one defined level precisely so that casual usage doesn't break the data. Prince Edward is a neighbourhood inside Mong Kok, inside the Yau Tsim Mong district.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s2_1.mp3"
         },
         {
           "text": "Several levels at once — boundaries are fuzzy",
           "correct": false,
-          "feedback": "Fuzzy boundaries are real, but if one name lived at several levels, queries like 'list all neighbourhoods in Yau Tsim Mong' would return duplicates and contradictions. The taxonomy rules (one level per division, one parent district) are what make the data computable."
+          "feedback": "Fuzzy boundaries are real, but if one name lived at several levels, queries like 'list all neighbourhoods in Yau Tsim Mong' would return duplicates and contradictions. The taxonomy rules (one level per division, one parent district) are what make the data computable.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s2_2.mp3"
         }
       ],
       "probe": {
@@ -95,29 +101,33 @@
       "bullets": [
         "Atlas levels: 0 SAR → 6 Microhood",
         "Mong Kok is a level-4 macrohood",
-        "Tommy is filing \"Prince Edward\""
-      ]
+        "Jason is filing \"Prince Edward\""
+      ],
+      "transition": "Data source chosen. Now the structure."
     },
     {
       "id": "s3",
       "topic": "Why an API and not a spreadsheet?",
-      "situation": "The Atlas publishes its data through a web API with addresses like /v0/hk/places/{id}, /v0/hk/search?q=..., and /v0/divisions. Mei asks: 'Why not just publish one big spreadsheet for people to download?'",
+      "situation": "The Atlas publishes its data through a web API with addresses like /v0/hk/places/{id}, /v0/hk/search?q=..., and /v0/divisions. Jason's teammate Mei asks: 'Why not just publish one big spreadsheet for people to download?'",
       "question": "What does an API give you that a downloadable spreadsheet does not?",
       "options": [
         {
           "text": "Software can ask precise, live questions and get current data",
           "correct": true,
-          "feedback": "Right. An API is a question-answering service: each URL is a specific question, and the answer is always drawn from the latest published snapshot. Spreadsheets go stale the moment they are downloaded, and every user must re-process the whole file."
+          "feedback": "Right. An API is a question-answering service: each URL is a specific question, and the answer is always drawn from the latest published snapshot. Spreadsheets go stale the moment they are downloaded, and every user must re-process the whole file.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s3_0.mp3"
         },
         {
           "text": "An API delivers the whole dataset faster than a download",
           "correct": false,
-          "feedback": "Usually the opposite — bulk download is faster for the whole dataset. The API’s advantage is precision and freshness: software can ask one exact question (“which macrohood contains this point?”) and get the current answer, without shipping everything."
+          "feedback": "Usually the opposite — bulk download is faster for the whole dataset. The API’s advantage is precision and freshness: software can ask one exact question (“which macrohood contains this point?”) and get the current answer, without shipping everything.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s3_1.mp3"
         },
         {
           "text": "No real difference — API is a fancier download link",
           "correct": false,
-          "feedback": "A download gives you a frozen copy; an API answers specific questions on demand from live data. That difference is exactly what lets apps and AI agents build on the Atlas without each keeping their own stale copy."
+          "feedback": "A download gives you a frozen copy; an API answers specific questions on demand from live data. That difference is exactly what lets apps and AI agents build on the Atlas without each keeping their own stale copy.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s3_2.mp3"
         }
       ],
       "probe": {
@@ -143,7 +153,8 @@
         "Atlas serves data via a web API",
         "Endpoints like /v0/hk/search?q=…",
         "Mei: \"why not one big spreadsheet?\""
-      ]
+      ],
+      "transition": "Day three: wiring the tutor to the data."
     },
     {
       "id": "s4",
@@ -154,17 +165,20 @@
         {
           "text": "503 is documented and temporary — wait and retry",
           "correct": true,
-          "feedback": "Exactly. Because the API publishes its contract, every caller — human or AI agent — knows in advance what each status means and can respond sensibly: retry on 503, show 'not found' on 404, use the data on 200."
+          "feedback": "Exactly. Because the API publishes its contract, every caller — human or AI agent — knows in advance what each status means and can respond sensibly: retry on 503, show 'not found' on 404, use the data on 200.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s4_0.mp3"
         },
         {
           "text": "Any error code means the project is abandoned",
           "correct": false,
-          "feedback": "Even the best services have moments when data is being republished or a request doesn't match anything. Maturity isn't 'no errors' — it's errors that are documented and predictable, which is what the OpenAPI spec provides."
+          "feedback": "Even the best services have moments when data is being republished or a request doesn't match anything. Maturity isn't 'no errors' — it's errors that are documented and predictable, which is what the OpenAPI spec provides.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s4_1.mp3"
         },
         {
           "text": "Retry immediately in a tight loop until it responds",
           "correct": false,
-          "feedback": "Hammering a service that has just told you it is temporarily unavailable makes things worse — and it ignores the information in the code. 503 is a documented, temporary state: the contract says wait, then retry politely."
+          "feedback": "Hammering a service that has just told you it is temporarily unavailable makes things worse — and it ignores the information in the code. 503 is a documented, temporary state: the contract says wait, then retry politely.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s4_2.mp3"
         }
       ],
       "probe": {
@@ -190,28 +204,32 @@
         "OpenAPI spec declares every response",
         "200 = place, 404 = not found, 503 = snapshot not ready",
         "Jason's app got a 503"
-      ]
+      ],
+      "transition": "First live test — and the app hits an error."
     },
     {
       "id": "s5",
       "topic": "From open module to AI agent",
-      "situation": "A student team wants an AI tutor that answers questions about Hong Kong neighbourhoods. Option A: let the AI answer purely from its training memory. Option B: connect the AI to the Atlas API so it looks up divisions and places before answering.",
+      "situation": "Final design meeting. Jason's team must choose. Option A: let the AI tutor answer purely from its training memory. Option B: connect it to the Atlas API so it looks up divisions and places before answering.",
       "question": "Why is Option B — grounding the agent in the open module — the stronger design?",
       "options": [
         {
           "text": "B — answers become checkable against a shared, current source",
           "correct": true,
-          "feedback": "Right. This is the whole experiment of wrapping open modules into agent platforms: the AI supplies language and reasoning, the commons supplies verifiable facts, and the two stay separate so each can improve independently."
+          "feedback": "Right. This is the whole experiment of wrapping open modules into agent platforms: the AI supplies language and reasoning, the commons supplies verifiable facts, and the two stay separate so each can improve independently.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s5_0.mp3"
         },
         {
           "text": "A — a large model already memorised Hong Kong",
           "correct": false,
-          "feedback": "Training memory is frozen at training time, blurry about small places, and impossible to audit. For a granular, changing city taxonomy, memory alone confidently invents details — grounding in live data is what makes answers trustworthy."
+          "feedback": "Training memory is frozen at training time, blurry about small places, and impossible to audit. For a granular, changing city taxonomy, memory alone confidently invents details — grounding in live data is what makes answers trustworthy.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s5_1.mp3"
         },
         {
           "text": "B — only because API calls make it faster",
           "correct": false,
-          "feedback": "Speed isn't the point — an extra API call is usually slightly slower. The gain is accuracy and accountability: the agent can cite exactly which Atlas record its answer came from."
+          "feedback": "Speed isn't the point — an extra API call is usually slightly slower. The gain is accuracy and accountability: the agent can cite exactly which Atlas record its answer came from.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/fb_s5_2.mp3"
         }
       ],
       "probe": {
@@ -237,7 +255,8 @@
         "Goal: an AI tutor on HK neighbourhoods",
         "Option A: answer from training memory",
         "Option B: look up the Atlas API first"
-      ]
+      ],
+      "transition": "The night before the demo: one last design decision."
     }
   ],
   "finalCheck": [
