@@ -1,7 +1,7 @@
 {
   "title": "Learning Vocabulary in Networks",
   "code": "dse/vocab-networks",
-  "intro": "Five short scenarios about how to actually learn new words from a reading passage — as connected networks, not lists. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "intro": "Meet Ka-yan. The DSE is months away, her vocabulary notebook keeps growing — but the words aren't sticking. Follow one week of her revision and make her choices. You get instant feedback. No account or AI key needed for this part.",
   "scenarios": [
     {
       "id": "s1",
@@ -12,17 +12,20 @@
         {
           "text": "Map its family, partners and near-synonyms",
           "correct": true,
-          "feedback": "Right. A word is learned when it is connected — family, collocates, near-synonyms. One connected word is worth five isolated ones."
+          "feedback": "Right. A word is learned when it is connected — family, collocates, near-synonyms. One connected word is worth five isolated ones.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s1_0.mp3"
         },
         {
           "text": "Write its definition and Chinese translation beside it",
           "correct": false,
-          "feedback": "That records the word but leaves it isolated — one more entry in a flat list. Meaning sticks when the word is connected: its family (persist, persistence), its partners (persistent effort), its near-synonyms and their differences."
+          "feedback": "That records the word but leaves it isolated — one more entry in a flat list. Meaning sticks when the word is connected: its family (persist, persistence), its partners (persistent effort), its near-synonyms and their differences.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s1_1.mp3"
         },
         {
           "text": "Add nine more words to round out the list",
           "correct": false,
-          "feedback": "Ten unrelated words are harder to remember than ten connected ones. Build a network around words from your passage instead."
+          "feedback": "Ten unrelated words are harder to remember than ten connected ones. Build a network around words from your passage instead.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s1_2.mp3"
         }
       ],
       "probe": {
@@ -56,23 +59,26 @@
     {
       "id": "s2",
       "topic": "Context before definition",
-      "situation": "Tom finds 'deteriorate' in a passage about air quality: 'Air quality has deteriorated sharply since 2019.' He asks his tutor what it means.",
+      "situation": "Ka-yan finds 'deteriorate' in a passage about air quality: 'Air quality has deteriorated sharply since 2019.' She is about to ask her tutor what it means.",
       "question": "What is the best first step?",
       "options": [
         {
           "text": "Re-read the sentence — what happened, in what pattern?",
           "correct": true,
-          "feedback": "Yes. The sentence is the anchor — it shows the meaning (got worse), the grammar (intransitive verb), and a partner word (sharply)."
+          "feedback": "Yes. The sentence is the anchor — it shows the meaning (got worse), the grammar (intransitive verb), and a partner word (sharply).",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s2_0.mp3"
         },
         {
           "text": "Memorise the definition first, re-read later",
           "correct": false,
-          "feedback": "Definition-first learning is fragile. Meet the word doing its job in context first; the definition then confirms what you worked out."
+          "feedback": "Definition-first learning is fragile. Meet the word doing its job in context first; the definition then confirms what you worked out.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s2_1.mp3"
         },
         {
           "text": "Underline it and come back after finishing the passage",
           "correct": false,
-          "feedback": "Postponing loses the context you need most. The sentence around the word — what happened, in what pattern — is the raw material for learning it. Capture the sentence now; the passage will still be there."
+          "feedback": "Postponing loses the context you need most. The sentence around the word — what happened, in what pattern — is the raw material for learning it. Capture the sentence now; the passage will still be there.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s2_2.mp3"
         }
       ],
       "probe": {
@@ -99,30 +105,34 @@
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s2.jpg",
       "bullets": [
         "\"Air quality has deteriorated sharply\"",
-        "Tom asks his tutor for the meaning",
+        "Ka-yan wants to ask her tutor",
         "The sentence itself holds clues"
-      ]
+      ],
+      "transition": "The next day — a new passage, a new unknown word."
     },
     {
       "id": "s3",
       "topic": "Collocation",
-      "situation": "Wing writes in her essay: 'The government should do more attention to this problem.'",
+      "situation": "In her practice essay, Ka-yan wrote: 'The government should do more attention to this problem.' Her tutor circled it.",
       "question": "What kind of error is this, and what is the fix?",
       "options": [
         {
           "text": "Collocation error — \"pay attention\", not \"do\"",
           "correct": true,
-          "feedback": "Exactly. The meaning was clear but the partnership was wrong. Fluency is mostly knowing which words go together."
+          "feedback": "Exactly. The meaning was clear but the partnership was wrong. Fluency is mostly knowing which words go together.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s3_0.mp3"
         },
         {
           "text": "Grammar error — rewrite it in the passive",
           "correct": false,
-          "feedback": "The grammar is fine. The problem is the word partnership: English says 'pay attention', never 'do attention'."
+          "feedback": "The grammar is fine. The problem is the word partnership: English says 'pay attention', never 'do attention'.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s3_1.mp3"
         },
         {
           "text": "Wrong word — replace \"attention\" entirely",
           "correct": false,
-          "feedback": "'Attention' is the right word — it just needs its correct partner verb 'pay'. That's what a collocation is."
+          "feedback": "'Attention' is the right word — it just needs its correct partner verb 'pay'. That's what a collocation is.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s3_2.mp3"
         }
       ],
       "probe": {
@@ -148,31 +158,35 @@
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s3.mp3",
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s3.jpg",
       "bullets": [
-        "Wing wrote: \"do more attention to\"",
+        "Ka-yan wrote: \"do more attention to\"",
         "The meaning is clear, the wording is off",
         "Words choose their partners"
-      ]
+      ],
+      "transition": "The weekend practice essay comes back with a circle on it."
     },
     {
       "id": "s4",
       "topic": "Retrieval beats review",
-      "situation": "Two students learned the same 10 words on Monday. Amy re-reads her notes every day. Ben covers his notes and tests himself, then checks.",
+      "situation": "Two of Ka-yan's classmates learned the same 10 words on Monday. Amy re-reads her notes every day. Ben covers his notes, tests himself, then checks.",
       "question": "Who will remember more by Friday?",
       "options": [
         {
           "text": "Ben — retrieval beats re-reading, especially spaced",
           "correct": true,
-          "feedback": "Right. Retrieval practice is one of the most reliable findings in learning science. Struggling to recall IS the learning."
+          "feedback": "Right. Retrieval practice is one of the most reliable findings in learning science. Struggling to recall IS the learning.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s4_0.mp3"
         },
         {
           "text": "Amy — daily exposure is the proven method",
           "correct": false,
-          "feedback": "Re-reading feels safe because the notes look familiar — but familiarity is not recall. Ben's self-testing wins."
+          "feedback": "Re-reading feels safe because the notes look familiar — but familiarity is not recall. Ben's self-testing wins.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s4_1.mp3"
         },
         {
           "text": "About the same — total time is what counts",
           "correct": false,
-          "feedback": "Same time, very different results. HOW you practise matters: testing yourself beats reviewing."
+          "feedback": "Same time, very different results. HOW you practise matters: testing yourself beats reviewing.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s4_2.mp3"
         }
       ],
       "probe": {
@@ -201,28 +215,32 @@
         "Same 10 words, learned Monday",
         "Amy re-reads her notes daily",
         "Ben covers, self-tests, then checks"
-      ]
+      ],
+      "transition": "Monday. Ka-yan starts watching how her classmates revise."
     },
     {
       "id": "s5",
       "topic": "Production is the goal",
-      "situation": "After learning 10 words from a passage, Ken can match every word to its meaning in a quiz. His teacher says he is only halfway there.",
+      "situation": "By Friday, Ka-yan can match every one of her 10 words to its meaning in a quiz. Her tutor says she is only halfway there.",
       "question": "What is the missing half?",
       "options": [
         {
           "text": "Write sentences combining two or three of them",
           "correct": true,
-          "feedback": "Yes. Recognising a word (receptive) and using it (productive) are different skills. A word is yours when it appears in YOUR writing."
+          "feedback": "Yes. Recognising a word (receptive) and using it (productive) are different skills. A word is yours when it appears in YOUR writing.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s5_0.mp3"
         },
         {
           "text": "Move on — learn 10 more from the next passage",
           "correct": false,
-          "feedback": "More words without production just makes a longer passive list. Depth first: use this week's words in real sentences."
+          "feedback": "More words without production just makes a longer passive list. Depth first: use this week's words in real sentences.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s5_1.mp3"
         },
         {
           "text": "Cover the meanings and test yourself recalling each word",
           "correct": false,
-          "feedback": "Self-testing is excellent — but it is still recognition and recall, the receiving half. The missing half is production: forcing the words into your own sentences, in combination, which is what the exam and real writing demand."
+          "feedback": "Self-testing is excellent — but it is still recognition and recall, the receiving half. The missing half is production: forcing the words into your own sentences, in combination, which is what the exam and real writing demand.",
+          "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/fb_s5_2.mp3"
         }
       ],
       "probe": {
@@ -248,10 +266,11 @@
       "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s5.mp3",
       "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s5.jpg",
       "bullets": [
-        "Ken aces the matching quiz",
-        "Teacher: \"you're only halfway there\"",
+        "Ka-yan aces the matching quiz",
+        "Tutor: \"you're only halfway there\"",
         "Recognising ≠ using"
-      ]
+      ],
+      "transition": "Friday. The quiz goes perfectly — almost."
     }
   ],
   "finalCheck": [
