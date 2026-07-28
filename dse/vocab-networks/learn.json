@@ -1,344 +1,344 @@
 {
- "title": "Learning Vocabulary in Networks",
- "code": "dse/vocab-networks",
- "intro": "Five short scenarios about how to actually learn new words from a reading passage — as connected networks, not lists. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
- "scenarios": [
-  {
-   "id": "s1",
-   "topic": "Networks, not lists",
-   "situation": "Ka-yan meets the word 'analyse' in a reading passage. She writes it in her notebook with the Chinese meaning and moves on.",
-   "question": "What would make this word stick better?",
-   "options": [
+  "title": "Learning Vocabulary in Networks",
+  "code": "dse/vocab-networks",
+  "intro": "Five short scenarios about how to actually learn new words from a reading passage — as connected networks, not lists. Choose what you would do — you get instant feedback. No account or AI key needed for this part.",
+  "scenarios": [
     {
-     "text": "Map its family, partners and near-synonyms",
-     "correct": true,
-     "feedback": "Right. A word is learned when it is connected — family, collocates, near-synonyms. One connected word is worth five isolated ones."
+      "id": "s1",
+      "topic": "Networks, not lists",
+      "situation": "Ka-yan meets the word 'analyse' in a reading passage. She writes it in her notebook with the Chinese meaning and moves on.",
+      "question": "What would make this word stick better?",
+      "options": [
+        {
+          "text": "Map its family, partners and near-synonyms",
+          "correct": true,
+          "feedback": "Right. A word is learned when it is connected — family, collocates, near-synonyms. One connected word is worth five isolated ones."
+        },
+        {
+          "text": "Write its definition and Chinese translation beside it",
+          "correct": false,
+          "feedback": "That records the word but leaves it isolated — one more entry in a flat list. Meaning sticks when the word is connected: its family (persist, persistence), its partners (persistent effort), its near-synonyms and their differences."
+        },
+        {
+          "text": "Add nine more words to round out the list",
+          "correct": false,
+          "feedback": "Ten unrelated words are harder to remember than ten connected ones. Build a network around words from your passage instead."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what does it mean to know a word as part of a 'network'?",
+        "options": [
+          {
+            "text": "Knowing its family, partner words and near-synonyms, not just one meaning",
+            "correct": true,
+            "feedback": "Exactly — connections are what make a word retrievable and usable."
+          },
+          {
+            "text": "Knowing every dictionary sense of the word by heart",
+            "correct": false,
+            "feedback": "Depth of connections beats breadth of senses — most senses you'll never need."
+          },
+          {
+            "text": "Being able to translate it instantly into Chinese",
+            "correct": false,
+            "feedback": "Translation is one link only. Family, collocates and contrasts are what make the word stick."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s1.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s1.jpg",
+      "bullets": [
+        "Ka-yan meets \"analyse\" in a passage",
+        "She writes word + Chinese meaning",
+        "Then moves straight on"
+      ]
     },
     {
-     "text": "Copy the word ten times for spelling",
-     "correct": false,
-     "feedback": "Copying builds spelling, not usable knowledge. Without connections to family and partner words, you still can't use it in writing."
+      "id": "s2",
+      "topic": "Context before definition",
+      "situation": "Tom finds 'deteriorate' in a passage about air quality: 'Air quality has deteriorated sharply since 2019.' He asks his tutor what it means.",
+      "question": "What is the best first step?",
+      "options": [
+        {
+          "text": "Re-read the sentence — what happened, in what pattern?",
+          "correct": true,
+          "feedback": "Yes. The sentence is the anchor — it shows the meaning (got worse), the grammar (intransitive verb), and a partner word (sharply)."
+        },
+        {
+          "text": "Memorise the definition first, re-read later",
+          "correct": false,
+          "feedback": "Definition-first learning is fragile. Meet the word doing its job in context first; the definition then confirms what you worked out."
+        },
+        {
+          "text": "Underline it and come back after finishing the passage",
+          "correct": false,
+          "feedback": "Postponing loses the context you need most. The sentence around the word — what happened, in what pattern — is the raw material for learning it. Capture the sentence now; the passage will still be there."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what can the surrounding sentence tell you about a new word?",
+        "options": [
+          {
+            "text": "Its meaning in use, its grammar pattern, and its partner words",
+            "correct": true,
+            "feedback": "Right — one good sentence carries meaning, grammar and collocation all at once."
+          },
+          {
+            "text": "Only a rough guess — real meaning comes from the dictionary",
+            "correct": false,
+            "feedback": "The dictionary confirms; the sentence teaches. Context shows the word actually working."
+          },
+          {
+            "text": "Its pronunciation and phonetic transcription",
+            "correct": false,
+            "feedback": "Print context can't give you sound — but it gives meaning, grammar and partners, which matter more first."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s2.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s2.jpg",
+      "bullets": [
+        "\"Air quality has deteriorated sharply\"",
+        "Tom asks his tutor for the meaning",
+        "The sentence itself holds clues"
+      ]
     },
     {
-     "text": "Add nine more words to round out the list",
-     "correct": false,
-     "feedback": "Ten unrelated words are harder to remember than ten connected ones. Build a network around words from your passage instead."
+      "id": "s3",
+      "topic": "Collocation",
+      "situation": "Wing writes in her essay: 'The government should do more attention to this problem.'",
+      "question": "What kind of error is this, and what is the fix?",
+      "options": [
+        {
+          "text": "Collocation error — \"pay attention\", not \"do\"",
+          "correct": true,
+          "feedback": "Exactly. The meaning was clear but the partnership was wrong. Fluency is mostly knowing which words go together."
+        },
+        {
+          "text": "Grammar error — rewrite it in the passive",
+          "correct": false,
+          "feedback": "The grammar is fine. The problem is the word partnership: English says 'pay attention', never 'do attention'."
+        },
+        {
+          "text": "Wrong word — replace \"attention\" entirely",
+          "correct": false,
+          "feedback": "'Attention' is the right word — it just needs its correct partner verb 'pay'. That's what a collocation is."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what is a collocation?",
+        "options": [
+          {
+            "text": "A habitual partnership between words, like 'pay attention' or 'heavy rain'",
+            "correct": true,
+            "feedback": "Yes — collocations are conventional pairings, not logical rules. That's why they must be learned as chunks."
+          },
+          {
+            "text": "A grammar rule about the order of subject, verb and object",
+            "correct": false,
+            "feedback": "That's syntax. Collocation is about which words habitually go together, regardless of grammar."
+          },
+          {
+            "text": "Two words that share the same meaning",
+            "correct": false,
+            "feedback": "Those are synonyms. Collocations are partners that appear together, like 'make a mistake'."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s3.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s3.jpg",
+      "bullets": [
+        "Wing wrote: \"do more attention to\"",
+        "The meaning is clear, the wording is off",
+        "Words choose their partners"
+      ]
+    },
+    {
+      "id": "s4",
+      "topic": "Retrieval beats review",
+      "situation": "Two students learned the same 10 words on Monday. Amy re-reads her notes every day. Ben covers his notes and tests himself, then checks.",
+      "question": "Who will remember more by Friday?",
+      "options": [
+        {
+          "text": "Ben — retrieval beats re-reading, especially spaced",
+          "correct": true,
+          "feedback": "Right. Retrieval practice is one of the most reliable findings in learning science. Struggling to recall IS the learning."
+        },
+        {
+          "text": "Amy — daily exposure is the proven method",
+          "correct": false,
+          "feedback": "Re-reading feels safe because the notes look familiar — but familiarity is not recall. Ben's self-testing wins."
+        },
+        {
+          "text": "About the same — total time is what counts",
+          "correct": false,
+          "feedback": "Same time, very different results. HOW you practise matters: testing yourself beats reviewing."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: why does self-testing beat re-reading?",
+        "options": [
+          {
+            "text": "The effort of pulling a word from memory is what strengthens the memory",
+            "correct": true,
+            "feedback": "Exactly — retrieval effort is the workout; re-reading is watching someone else exercise."
+          },
+          {
+            "text": "Testing is faster, so you can cover more words per session",
+            "correct": false,
+            "feedback": "Testing is often slower — and that struggle is precisely why it works better."
+          },
+          {
+            "text": "Re-reading only works for grammar, not vocabulary",
+            "correct": false,
+            "feedback": "Re-reading is weak for both — the retrieval effect applies to almost everything you learn."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s4.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s4.jpg",
+      "bullets": [
+        "Same 10 words, learned Monday",
+        "Amy re-reads her notes daily",
+        "Ben covers, self-tests, then checks"
+      ]
+    },
+    {
+      "id": "s5",
+      "topic": "Production is the goal",
+      "situation": "After learning 10 words from a passage, Ken can match every word to its meaning in a quiz. His teacher says he is only halfway there.",
+      "question": "What is the missing half?",
+      "options": [
+        {
+          "text": "Write sentences combining two or three of them",
+          "correct": true,
+          "feedback": "Yes. Recognising a word (receptive) and using it (productive) are different skills. A word is yours when it appears in YOUR writing."
+        },
+        {
+          "text": "Move on — learn 10 more from the next passage",
+          "correct": false,
+          "feedback": "More words without production just makes a longer passive list. Depth first: use this week's words in real sentences."
+        },
+        {
+          "text": "Cover the meanings and test yourself recalling each word",
+          "correct": false,
+          "feedback": "Self-testing is excellent — but it is still recognition and recall, the receiving half. The missing half is production: forcing the words into your own sentences, in combination, which is what the exam and real writing demand."
+        }
+      ],
+      "probe": {
+        "question": "Quick check: what is the difference between receptive and productive vocabulary?",
+        "options": [
+          {
+            "text": "Receptive = understanding a word you meet; productive = using it in your own output",
+            "correct": true,
+            "feedback": "Right — and the receptive-to-productive step is exactly what sentence-writing practises."
+          },
+          {
+            "text": "Receptive = spoken words; productive = written words",
+            "correct": false,
+            "feedback": "Both modes can be receptive (listening/reading) or productive (speaking/writing) — the split is understanding vs using."
+          },
+          {
+            "text": "Receptive = easy words; productive = advanced words",
+            "correct": false,
+            "feedback": "Difficulty isn't the split — even a simple word is only 'productive' once you can deploy it yourself."
+          }
+        ]
+      },
+      "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s5.mp3",
+      "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s5.jpg",
+      "bullets": [
+        "Ken aces the matching quiz",
+        "Teacher: \"you're only halfway there\"",
+        "Recognising ≠ using"
+      ]
     }
-   ],
-   "probe": {
-    "question": "Quick check: what does it mean to know a word as part of a 'network'?",
-    "options": [
-     {
-      "text": "Knowing its family, partner words and near-synonyms, not just one meaning",
-      "correct": true,
-      "feedback": "Exactly — connections are what make a word retrievable and usable."
-     },
-     {
-      "text": "Knowing every dictionary sense of the word by heart",
-      "correct": false,
-      "feedback": "Depth of connections beats breadth of senses — most senses you'll never need."
-     },
-     {
-      "text": "Being able to translate it instantly into Chinese",
-      "correct": false,
-      "feedback": "Translation is one link only. Family, collocates and contrasts are what make the word stick."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s1.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s1.jpg",
-   "bullets": [
-    "Ka-yan meets \"analyse\" in a passage",
-    "She writes word + Chinese meaning",
-    "Then moves straight on"
-   ]
-  },
-  {
-   "id": "s2",
-   "topic": "Context before definition",
-   "situation": "Tom finds 'deteriorate' in a passage about air quality: 'Air quality has deteriorated sharply since 2019.' He asks his tutor what it means.",
-   "question": "What is the best first step?",
-   "options": [
-    {
-     "text": "Re-read the sentence — what happened, in what pattern?",
-     "correct": true,
-     "feedback": "Yes. The sentence is the anchor — it shows the meaning (got worse), the grammar (intransitive verb), and a partner word (sharply)."
-    },
-    {
-     "text": "Memorise the definition first, re-read later",
-     "correct": false,
-     "feedback": "Definition-first learning is fragile. Meet the word doing its job in context first; the definition then confirms what you worked out."
-    },
-    {
-     "text": "Skip it — pictures and headlines usually suffice",
-     "correct": false,
-     "feedback": "Guessing and moving on is fine for reading speed, but if the word is high-value you should stop and anchor it in its sentence."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: what can the surrounding sentence tell you about a new word?",
-    "options": [
-     {
-      "text": "Its meaning in use, its grammar pattern, and its partner words",
-      "correct": true,
-      "feedback": "Right — one good sentence carries meaning, grammar and collocation all at once."
-     },
-     {
-      "text": "Only a rough guess — real meaning comes from the dictionary",
-      "correct": false,
-      "feedback": "The dictionary confirms; the sentence teaches. Context shows the word actually working."
-     },
-     {
-      "text": "Its pronunciation and phonetic transcription",
-      "correct": false,
-      "feedback": "Print context can't give you sound — but it gives meaning, grammar and partners, which matter more first."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s2.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s2.jpg",
-   "bullets": [
-    "\"Air quality has deteriorated sharply\"",
-    "Tom asks his tutor for the meaning",
-    "The sentence itself holds clues"
-   ]
-  },
-  {
-   "id": "s3",
-   "topic": "Collocation",
-   "situation": "Wing writes in her essay: 'The government should do more attention to this problem.'",
-   "question": "What kind of error is this, and what is the fix?",
-   "options": [
-    {
-     "text": "Collocation error — \"pay attention\", not \"do\"",
-     "correct": true,
-     "feedback": "Exactly. The meaning was clear but the partnership was wrong. Fluency is mostly knowing which words go together."
-    },
-    {
-     "text": "Grammar error — rewrite it in the passive",
-     "correct": false,
-     "feedback": "The grammar is fine. The problem is the word partnership: English says 'pay attention', never 'do attention'."
-    },
-    {
-     "text": "Wrong word — replace \"attention\" entirely",
-     "correct": false,
-     "feedback": "'Attention' is the right word — it just needs its correct partner verb 'pay'. That's what a collocation is."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: what is a collocation?",
-    "options": [
-     {
-      "text": "A habitual partnership between words, like 'pay attention' or 'heavy rain'",
-      "correct": true,
-      "feedback": "Yes — collocations are conventional pairings, not logical rules. That's why they must be learned as chunks."
-     },
-     {
-      "text": "A grammar rule about the order of subject, verb and object",
-      "correct": false,
-      "feedback": "That's syntax. Collocation is about which words habitually go together, regardless of grammar."
-     },
-     {
-      "text": "Two words that share the same meaning",
-      "correct": false,
-      "feedback": "Those are synonyms. Collocations are partners that appear together, like 'make a mistake'."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s3.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s3.jpg",
-   "bullets": [
-    "Wing wrote: \"do more attention to\"",
-    "The meaning is clear, the wording is off",
-    "Words choose their partners"
-   ]
-  },
-  {
-   "id": "s4",
-   "topic": "Retrieval beats review",
-   "situation": "Two students learned the same 10 words on Monday. Amy re-reads her notes every day. Ben covers his notes and tests himself, then checks.",
-   "question": "Who will remember more by Friday?",
-   "options": [
-    {
-     "text": "Ben — retrieval beats re-reading, especially spaced",
-     "correct": true,
-     "feedback": "Right. Retrieval practice is one of the most reliable findings in learning science. Struggling to recall IS the learning."
-    },
-    {
-     "text": "Amy — daily exposure is the proven method",
-     "correct": false,
-     "feedback": "Re-reading feels safe because the notes look familiar — but familiarity is not recall. Ben's self-testing wins."
-    },
-    {
-     "text": "About the same — total time is what counts",
-     "correct": false,
-     "feedback": "Same time, very different results. HOW you practise matters: testing yourself beats reviewing."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: why does self-testing beat re-reading?",
-    "options": [
-     {
-      "text": "The effort of pulling a word from memory is what strengthens the memory",
-      "correct": true,
-      "feedback": "Exactly — retrieval effort is the workout; re-reading is watching someone else exercise."
-     },
-     {
-      "text": "Testing is faster, so you can cover more words per session",
-      "correct": false,
-      "feedback": "Testing is often slower — and that struggle is precisely why it works better."
-     },
-     {
-      "text": "Re-reading only works for grammar, not vocabulary",
-      "correct": false,
-      "feedback": "Re-reading is weak for both — the retrieval effect applies to almost everything you learn."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s4.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s4.jpg",
-   "bullets": [
-    "Same 10 words, learned Monday",
-    "Amy re-reads her notes daily",
-    "Ben covers, self-tests, then checks"
-   ]
-  },
-  {
-   "id": "s5",
-   "topic": "Production is the goal",
-   "situation": "After learning 10 words from a passage, Ken can match every word to its meaning in a quiz. His teacher says he is only halfway there.",
-   "question": "What is the missing half?",
-   "options": [
-    {
-     "text": "Write sentences combining two or three of them",
-     "correct": true,
-     "feedback": "Yes. Recognising a word (receptive) and using it (productive) are different skills. A word is yours when it appears in YOUR writing."
-    },
-    {
-     "text": "Move on — learn 10 more from the next passage",
-     "correct": false,
-     "feedback": "More words without production just makes a longer passive list. Depth first: use this week's words in real sentences."
-    },
-    {
-     "text": "Learn the phonetic symbols for each word",
-     "correct": false,
-     "feedback": "Pronunciation helps, but the gap the teacher means is production — using the words in his own sentences and paragraphs."
-    }
-   ],
-   "probe": {
-    "question": "Quick check: what is the difference between receptive and productive vocabulary?",
-    "options": [
-     {
-      "text": "Receptive = understanding a word you meet; productive = using it in your own output",
-      "correct": true,
-      "feedback": "Right — and the receptive-to-productive step is exactly what sentence-writing practises."
-     },
-     {
-      "text": "Receptive = spoken words; productive = written words",
-      "correct": false,
-      "feedback": "Both modes can be receptive (listening/reading) or productive (speaking/writing) — the split is understanding vs using."
-     },
-     {
-      "text": "Receptive = easy words; productive = advanced words",
-      "correct": false,
-      "feedback": "Difficulty isn't the split — even a simple word is only 'productive' once you can deploy it yourself."
-     }
-    ]
-   },
-   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/s5.mp3",
-   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/s5.jpg",
-   "bullets": [
-    "Ken aces the matching quiz",
-    "Teacher: \"you're only halfway there\"",
-    "Recognising ≠ using"
-   ]
-  }
- ],
- "finalCheck": [
-  {
-   "question": "You meet a useful new word in a reading passage. What is the FIRST thing to record?",
-   "options": [
-    {
-     "text": "The sentence it appeared in, plus the pattern around it.",
-     "correct": true
-    },
-    {
-     "text": "Its dictionary definition, copied in full.",
-     "correct": false
-    },
-    {
-     "text": "Its phonetic transcription.",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "Roughly how many words should one session cover, and why?",
-   "options": [
-    {
-     "text": "8–12 connected words — enough to form clusters, few enough for depth.",
-     "correct": true
-    },
-    {
-     "text": "As many as possible — coverage matters most before the exam.",
-     "correct": false
-    },
-    {
-     "text": "One word at a time, fully mastered before the next.",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "Which is a collocation error?",
-   "options": [
-    {
-     "text": "\"He did a big mistake.\"",
-     "correct": true
-    },
-    {
-     "text": "\"He maked a mistake.\"",
-     "correct": false
-    },
-    {
-     "text": "\"He made a mistake.\"",
-     "correct": false
-    }
-   ]
-  },
-  {
-   "question": "What should the END of every vocabulary session include?",
-   "options": [
-    {
-     "text": "Writing your own sentences that combine 2–3 of the new words.",
-     "correct": true
-    },
-    {
-     "text": "Re-reading the full word list three times.",
-     "correct": false
-    },
-    {
-     "text": "Choosing the next passage to read.",
-     "correct": false
-    }
-   ]
-  }
- ],
- "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/intro.mp3",
- "agent": {
-  "name": "Vocabulary Network Coach",
-  "job": "Build a word network — family, collocations, contrasts — around any word you bring.",
-  "knowledge": "The network-learning principles from Part A: context first, collocation, retrieval, production.",
-  "tools": "A language model guided by this pack's SKILL and knowledge files.",
-  "workflow": [
-   "Take your word in its sentence",
-   "Map the word family",
-   "List real collocations",
-   "Contrast near-synonyms",
-   "Set you a production task"
   ],
-  "guardrails": "Works from real usage patterns — no invented collocations, no translation-only shortcuts.",
-  "evaluation": "Your production sentences are the test — the coach checks them and you rate the session."
- },
- "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/intro.jpg"
+  "finalCheck": [
+    {
+      "question": "You meet a useful new word in a reading passage. What is the FIRST thing to record?",
+      "options": [
+        {
+          "text": "The sentence it appeared in, plus the pattern around it.",
+          "correct": true
+        },
+        {
+          "text": "Its dictionary definition, copied in full.",
+          "correct": false
+        },
+        {
+          "text": "Its definition plus two synonyms from a thesaurus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Roughly how many words should one session cover, and why?",
+      "options": [
+        {
+          "text": "8–12 connected words — enough to form clusters, few enough for depth.",
+          "correct": true
+        },
+        {
+          "text": "As many as possible — coverage matters most before the exam.",
+          "correct": false
+        },
+        {
+          "text": "One word at a time, fully mastered before the next.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which is a collocation error?",
+      "options": [
+        {
+          "text": "\"He did a big mistake.\"",
+          "correct": true
+        },
+        {
+          "text": "\"He maked a mistake.\"",
+          "correct": false
+        },
+        {
+          "text": "\"He made a mistake.\"",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "What should the END of every vocabulary session include?",
+      "options": [
+        {
+          "text": "Writing your own sentences that combine 2–3 of the new words.",
+          "correct": true
+        },
+        {
+          "text": "Re-reading the full word list three times.",
+          "correct": false
+        },
+        {
+          "text": "A self-test: cover the list and recall each meaning",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/intro.mp3",
+  "agent": {
+    "name": "Vocabulary Network Coach",
+    "job": "Build a word network — family, collocations, contrasts — around any word you bring.",
+    "knowledge": "The network-learning principles from Part A: context first, collocation, retrieval, production.",
+    "tools": "A language model guided by this pack's SKILL and knowledge files.",
+    "workflow": [
+      "Take your word in its sentence",
+      "Map the word family",
+      "List real collocations",
+      "Contrast near-synonyms",
+      "Set you a production task"
+    ],
+    "guardrails": "Works from real usage patterns — no invented collocations, no translation-only shortcuts.",
+    "evaluation": "Your production sentences are the test — the coach checks them and you rate the session."
+  },
+  "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/intro.jpg"
 }
