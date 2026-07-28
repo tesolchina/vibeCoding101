@@ -348,20 +348,20 @@
   ],
   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/hk/saanseoi-atlas/audio/intro.mp3",
   "agent": {
-    "name": "Atlas Explorer Agent",
-    "job": "Build a grounded mini-profile of a Hong Kong place using ONLY live lookups against the demo Atlas snapshot — never invented facts.",
+    "name": "Neighbourhood Guide Builder",
+    "job": "Build a short, cited mini-guide to a Hong Kong place for a specific audience — using ONLY live lookups against the demo Atlas snapshot, with an honest list of what the snapshot couldn't answer.",
     "knowledge": "The SaanSeoi digital-commons idea, the 7-level division taxonomy, and a curated demo snapshot of ~60 well-known HK places (EN + 繁體).",
-    "tools": "Two live API tools it calls by itself: atlas_search (find places by name/category) and atlas_get_place (fetch one record by id).",
+    "tools": "Three live API tools it calls by itself: atlas_search (find places), atlas_get_place (fetch a record by id), and atlas_division_chain (build the SAR → Area → District → Neighbourhood chain from data, not memory).",
     "workflow": [
       "Read your brief",
       "Search the Atlas for your place",
-      "Fetch the exact record(s) by id",
-      "Check the division chain and any gaps",
-      "Write the grounded profile, citing place ids"
+      "Fetch the records it will cite",
+      "Build the division chain with the chain tool",
+      "Deliver the guide: cited facts, chain, honest gaps, one way to contribute"
     ],
-    "guardrails": "Every factual claim must come from a tool result. If the snapshot has no record, it says so honestly instead of inventing one.",
-    "evaluation": "You rate the profile 1–5 and may request one revision; the visible tool-call trace lets you audit exactly what it looked up.",
-    "taskLabel": "Run the Atlas agent",
+    "guardrails": "Every place fact must carry the place id it came from. The division chain must come from the chain tool. Gaps are reported honestly — never filled from AI memory.",
+    "evaluation": "You audit the guide against a 4-point rubric — grounded citations, chain-from-tool, honest gaps, audience fit — rate it 1–5, and may request one revision.",
+    "taskLabel": "Build my neighbourhood guide",
     "intake": [
       {
         "id": "place",
@@ -369,16 +369,16 @@
         "placeholder": "e.g. Star Ferry Pier, 旺角, Tai Kwun"
       },
       {
-        "id": "angle",
-        "label": "What should the profile focus on?",
-        "placeholder": "e.g. why it matters to your neighbourhood, transport, heritage",
-        "multiline": true
+        "id": "audience",
+        "label": "Who is the guide for?",
+        "placeholder": "e.g. exchange students arriving next month, my visiting cousin"
       },
       {
-        "id": "audience",
-        "label": "Who is it for?",
-        "placeholder": "e.g. exchange students, my classmates",
-        "optional": true
+        "id": "focus",
+        "label": "Anything the guide should focus on?",
+        "placeholder": "e.g. transport, food, heritage, quiet spots",
+        "optional": true,
+        "multiline": true
       }
     ]
   },
