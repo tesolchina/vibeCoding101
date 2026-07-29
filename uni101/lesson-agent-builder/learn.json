@@ -207,7 +207,7 @@
    "Explain how to publish and share the activation link"
   ],
   "guardrails": "Outline first — nothing is generated until you approve the framework. Lessons always scaffold one step at a time; no answer-dumps; assumptions stated; your materials override general knowledge.",
-  "evaluation": "Success = you can publish the package as-is and students learn from one link. You rate it 1-5 and get one revision.",
+  "evaluation": "Success = you can publish the package as-is and students learn from one link. Rate each deliverable 1-5 and keep the conversation going until every stage is right.",
   "intake": [
    {
     "id": "task",
