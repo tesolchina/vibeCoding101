@@ -211,12 +211,12 @@
   "intake": [
    {
     "id": "task",
-    "label": "The task / problem for students (paste text, or describe the screenshot)",
+    "label": "The task / problem for students (paste text, attach a screenshot below, or paste a Google Docs link)",
     "multiline": true
    },
    {
     "id": "chapter",
-    "label": "Textbook chapter content (paste the relevant part)",
+    "label": "Textbook chapter content (paste the relevant part, or a Google Docs link)",
     "multiline": true,
     "optional": true
    },
