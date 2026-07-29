@@ -345,19 +345,40 @@
   ],
   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/audio/intro.mp3",
   "agent": {
-    "name": "Vocabulary Network Coach",
-    "job": "Build a word network — family, collocations, contrasts — around any word you bring.",
-    "knowledge": "The network-learning principles from Part A: context first, collocation, retrieval, production.",
-    "tools": "A language model guided by this pack's SKILL and knowledge files.",
+    "name": "Word Network Lesson Builder",
+    "taskLabel": "Build my word-network lesson",
+    "job": "Reads your passage, finds word NETWORKS (groups of related words), asks what you want to improve, and builds a personalised lesson package — slides, quiz, and writing tasks.",
+    "knowledge": "The network-learning principles from Part A: context first, collocation, retrieval, production — plus this pack's knowledge file.",
+    "tools": "A language model guided by this pack's SKILL and knowledge files. Publishing uses the platform's Publish button.",
     "workflow": [
-      "Take your word in its sentence",
-      "Map the word family",
-      "List real collocations",
-      "Contrast near-synonyms",
-      "Set you a production task"
+      "Stage 1 — map 2–3 word networks in your passage and confirm your focus (grammar / word choice / writing)",
+      "Stage 2 — deep-dive the chosen network: families, collocates, contrasts, tailored to your focus",
+      "Stage 3 — build the lesson package: narrated slides, quiz with feedback, sentence-writing tasks",
+      "Stage 4 — coach your own sentences with precise feedback",
+      "Stage 5 — teachers: publish it as a live narrated student lesson"
     ],
-    "guardrails": "Works from real usage patterns — no invented collocations, no translation-only shortcuts.",
-    "evaluation": "Your production sentences are the test — the coach checks them and you rate the session."
+    "guardrails": "One stage per reply — never dumps everything at once. Works from real usage patterns only; max 12 target words; never writes your practice sentences for you.",
+    "evaluation": "Your Stage-4 sentences are the test — the agent checks whether attempt 2 fixes what it flagged, and you rate each deliverable.",
+    "canPublish": true,
+    "intake": [
+      {
+        "id": "passage",
+        "label": "Paste your reading passage (DSE level, roughly 300–900 words)",
+        "multiline": true,
+        "placeholder": "Paste the full passage here…"
+      },
+      {
+        "id": "focus",
+        "label": "What do you most want to improve?",
+        "placeholder": "grammar / word choice / writing (or a mix)"
+      },
+      {
+        "id": "level",
+        "label": "Your level or target grade (optional)",
+        "optional": true,
+        "placeholder": "e.g. aiming for DSE Level 5"
+      }
+    ]
   },
   "image": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/dse/vocab-networks/images/intro.jpg"
 }
