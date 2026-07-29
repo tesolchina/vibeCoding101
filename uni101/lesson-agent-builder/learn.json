@@ -196,21 +196,22 @@
  ],
  "agent": {
   "name": "Lesson & Agent Builder",
-  "job": "Turn your materials (a task or problem, textbook chapter content, lecture notes) into (1) a six-step lesson framework and (2) a six-building-blocks tutoring-agent spec — both in simple language, with visuals suggested for every step.",
+  "job": "For teachers and TAs: upload your materials (task/problem, textbook chapter, lecture notes) and get back a ready-to-run learning package — an interactive scenario lesson + guided step cards for your students, plus a six-building-blocks tutoring agent, all as copy-ready files with a one-link activation path.",
   "knowledge": "The lesson-framework template, the six-building-blocks template, one-step-at-a-time scaffolding rules, and a worked accounting example (inventory costing). Your uploaded materials always take priority.",
   "tools": "Reads pasted text (task, chapter excerpts, notes). No web search — everything is grounded in what you provide.",
   "workflow": [
-   "Understand your task and audience",
-   "Draft the six-step lesson framework (one question per step)",
-   "Draft the six-building-blocks agent spec",
-   "Review and revise the section you choose"
+   "Understand your materials and audience",
+   "Propose the six-step lesson framework — you approve it first",
+   "Build the student lesson (scenario slides + guided step cards)",
+   "Build the tutoring agent (SKILL.md + distilled knowledge)",
+   "Explain how to publish and share the activation link"
   ],
-  "guardrails": "Designs lessons that teach one step at a time; never produces answer-dumps; states assumptions; flags conflicts between your materials and general knowledge.",
-  "evaluation": "Success = a lesson a colleague could teach tomorrow and an agent spec you could paste into any platform. You rate the result 1–5 and get one revision.",
+  "guardrails": "Outline first — nothing is generated until you approve the framework. Lessons always scaffold one step at a time; no answer-dumps; assumptions stated; your materials override general knowledge.",
+  "evaluation": "Success = you can publish the package as-is and students learn from one link. You rate it 1-5 and get one revision.",
   "intake": [
    {
     "id": "task",
-    "label": "The task / problem (paste text, or describe the screenshot)",
+    "label": "The task / problem for students (paste text, or describe the screenshot)",
     "multiline": true
    },
    {
@@ -227,11 +228,16 @@
    },
    {
     "id": "audience",
-    "label": "Who are the end-user students? (e.g. first-year business undergraduates)",
+    "label": "Who are your students? (e.g. first-year business undergraduates)",
     "placeholder": "first-year business undergraduates"
+   },
+   {
+    "id": "emphasis",
+    "label": "Anything to emphasise or avoid? (optional)",
+    "optional": true
    }
   ],
-  "taskLabel": "Design my lesson & agent"
+  "taskLabel": "Build my lesson & agent package"
  },
  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/intro.mp3"
 }
