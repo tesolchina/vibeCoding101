@@ -17,17 +17,20 @@
     {
      "text": "Restate the problem in plain words and list what students must produce",
      "correct": true,
-     "feedback": "Right. Everything downstream — principles, timeline, calculations — hangs off a clear restatement of the task. If you skip it, the lesson drifts into the chapter instead of the problem."
+     "feedback": "Right. Everything downstream — principles, timeline, calculations — hangs off a clear restatement of the task. If you skip it, the lesson drifts into the chapter instead of the problem.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s1_0.mp3"
     },
     {
      "text": "Summarise the whole textbook chapter first",
      "correct": false,
-     "feedback": "The chapter is reference knowledge, not the driver. Lessons built chapter-first become lectures; lessons built problem-first stay interactive. Start from the task."
+     "feedback": "The chapter is reference knowledge, not the driver. Lessons built chapter-first become lectures; lessons built problem-first stay interactive. Start from the task.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s1_1.mp3"
     },
     {
      "text": "Ask the AI to solve the problem completely",
      "correct": false,
-     "feedback": "A full solution is the OUTPUT of the lesson design, not the input. If you start with the answer you will design an answer-dump, not a lesson."
+     "feedback": "A full solution is the OUTPUT of the lesson design, not the input. If you start with the answer you will design an answer-dump, not a lesson.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s1_2.mp3"
     }
    ],
    "probe": {
@@ -49,7 +52,8 @@
       "feedback": "They matter a lot: uploaded course materials take priority over the AI's general knowledge."
      }
     ]
-   }
+   },
+   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/s1.mp3"
   },
   {
    "id": "s2",
@@ -65,19 +69,23 @@
     {
      "text": "Definitions alone don't transfer — students must see the connection to THIS question",
      "correct": true,
-     "feedback": "Yes. 'FIFO assigns oldest costs first' is a definition; 'prices rose all month, so FIFO shows the highest profit HERE' is understanding students can reuse on the next problem."
+     "feedback": "Yes. 'FIFO assigns oldest costs first' is a definition; 'prices rose all month, so FIFO shows the highest profit HERE' is understanding students can reuse on the next problem.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s2_0.mp3"
     },
     {
      "text": "Definitions are too easy to grade",
      "correct": false,
-     "feedback": "Grading isn't the issue — transfer is. Students who only memorise definitions can't pick the right principle on a new problem."
+     "feedback": "Grading isn't the issue — transfer is. Students who only memorise definitions can't pick the right principle on a new problem.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s2_1.mp3"
     },
     {
      "text": "It makes the lesson longer and more thorough",
      "correct": false,
-     "feedback": "Longer is not better — the goal is one small connection per step, not more text."
+     "feedback": "Longer is not better — the goal is one small connection per step, not more text.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s2_2.mp3"
     }
-   ]
+   ],
+   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/s2.mp3"
   },
   {
    "id": "s3",
@@ -93,19 +101,23 @@
     {
      "text": "Everything arrives at once — students need ONE small step, a check, then the next",
      "correct": true,
-     "feedback": "Exactly. Scaffolding is as much about DELIVERY as content: one question card, instant feedback, a hint if stuck, then the next step. A progress bar beats a table of contents."
+     "feedback": "Exactly. Scaffolding is as much about DELIVERY as content: one question card, instant feedback, a hint if stuck, then the next step. A progress bar beats a table of contents.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s3_0.mp3"
     },
     {
      "text": "The AI should have just given the answers",
      "correct": false,
-     "feedback": "No — refusing to hand over answers was the right call. The failure is dumping the whole scaffold in one turn."
+     "feedback": "No — refusing to hand over answers was the right call. The failure is dumping the whole scaffold in one turn.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s3_1.mp3"
     },
     {
      "text": "The reply used too many bullet points",
      "correct": false,
-     "feedback": "Formatting is cosmetic. The deep issue is pacing: all steps at once means no checking, no feedback loop, no motion."
+     "feedback": "Formatting is cosmetic. The deep issue is pacing: all steps at once means no checking, no feedback loop, no motion.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s3_2.mp3"
     }
-   ]
+   ],
+   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/s3.mp3"
   },
   {
    "id": "s4",
@@ -121,19 +133,23 @@
     {
      "text": "The same six lesson steps, run one at a time with the student",
      "correct": true,
-     "feedback": "Right — the agent IS the lesson, delivered interactively. Reusing the Part 1 framework keeps the tutor consistent with what the teacher designed."
+     "feedback": "Right — the agent IS the lesson, delivered interactively. Reusing the Part 1 framework keeps the tutor consistent with what the teacher designed.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s4_0.mp3"
     },
     {
      "text": "A different, secret workflow so students can't predict it",
      "correct": false,
-     "feedback": "Predictability is a feature in tutoring — students learn the METHOD by walking it repeatedly."
+     "feedback": "Predictability is a feature in tutoring — students learn the METHOD by walking it repeatedly.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s4_1.mp3"
     },
     {
      "text": "Just: answer whatever the student asks",
      "correct": false,
-     "feedback": "That's a chatbot, not a tutor. Without a workflow the agent drifts into answer-dumping — exactly what the guardrails forbid."
+     "feedback": "That's a chatbot, not a tutor. Without a workflow the agent drifts into answer-dumping — exactly what the guardrails forbid.",
+     "feedbackAudio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/fb_s4_2.mp3"
     }
-   ]
+   ],
+   "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/s4.mp3"
   }
  ],
  "finalCheck": [
@@ -216,5 +232,6 @@
    }
   ],
   "taskLabel": "Design my lesson & agent"
- }
+ },
+ "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/intro.mp3"
 }
