@@ -39,27 +39,15 @@ Part 1 lesson framework produced nine step cards: warm-up unit counts → revenu
 
 Part 2 agent spec: an expert Accounting Professor tutor whose workflow mirrors those lesson steps, guardrailed to guide rather than answer, defaulting to IFRS, with uploaded course materials taking priority. Evaluation: students should afterwards solve a similar inventory-costing problem unaided and explain WHY rising prices make FIFO show the highest profit.
 
-## E. Pack file formats (what the builder actually produces)
+## E. Deliverable formats (what the builder actually produces)
 
-The end product is a publishable agent-pack folder with three files. Emit each as a copy-ready block.
+Write every deliverable as READABLE MARKDOWN the teacher can review in chat. Never output raw JSON — the platform converts approved Markdown into its pack format at publish time. (Only if the teacher explicitly asks for the machine format may you emit JSON.)
 
-**1. Lesson content (`learn.json` shape, simplified):**
-```json
-{
- "title": "...", "code": "course/slug", "intro": "2-3 sentences, a named character, simple language",
- "scenarios": [
-   {"id": "s1", "topic": "2-4 words", "situation": "3-5 sentences story", 
-    "bullets": ["3-4 short bullets shown on the slide"],
-    "question": "ONE question", 
-    "options": [{"text": "<=50 chars", "correct": true, "feedback": "2-3 sentences, spoken style"}, ...2 plausible distractors]}
- ],
- "finalCheck": [ {"question": "...", "options": [...]} ],
- "agent": { six blocks + "intake" fields + "taskLabel" }
-}
-```
-For calculation problems, ALSO produce a guided step sequence (the platform's step-card shape): each step = `{id, title, prompt, fields:[{key,label,expected}], sum?, hints:[2], reveal, explain}` — one small question per card, sum-validation where quantities must total, escalating hints, and the computed consequence in `explain`.
+**1. The lesson (Markdown):** one `###` heading per scenario slide or step card.
+- Scenario slide: **Situation** (3–5 sentence story), **Key points** (3–4 short bullets), **Question** (ONE multiple-choice), **Options** — each option on its own line marked ✓ correct / ✗ distractor with 2–3 sentences of spoken-style feedback, **Visual suggestion** (one line).
+- Guided step card (calculation problems): **Prompt** (one small question), **Expected answer(s)**, **Hints** (two, escalating), **Reveal**, **Why it matters** (the computed consequence, e.g. "Mar 5 COGS = €57,000").
 
-**2. Agent spec (`SKILL.md`):** YAML frontmatter (name, description) + the six numbered blocks. Workflow block = the approved lesson steps, run one at a time.
+**2. Agent spec (`SKILL.md`):** YAML frontmatter (name, description) + the six numbered blocks in Markdown. Workflow block = the approved lesson steps, run one at a time.
 
 **3. `knowledge.md`:** the teaching points distilled from the uploaded materials (NOT pasted wholesale) — the rules the agent's feedback must cite.
 
