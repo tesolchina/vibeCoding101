@@ -1,0 +1,220 @@
+{
+ "title": "Build a Lesson & a Tutoring Agent from Your Materials",
+ "code": "uni101/lesson-agent-builder",
+ "intro": "Meet Ka-Yan, a teaching assistant. Her professor hands her a textbook problem, a chapter PDF and some lecture notes, and says: turn this into an interactive lesson and an AI tutor for the class. In this short lesson you make her design choices — then the agent helps you do the same with YOUR materials.",
+ "scenarios": [
+  {
+   "id": "s1",
+   "topic": "Input → process → output",
+   "situation": "Ka-Yan has three inputs: the assignment problem, a textbook chapter, and lecture notes. She is tempted to just paste all of it into an AI and ask for a lesson.",
+   "bullets": [
+    "Three inputs: problem, chapter, notes",
+    "Goal: a lesson AND a tutoring agent",
+    "Students are first-years — simple language"
+   ],
+   "question": "What should the FIRST processing step be?",
+   "options": [
+    {
+     "text": "Restate the problem in plain words and list what students must produce",
+     "correct": true,
+     "feedback": "Right. Everything downstream — principles, timeline, calculations — hangs off a clear restatement of the task. If you skip it, the lesson drifts into the chapter instead of the problem."
+    },
+    {
+     "text": "Summarise the whole textbook chapter first",
+     "correct": false,
+     "feedback": "The chapter is reference knowledge, not the driver. Lessons built chapter-first become lectures; lessons built problem-first stay interactive. Start from the task."
+    },
+    {
+     "text": "Ask the AI to solve the problem completely",
+     "correct": false,
+     "feedback": "A full solution is the OUTPUT of the lesson design, not the input. If you start with the answer you will design an answer-dump, not a lesson."
+    }
+   ],
+   "probe": {
+    "question": "Quick check: in the input–process–output model, the lecture notes and chapter are…",
+    "options": [
+     {
+      "text": "Knowledge inputs the lesson draws on",
+      "correct": true,
+      "feedback": "Exactly — they ground the lesson, but the problem defines its shape."
+     },
+     {
+      "text": "The output format",
+      "correct": false,
+      "feedback": "The output is the lesson framework and agent spec — the notes are raw material."
+     },
+     {
+      "text": "Optional decoration",
+      "correct": false,
+      "feedback": "They matter a lot: uploaded course materials take priority over the AI's general knowledge."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "topic": "The six-step lesson framework",
+   "situation": "Ka-Yan drafts her lesson: (1) go over the question, (2) explain the required principles, (3) map the timeline, (4) choose the format, (5) execute calculations, (6) review. Her professor asks why step 2 says 'explain WHY each principle applies' rather than just 'define the principles'.",
+   "bullets": [
+    "Six steps: question → principles → timeline → format → calculate → review",
+    "Step 2 demands the WHY, not just definitions",
+    "First-year students, one concept at a time"
+   ],
+   "question": "Why insist on the WHY in step 2?",
+   "options": [
+    {
+     "text": "Definitions alone don't transfer — students must see the connection to THIS question",
+     "correct": true,
+     "feedback": "Yes. 'FIFO assigns oldest costs first' is a definition; 'prices rose all month, so FIFO shows the highest profit HERE' is understanding students can reuse on the next problem."
+    },
+    {
+     "text": "Definitions are too easy to grade",
+     "correct": false,
+     "feedback": "Grading isn't the issue — transfer is. Students who only memorise definitions can't pick the right principle on a new problem."
+    },
+    {
+     "text": "It makes the lesson longer and more thorough",
+     "correct": false,
+     "feedback": "Longer is not better — the goal is one small connection per step, not more text."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "topic": "One step at a time",
+   "situation": "Ka-Yan tests a tutor prompt: 'guide me, do not give answers, be Socratic'. The AI replies with a 90-line document covering every part of the problem at once — checkpoints, part a, part b, part c, all with fill-in blanks.",
+   "bullets": [
+    "The reply is pedagogically correct…",
+    "…but it is a wall of text",
+    "Students face everything at once"
+   ],
+   "question": "What is the real problem with that reply?",
+   "options": [
+    {
+     "text": "Everything arrives at once — students need ONE small step, a check, then the next",
+     "correct": true,
+     "feedback": "Exactly. Scaffolding is as much about DELIVERY as content: one question card, instant feedback, a hint if stuck, then the next step. A progress bar beats a table of contents."
+    },
+    {
+     "text": "The AI should have just given the answers",
+     "correct": false,
+     "feedback": "No — refusing to hand over answers was the right call. The failure is dumping the whole scaffold in one turn."
+    },
+    {
+     "text": "The reply used too many bullet points",
+     "correct": false,
+     "feedback": "Formatting is cosmetic. The deep issue is pacing: all steps at once means no checking, no feedback loop, no motion."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "topic": "The six building blocks",
+   "situation": "Part 2: Ka-Yan must specify the tutoring agent using six building blocks — Job, Knowledge, Tools, Workflow, Guardrails, Evaluation. She writes the Workflow block first and wonders what it should contain.",
+   "bullets": [
+    "Six blocks: Job · Knowledge · Tools · Workflow · Guardrails · Evaluation",
+    "Part 1 lesson framework already exists",
+    "The agent serves the same students"
+   ],
+   "question": "What should the agent's Workflow block be?",
+   "options": [
+    {
+     "text": "The same six lesson steps, run one at a time with the student",
+     "correct": true,
+     "feedback": "Right — the agent IS the lesson, delivered interactively. Reusing the Part 1 framework keeps the tutor consistent with what the teacher designed."
+    },
+    {
+     "text": "A different, secret workflow so students can't predict it",
+     "correct": false,
+     "feedback": "Predictability is a feature in tutoring — students learn the METHOD by walking it repeatedly."
+    },
+    {
+     "text": "Just: answer whatever the student asks",
+     "correct": false,
+     "feedback": "That's a chatbot, not a tutor. Without a workflow the agent drifts into answer-dumping — exactly what the guardrails forbid."
+    }
+   ]
+  }
+ ],
+ "finalCheck": [
+  {
+   "question": "A teacher uploads lecture notes that define a term slightly differently from the textbook default. What should the agent do?",
+   "options": [
+    {
+     "text": "Follow the uploaded notes, and note the difference explicitly",
+     "correct": true,
+     "feedback": "Course materials take priority — but silently ignoring the conflict would confuse students, so the agent flags it."
+    },
+    {
+     "text": "Follow its built-in knowledge — it is more standard",
+     "correct": false,
+     "feedback": "The class is graded against the course materials. Built-in knowledge fills gaps; it never overrides uploads."
+    },
+    {
+     "text": "Refuse to proceed until the conflict is resolved",
+     "correct": false,
+     "feedback": "Too rigid — state the difference, follow the course version, keep teaching."
+    }
+   ]
+  },
+  {
+   "question": "Which of these belongs in the GUARDRAILS block of a tutoring agent?",
+   "options": [
+    {
+     "text": "Encourage thinking before revealing solutions; never complete graded work",
+     "correct": true,
+     "feedback": "Both are classic guardrails: they protect the learning goal and academic integrity."
+    },
+    {
+     "text": "The list of textbook chapters the agent has read",
+     "correct": false,
+     "feedback": "That is the Knowledge block."
+    },
+    {
+     "text": "The step-by-step teaching sequence",
+     "correct": false,
+     "feedback": "That is the Workflow block."
+    }
+   ]
+  }
+ ],
+ "agent": {
+  "name": "Lesson & Agent Builder",
+  "job": "Turn your materials (a task or problem, textbook chapter content, lecture notes) into (1) a six-step lesson framework and (2) a six-building-blocks tutoring-agent spec — both in simple language, with visuals suggested for every step.",
+  "knowledge": "The lesson-framework template, the six-building-blocks template, one-step-at-a-time scaffolding rules, and a worked accounting example (inventory costing). Your uploaded materials always take priority.",
+  "tools": "Reads pasted text (task, chapter excerpts, notes). No web search — everything is grounded in what you provide.",
+  "workflow": [
+   "Understand your task and audience",
+   "Draft the six-step lesson framework (one question per step)",
+   "Draft the six-building-blocks agent spec",
+   "Review and revise the section you choose"
+  ],
+  "guardrails": "Designs lessons that teach one step at a time; never produces answer-dumps; states assumptions; flags conflicts between your materials and general knowledge.",
+  "evaluation": "Success = a lesson a colleague could teach tomorrow and an agent spec you could paste into any platform. You rate the result 1–5 and get one revision.",
+  "intake": [
+   {
+    "id": "task",
+    "label": "The task / problem (paste text, or describe the screenshot)",
+    "multiline": true
+   },
+   {
+    "id": "chapter",
+    "label": "Textbook chapter content (paste the relevant part)",
+    "multiline": true,
+    "optional": true
+   },
+   {
+    "id": "notes",
+    "label": "Lecture notes (paste)",
+    "multiline": true,
+    "optional": true
+   },
+   {
+    "id": "audience",
+    "label": "Who are the end-user students? (e.g. first-year business undergraduates)",
+    "placeholder": "first-year business undergraduates"
+   }
+  ],
+  "taskLabel": "Design my lesson & agent"
+ }
+}
