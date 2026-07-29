@@ -238,7 +238,8 @@
    }
   ],
   "taskLabel": "Build my lesson & agent package",
-  "hideLearn": true
+  "hideLearn": true,
+  "canPublish": true
  },
  "audio": "https://raw.githubusercontent.com/tesolchina/vibecoding101/main/uni101/lesson-agent-builder/audio/intro.mp3"
 }
